@@ -23,7 +23,7 @@
 - Sub-threshold Leakage varies exponentially with VTH compared to the weaker dependency of Delay over VTH
 
 - HVT Cells are used in Non-critical paths to reduce Leakage Power while SVT Cells are used in Critical paths to met Timing
-![standard cell track, 9 track 12 track](stdcell.JPG)
+![standard cell track, 9 track 12 track](docs/IC/50-数字EDA/attachments/Types%20of%20Standard%20Cell%20Libraries/stdcell.JPG)
 
 
 

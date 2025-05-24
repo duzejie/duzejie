@@ -7,13 +7,13 @@ A typical IC design cycle involves several steps:
 		- Requirements
 		- Feasibility study and die size estimate
 		- Function analysis
-		- [[Instruction Set]]
-	- [[electronic system-level design]]
+		- [[docs/IC/22-系统设计/Instruction Set]]
+	- [[docs/IC/22-系统设计/electronic system-level design]]
 		-  
-	- [[Microarchitecture]]
+	- [[docs/IC/22-系统设计/Microarchitecture]]
 
 - [[digital front end]] 前端
-	- [[RTL 设计]]: This step converts the user specification (what the user wants the chip to do) into a register transfer level (RTL) description. The RTL describes the exact behavior of the digital circuits on the chip, as well as the interconnections to inputs and outputs.
+	- [[docs/IC/22-RTL设计/RTL 设计]]: This step converts the user specification (what the user wants the chip to do) into a register transfer level (RTL) description. The RTL describes the exact behavior of the digital circuits on the chip, as well as the interconnections to inputs and outputs.
 		- Logic Design
 		-  Analogue Design, Simulation & Layout
 		-  Digital Design & Simulation
@@ -26,7 +26,7 @@ A typical IC design cycle involves several steps:
 	- Functional verification
 
 - [[Digital Back-End]] 后端
-	- [[Physical design]]: This step takes the RTL, and a library of available logic gates (standard cell library), and creates a chip design. This step involves use of IC layout editor, layout and floor planning, figuring out which gates to use, defining places for them, and wiring (clock timing synthesis, routing) them together.
+	- [[docs/IC/28-物理实现/Physical design]]: This step takes the RTL, and a library of available logic gates (standard cell library), and creates a chip design. This step involves use of IC layout editor, layout and floor planning, figuring out which gates to use, defining places for them, and wiring (clock timing synthesis, routing) them together.
 		- [Floorplanning]( https://en.wikipedia.org/wiki/Floorplan_ (microelectronics) "Floorplan (microelectronics)"): The RTL of the chip is assigned to gross regions of the chip, input/output (I/O) pins are assigned and large objects (arrays, cores, etc.) are placed.
 		-   [Placement](https://en.wikipedia.org/wiki/Placement_(EDA) "Placement (EDA)"): The gates in the netlist are assigned to nonoverlapping locations on the die area.
 		-   Logic/placement refinement: Iterative logical and placement transformations to close performance and power constraints.

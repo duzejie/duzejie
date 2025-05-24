@@ -2,12 +2,12 @@
 
 > 注意引用类型不属于对象类型，所以才需要 [`reference_wrapper`](https://zh.cppreference.com/w/cpp/utility/functional/reference_wrapper) 这种设施。
 
-引用主要分为两种，左值引用和右值引用。此外还有两种特殊的引用：转发引用和垂悬引用，不作详细介绍。另外，本文还牵涉到一部分常值的内容，请用 [常值](const.md) 一文辅助阅读。
+引用主要分为两种，左值引用和右值引用。此外还有两种特殊的引用：转发引用和垂悬引用，不作详细介绍。另外，本文还牵涉到一部分常值的内容，请用 [常值](docs/software-engineering/04-cpp/0_语法/const.md) 一文辅助阅读。
 
 ## 左值引用
 
 ??? note "左值和右值"
-    如果你不知道什么是左值和右值，可以参考 [值类别](value-category.md) 页面。
+    如果你不知道什么是左值和右值，可以参考 [值类别](docs/software-engineering/04-cpp/0_语法/value-category.md) 页面。
 
 ??? note "左值表达式"
     如果一个表达式返回的是左值，那么这个表达式被称为左值表达式。右值表达式亦然。

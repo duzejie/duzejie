@@ -47,7 +47,7 @@
 - Thyristor formed from parasitic transistors is triggered and generates short-circuit between VDD & GND
 - Results in self destruction/ system failure due to the direct connection between VDD & GND
 
-![latchup](latchup.JPG)<>
+![latchup](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/latchup.JPG)<>
 **NPN Transistor**
 
 - Emitter – drain /source of the N-channel MOSFET
@@ -114,7 +114,7 @@
 - The actual capacitance of the human body is between 150 pF and 500 pF & the internal resistance of the human body ranges from a few kiloohms to a few hundred
 - Peak current ≈ 1.3A, rise time ≈10-30ns
 
-![ESD, electrostatic discharge ](humanbody.JPG)
+![ESD, electrostatic discharge ](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/humanbody.JPG)
 **Machine Model (MM)**
 
 - MM models the ESD of manufacturing / testing equipment
@@ -123,7 +123,7 @@
 - MM ESD withstand voltage is typically one tenth of HBM
 - Most ESD protection circuits can only protect HBM and MM
 
-![machine model](machine.JPG)
+![machine model](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/machine.JPG)
 **Charged Device Model (CDM)**
 
 - CDM models the ESD of charged integrated circuits
@@ -133,7 +133,7 @@
 - CDM stress is the most difficult ESD stress to protect against since fastest transient and has the max. peak current
 - Peak current ≈ 10A, rise time ≈1ns
 
-![Charged device model, CDM](charged.JPG)
+![Charged device model, CDM](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/charged.JPG)
 **ESD Protection**
 
 - The integration of Clamping Diodes
@@ -145,7 +145,7 @@
 - - Oriented to be blocking in normal operation
   - Situated between the connection to the component to be protected and the supply voltage lines safe regions consist primarily of the supply-voltage connections
 
-![ESD Protection circuit](safe.JPG)
+![ESD Protection circuit](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/safe.JPG)
 
 ------
 
@@ -156,7 +156,7 @@
 - A failure mechanism caused by high energy electrons impacting the atoms in a material and causing them to shift position
 - Enhanced and directional mobility of atoms under the influence of an electric field
 
-![electromigration](em.JPG)
+![electromigration](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/em.JPG)
 
 **Reason for Electromigration**
 
@@ -174,7 +174,7 @@
 - High Voltage operation
 - High frequency switching
 
-![electromigration](em1.JPG)
+![electromigration](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/em1.JPG)
 **EM Remedies and Precautions**
 
 - Wire widening to reduce current density
@@ -263,8 +263,8 @@
 
 **Impact in the design**
 
-- If the area of the layer connected directly to the Gate the static charges are discharged through the Gate, the discharge can damage the oxide that insulates the gate and cause the chip to fail ![antenna effect](antenna2.JPG)
-- Fowler-Nordheim (F-N) tunneling current will discharge through the thin oxide and cause damage to it ![antenna effect](antenna1.JPG)
+- If the area of the layer connected directly to the Gate the static charges are discharged through the Gate, the discharge can damage the oxide that insulates the gate and cause the chip to fail ![antenna effect](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/antenna2.JPG)
+- Fowler-Nordheim (F-N) tunneling current will discharge through the thin oxide and cause damage to it ![antenna effect](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/antenna1.JPG)
 
 **Remedies for PAE**
 
@@ -277,7 +277,7 @@
   - If it is in higher layers, Jumper wont be a solution, hence need diodes
   - As soon as extra charge is induced onto metal/ poly the diode diverts the extra charges to the substrate
   - But for buffer insertion higher metal layers has to come to lower metal layer (M1 or M2) to connect to pins of buffer and go back and also there may not be enough place for buffer insertion
-  - After routing only we go for antenna check, so Buffer insertion may lead to congestion and DRC violations ![antenna effect](remedies.JPG) ![antenna effect](remedies1.JPG) ![antenna effect](remedies2.JPG)
+  - After routing only we go for antenna check, so Buffer insertion may lead to congestion and DRC violations ![antenna effect](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/remedies.JPG) ![antenna effect](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/remedies1.JPG) ![antenna effect](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/remedies2.JPG)
 
 **Antenna Ratio (AR)**
 
@@ -286,13 +286,13 @@
 - The AR is defined as the ratio of plasma-exposed area As,metal to the gate oxide area Apoly as formulated, ![antenna ratio](820_IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/eq.JPG)
 - This rule can be applied to any metal segment connected to the Gate
 
-![antenna ratio](eq2.JPG)
+![antenna ratio](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/eq2.JPG)
 **Antenna Effect possibilities example**
 
 - Assume a foundry setting a maximum allowable antenna ratio of 500
 - If a net has two input gates that each have an area of 1 square micron, any metal layers that connect to the gates and have an area larger than 1,000 square microns have process antenna violations because they would cause the antenna ratio to be higher than 500
 
-![antenna effect](antenna3.JPG)
+![antenna effect](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/antenna3.JPG)
 
 
 **Dominant as technology shrinks**
@@ -334,7 +334,7 @@
 
 - Refers to a signal affecting another signal being transmitted in vicinity caused by capacitive/ inductive coupling
 - Crosstalk is the unwanted coupling of energy between two or more adjacent lines which can change the required signal and is also termed as Xtalk
-- Occurs on long adjacent wires ![crosstalk](crosstalk.JPG)
+- Occurs on long adjacent wires ![crosstalk](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/crosstalk.JPG)
 - Can be interpreted as the coupling of energy from 1 line to another via:
   - Mutual Capacitance, Cm(due to Electric Field)
   - Mutual Inductance, Lm (due to Magnetic Field)
@@ -343,17 +343,17 @@
 
 - Functional Failures
   - Noise induced glitches
-  - If the Glitch duration is that of clock period duration, an extra clock cycle effect ![crosstalk](crosstalk1.JPG)
+  - If the Glitch duration is that of clock period duration, an extra clock cycle effect ![crosstalk](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/crosstalk1.JPG)
 - Timing violations
   - If aggressor switches in opposite direction to the victim : Setup time Violation
   - If aggressor switches in same direction to the victim : Hold time Violation
 - If the victim line is not terminated at both ends in its characteristic impedance the induced spurious signals can reflect at the ends of the line and travel in the opposite direction down the line
-- Thus a reflected near-end crosstalk can end up appearing at the far end and vice versa ![crosstalk](crosstalk2.JPG)
+- Thus a reflected near-end crosstalk can end up appearing at the far end and vice versa ![crosstalk](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/crosstalk2.JPG)
 
 **Types of Crosstalk**
 
 - Energy that is coupled from the actual signal line, the aggressor, onto a quiet passive victim line so that the transferred energy "travels back" to the start of the victim line. This is known as the backward or nearend crosstalk
-- Energy that is coupled from the active signal line, the aggressor, onto a quiet passive victim line so that the transferred energy "travels forward" to the end of the victim line. This known as forward or farend crosstalk ![crosstalk](crosstalk3.JPG)
+- Energy that is coupled from the active signal line, the aggressor, onto a quiet passive victim line so that the transferred energy "travels forward" to the end of the victim line. This known as forward or farend crosstalk ![crosstalk](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/crosstalk3.JPG)
 
 **Remedies to avoid Xtalk**
 
@@ -365,7 +365,7 @@
 - Modify the clock net (critical nets) minimum width from normal value to a larger one
   - This makes the router to skip a grid near clock net to prevent spacing violation
   - This technique not only reduces crosstalk, but will also have a lower resistance due to larger line width & less side wall capacitance
-- Can be fixed either by upsizing (increasing the drive strength) of the victim, or by downsizing (decreasing the drive strength) of the aggressor ![crosstalk](crosstalk4.JPG)
+- Can be fixed either by upsizing (increasing the drive strength) of the victim, or by downsizing (decreasing the drive strength) of the aggressor ![crosstalk](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/crosstalk4.JPG)
 
 ------
 
@@ -375,7 +375,7 @@
 
 **Soft Error (Random Particle Error)**
 
-![soft errors](soft.JPG)
+![soft errors](docs/IC/20-IC设计流程/attachments/Issues%20in%20Physical%20Design/soft.JPG)
 
 - Soft error is the phenomenon of an erroneous change in the logical value of a transistor, and can be caused by several effects, including fluctuations in signal voltage, noise in the power supply, inductive coupling effects etc., but, majority of soft errors are caused by cosmic particle strike on the chip
 - With technology scaling, even low-energy particles can cause Soft Errors

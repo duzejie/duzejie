@@ -28,7 +28,7 @@ ONNX的静态图主要由 **「Node」**（节点），**「Input」**（输入�
 
 Pytorch是可以直接导出ONNX的模型，然后我们可以把导出的模型使用Netron的工具进行可视化工具。
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/2b362952e49197f0529c1e8e48d59ab3_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/2b362952e49197f0529c1e8e48d59ab3_MD5.png)
 
 Pytorch -> ONNX
 
@@ -38,7 +38,7 @@ ONNX可以在Pytorch，通过转换得到。那么我们假如我们不用Pytorc
 
 ONNX是用protobuf数据格式进行保存的。而protobuf本身也是跨语言的可以支持C, C++, C#, Java, Javascript, Objective-C, PHP, Python, Ruby，使用ONN下的helper fuction就可以帮助我们顺利的完成这些跨语言的转变，所以Numpy也自然可以使用helper函数揉出输入、节点以及初始化权值。
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/43b24902501a0c403fd434c941126df8_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/43b24902501a0c403fd434c941126df8_MD5.png)
 
 根据上图展示的情况，可想而知要想实现一个能用的模型整体的代码量是非常恐怖的。单一个Relu结构的代码量就要比Pytorch的转化(最上面的图)实现要多将近三倍左右。（其实最大的代码量还是出现在输入的数据类型转化上）如果要实现一个完整的深度模型转化，工作量可想而知，所以我们有没有其他的更科学高效一点的做法呢？
 
@@ -57,7 +57,7 @@ ONNX是用protobuf数据格式进行保存的。而protobuf本身也是跨语言
 
 目的就是为了更好的编辑ONNX
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/daa0d11a7c954e34367077e94e54997b_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/daa0d11a7c954e34367077e94e54997b_MD5.png)
 
 ONNX GraphSurgeon转化Relu结构
 
@@ -93,13 +93,13 @@ Tracing会从头到脚执行一遍，记录下来所有的函数
 
 某些情况下，帮助模型在端侧落地，在转换后也能够达到很好的效果。Python语言和c++本质上不一致，找到所以还是希望找到一种方式可以直接转换，不用自己再手动写C++算子，这算是一件很棒的事情。
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/eb437f6688d99d1b15fb80637c74c7f8_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/eb437f6688d99d1b15fb80637c74c7f8_MD5.png)
 
 NMS_F是一个很平常的一个算子，在上图的实现。如果我们用Symbolic的函数会直接转出，整个后处理都可以用ONNX转出来，但是这种方法
 
 ### 3.5、ONNX GraphSurgeon
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/4bacae8ebf30e03c32dee166298819a9_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/4bacae8ebf30e03c32dee166298819a9_MD5.png)
 
 如何把上面的结构转换为下面的结构，大概需要做到是吧x0的输入分支给去掉，然后再加入LeakyReLU和Identity的节点，最后完成输出。
 
@@ -110,7 +110,7 @@ NMS_F是一个很平常的一个算子，在上图的实现。如果我们用Sym
 5. 先clean一些，再进行拓扑排序。
     
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/1e3f9bf195b43defa8e6223ad6fe7327_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/1e3f9bf195b43defa8e6223ad6fe7327_MD5.png)
 
 操作的代码展示
 
@@ -124,7 +124,7 @@ NMS_F是一个很平常的一个算子，在上图的实现。如果我们用Sym
 
 利用torch.fx+ONNX做量化可以极大的节省代码量，是一个很棒的工作。
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/c481fe38a3ce0a59d845495d21f3dbf1_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/c481fe38a3ce0a59d845495d21f3dbf1_MD5.png)
 
 ## 4、Focus模块替换（部署的技巧）
 
@@ -136,9 +136,9 @@ Focus包括了两部分组成 **「Space2Depth + Conv3」**。有一点值得注
 
 **「nn.PixelUnShuffle」** 是我们分割任务的老朋友了，在这里的出现，其更多的是在说明，其实下游任务正常逐步的进行一个统一和兼容。FPN到现在也转变为PAN，这样的转变也说明了很多。
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/8ed05eafa7003285f321207273332285_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/8ed05eafa7003285f321207273332285_MD5.png)
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/3acb42ced2f0cbfb521061500c564d5b_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/3acb42ced2f0cbfb521061500c564d5b_MD5.png)
 
 仔细看看右边的Focus2的内容，其实只是一个reshape+conv+reshape的操作，这在虽然物理含义上是Space2Depth，但是与ONNX和Pytorch对应的实现都是不一致的。
 
@@ -150,7 +150,7 @@ mmdepoly有提供一系列的转换，可以帮助我们更好的解释这一点
 
 ## 4.1、Torch.FX对Focus进行替换
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/1933387c2ced35fc6c0b073bf2d2994d_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/1933387c2ced35fc6c0b073bf2d2994d_MD5.png)
 
 主要是用自己的卷积的实现替换focus_transform和Focus的实现。把中间层展开来看的，就可以发现还需要自己手写去补充buffer的算子。
 
@@ -166,7 +166,7 @@ EfficientNMS原本是来自谷歌的EfficientDet 来的，能提速，而且与B
 
 Yolo系列中，卷积后会加一个Box的解码，最后再加上NMS的操作。Box解码需要我们去重点的优化，如果想要在C++实现，就要自己手写一个实现。但是在我们的实现中，我们会更多的加速方法，这里就不展开说了。但是总的来说现在的新版本的Yolo都基本都固定了前处理跟NMS部分，卷积部分和编解码一直在变，不过现在也基本被RepVGG统治了。
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/839165b535557843ebf8f334c318b2f4_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/839165b535557843ebf8f334c318b2f4_MD5.png)
 
 大家也可以看看上面实现的yolov7后处理的方法。这是一个日本的一个项目实现出的一个整体的结构，我们其实也还有另一种方式可以用pytorch+onnx直接拼出来这样一个graph出来的。主要还是为了解决这种动态性，转化为静态去部署。
 
@@ -189,7 +189,7 @@ Yolo系列中，卷积后会加一个Box的解码，最后再加上NMS的操作�
 
 这里的实验结果大家可以看一看，这里值得注意的是居然时间要比以前没有加操作的结构要快。其实主要原因是没有把后处理的时间给加上，显然这样的快就没有啥意义。大家要记得对比后处理的时间，如果不对比这样的比较是不公平的，也不具有啥意义！
 
-![图片](docs/HPC/AI%E6%8E%A8%E7%90%86/attachments/pytorch%E9%83%A8%E7%BD%B2/7f42d09cfddd38071d8dcd4f0a9257af_MD5.png)
+![图片](docs/HPC/AI推理/attachments/pytorch部署/7f42d09cfddd38071d8dcd4f0a9257af_MD5.png)
 
 ## 8、总结
 

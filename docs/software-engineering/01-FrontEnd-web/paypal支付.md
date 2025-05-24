@@ -26,7 +26,7 @@ categories:
 
 ### 高级信用卡支付（调研）：
 * 问题：card-fields实际使用的是confirm-payment-source进行付款人信息更新，且内容明文
-  ![Img](docs/software-engineering/01-FrontEnd-web/attachments/paypal%E6%94%AF%E4%BB%98/0d7e20580829d6986c4632eaad106a82_MD5.png)
+  ![Img](docs/software-engineering/01-FrontEnd-web/attachments/paypal支付/0d7e20580829d6986c4632eaad106a82_MD5.png)
 
 * 样例代码实现：
     ```html
@@ -146,7 +146,7 @@ categories:
 * 参考：[https://developer.paypal.com/sdk/js/reference/#buttons](https://developer.paypal.com/sdk/js/reference/#buttons)
 * 存在的问题：
     * 跳转页用户待填写内容过多
-      ![Img](docs/software-engineering/01-FrontEnd-web/attachments/paypal%E6%94%AF%E4%BB%98/064185f7d3e40183842de78d12e17af3_MD5.png)
+      ![Img](docs/software-engineering/01-FrontEnd-web/attachments/paypal支付/064185f7d3e40183842de78d12e17af3_MD5.png)
 
 * 样例代码：
   ```html

@@ -123,7 +123,7 @@ print_score(bart)
 
 结果：
 
-![image-20200722215132081](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH6-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/a2a30ba43e97643bf2f00b25d5c4c1bf_MD5.png)
+![image-20200722215132081](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH6-面向对象编程/a2a30ba43e97643bf2f00b25d5c4c1bf_MD5.png)
 
 但是，既然`Student`实例本身就拥有这些数据，要访问这些数据，就没有必要从外面的函数去访问，可以直接在`Student`类的内部定义访问数据的函数，这样，就把“数据”给封装起来了。这些封装数据的函数是和`Student`类本身是关联起来的，我们称之为类的方法：
 
@@ -211,7 +211,7 @@ AttributeError: 'Student' object has no attribute 'age'
 
 但是，从前面 Student 类的定义来看，外部代码还是可以自由地修改一个实例的`name`、`score`属性：
 
-![image-20200805092746185](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH6-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/f79f77eab2ab1cc5ea1557d862a9c2d1_MD5.png)
+![image-20200805092746185](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH6-面向对象编程/f79f77eab2ab1cc5ea1557d862a9c2d1_MD5.png)
 
 如果要让内部属性不被外部访问，可以把属性的名称前加上两个下划线`__`，在 Python 中，实例的变量名如果以`__`开头，就变成了一个私有变量（private），只有内部可以访问，外部不能访问，所以，我们把 Student 类改一改：
 
@@ -228,7 +228,7 @@ class Student(object):
 
 改完后，对于外部代码来说，没什么变动，但是已经无法从外部访问`实例变量.__name`和`实例变量.__score`了：
 
-![image-20200805093718866](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH6-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/db02a0aaca45fb0d88230489189656ae_MD5.png)
+![image-20200805093718866](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH6-面向对象编程/db02a0aaca45fb0d88230489189656ae_MD5.png)
 
 这样就确保了外部代码不能随意修改对象内部的状态，这样通过访问限制的保护，代码更加健壮。
 
@@ -478,7 +478,7 @@ Tortoise is running slowly...
 
 继承还可以一级一级地继承下来，就好比从爷爷到爸爸、再到儿子这样的关系。而任何类，最终都可以追溯到根类 object，这些继承关系看上去就像一颗倒着的树。比如如下的继承树：
 
-![image-20200805114617811](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH6-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/f782cb09f0b0d0ccb4bf061a23876c68_MD5.png)
+![image-20200805114617811](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH6-面向对象编程/f782cb09f0b0d0ccb4bf061a23876c68_MD5.png)
 
 ### 6.3.1 静态语言 vs 动态语言
 
@@ -848,7 +848,7 @@ else:
 
 测试结果：
 
-![image-20200809084430141](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH6-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/35185ebd7c5b5298ca86eceb8e38d486_MD5.png)
+![image-20200809084430141](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH6-面向对象编程/35185ebd7c5b5298ca86eceb8e38d486_MD5.png)
 
 ## 6.6 参考资料
 

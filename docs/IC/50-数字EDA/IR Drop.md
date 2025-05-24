@@ -1,7 +1,7 @@
 ### IR Drop Analysis 
 
    **IR Drop**
-                       ![img](irdrop.JPG)
+                       ![img](docs/IC/50-数字EDA/attachments/IR%20Drop/irdrop.JPG)
 
 - The voltage that gets to the internal circuitry is less than that applied to the chip, since every metal layer offers resistance to the flow of current
 - When a current, I passes through a conductor with resistor R, it exhibits a voltage drop V which is equal to the resistance times the current,
@@ -15,7 +15,7 @@
 **IR Drop Analysis**
 
 - IR Drop Analysis will compute the actual IDD and ISS currents, because these values are time-dependent
-- IR Drop Analysis will compute Global IR drop which is important and more accurate, but cannot be compute separately (parallel) for smaller blocks, which may led to bigger run time ![img](irdrop1.JPG)
+- IR Drop Analysis will compute Global IR drop which is important and more accurate, but cannot be compute separately (parallel) for smaller blocks, which may led to bigger run time ![img](docs/IC/50-数字EDA/attachments/IR%20Drop/irdrop1.JPG)
 - Local IR Drop
   - IR Drop become a local phenomenon when a number of gates in close proximity switches at once
   - Local IR Drop can also be caused by a higher resistance to a specific portion of the Grid
@@ -48,7 +48,7 @@
 - Compute time averaged power consumption for a typical operation to obtain I(current)
 - Compute: V = IR
 - Non time-varying 
- ![IR Drop analysis](irdrop2.JPG)
+ ![IR Drop analysis](docs/IC/50-数字EDA/attachments/IR%20Drop/irdrop2.JPG)
 
 ------
 
@@ -68,7 +68,7 @@
 - Compute time varying power for specific operation to obtain I(t)
 - Compute $V(t) = I(t)*R + C*dv/dt*R + L*di/dt$
 
-![ Dynamic IR Drop analysis](irdrop3.JPG)
+![ Dynamic IR Drop analysis](docs/IC/50-数字EDA/attachments/IR%20Drop/irdrop3.JPG)
 
 
 #### IR Drop: Reasons 
@@ -89,7 +89,7 @@
 - Insufficient Power Rail design
 
 
-![IR Drop analysis](irdrop4.JPG) 
+![IR Drop analysis](docs/IC/50-数字EDA/attachments/IR%20Drop/irdrop4.JPG) 
 
 #### IR Drop: Impacts 
 
@@ -101,11 +101,11 @@
   - If IR Drop increases Clock Skew then it will result in Hold Time Violations
   - If IR Drop increases Signal Skew then it will result in Setup Time Violations
 
-  ![[Pasted image 20230925171111.png]]
+  ![[docs/IC/20-IC设计流程/attachments/Pasted image 20230925171111.png]]
 
 ### IR Drop Plot 
 
-   Power grid has a set of equipotential surfaces that form concentric circles centered in the middle of a block ![IR Drop analysis](irdrop6.JPG)
+   Power grid has a set of equipotential surfaces that form concentric circles centered in the middle of a block ![IR Drop analysis](docs/IC/50-数字EDA/attachments/IR%20Drop/irdrop6.JPG)
 
 
 
@@ -134,4 +134,4 @@
                      **Vdrop = IR + Ldi/dt**
 - As a solution to this effect, distribute decoupling capacitors (decaps) liberally throughout design
 
-![electromigration](irdrop7.JPG)
+![electromigration](docs/IC/50-数字EDA/attachments/IR%20Drop/irdrop7.JPG)

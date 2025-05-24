@@ -77,7 +77,7 @@ Before starting with the floorplan we will perform **import design, sanity check
 
 ------
 
-| **Hierarchical ** <br> - For very large design <br> - When sub-systems are design individually <br> - Possible only if a design hierarchy exist  <br> <br>    The Hierarchical Partitioning is done prior to Floorplan </br> </br>   **Partition can be done based on**  </br> Design Hierarchy </br> Timing Criticality  </br>  Functionality </br>  Clock Domain </br>  Design Files </br> Block Size</br>  | ![partitioning in physical design](partitioning.jpg) |
+| **Hierarchical ** <br> - For very large design <br> - When sub-systems are design individually <br> - Possible only if a design hierarchy exist  <br> <br>    The Hierarchical Partitioning is done prior to Floorplan </br> </br>   **Partition can be done based on**  </br> Design Hierarchy </br> Timing Criticality  </br>  Functionality </br>  Clock Domain </br>  Design Files </br> Block Size</br>  | ![partitioning in physical design](docs/IC/50-数字EDA/attachments/FloorPlan/partitioning.jpg) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |                                                              |                                                              |
 
@@ -115,7 +115,7 @@ Floorplan is one the critical & important step in Physical design. Quality of yo
 
 ### Floorplan Flowchart
 
-​      ![floorplan flowchart](floorplanflow.png)
+​      ![floorplan flowchart](docs/IC/50-数字EDA/attachments/FloorPlan/floorplanflow.png)
 
 ------
 
@@ -129,7 +129,7 @@ Floorplan is one the critical & important step in Physical design. Quality of yo
 
   
 
-  ![floorplan types, abutted non abutted and mix](floorplantechniques.png)
+  ![floorplan types, abutted non abutted and mix](docs/IC/50-数字EDA/attachments/FloorPlan/floorplantechniques.png)
 
 ------
 
@@ -198,19 +198,19 @@ Floorplan is one the critical & important step in Physical design. Quality of yo
 
 #### Row Configuration
 
-- Slanting lines in the side of the cell rows denote the Cell Orientation ![utilization in floorplan, physicaldesign](utilization.jpg) ![utilization in floorplan, physicaldesign](utilization1.jpg)
+- Slanting lines in the side of the cell rows denote the Cell Orientation ![utilization in floorplan, physicaldesign](docs/IC/50-数字EDA/attachments/FloorPlan/utilization.jpg) ![utilization in floorplan, physicaldesign](docs/IC/50-数字EDA/attachments/FloorPlan/utilization1.jpg)
      Butt and flip is Most common because of better space utilization
 
-| Core to Pad/ IO spacingCore to IO clearanceUsed </br> for Placing IOs and Power Ring | ![core to io spacing in floorplan](corearea.jpg) |
+| Core to Pad/ IO spacingCore to IO clearanceUsed </br> for Placing IOs and Power Ring | ![core to io spacing in floorplan](docs/IC/50-数字EDA/attachments/FloorPlan/corearea.jpg) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                                              |  ![io spaching in floorplan](aspectratio.jpg)                              |
+|                                                              |  ![io spaching in floorplan](docs/IC/50-数字EDA/attachments/FloorPlan/aspectratio.jpg)                              |
 
 
 - or simply Height/Width
 - Aspect Ratio decides the shape
 - Full chip Aspect Ratio can have a maximum value of 1.25
 
-![ratio is floorplan, physical design](standardcell.jpg)
+![ratio is floorplan, physical design](docs/IC/50-数字EDA/attachments/FloorPlan/standardcell.jpg)
 
 ------
 
@@ -221,7 +221,7 @@ Floorplan is one the critical & important step in Physical design. Quality of yo
 - Port is a physical entity and a Port have only 1 Pin associated with it
 - Netlist will have Pins and Layout will have Ports
 - Unplaced Port is not represented in the Layout
-      ![io placement in physical ddesign](ioplacement.jpg)
+      ![io placement in physical ddesign](docs/IC/50-数字EDA/attachments/FloorPlan/ioplacement.jpg)
 - Different types of IOs
 	
 - Signal Pads/Pins
@@ -232,7 +232,7 @@ Floorplan is one the critical & important step in Physical design. Quality of yo
 	
 - Physical-only pads that are not part of the input Gate level Netlist need to be inserted prior to reading IO constraints
 - IO Pads enables the design to operate at different voltages with the help of Level Shifters, Pre-Drivers (at Core Voltage)Post-Drivers (at IO Voltage)
-- No of Core Power Pads needed:     ![core power pads in physical design](corepowerpads.jpg)
+- No of Core Power Pads needed:     ![core power pads in physical design](docs/IC/50-数字EDA/attachments/FloorPlan/corepowerpads.jpg)
 - There will be 1 Core GND Pad along with every Core Power Pad
 - No. of IO Power Pads needed:
       Thumb Rule: 1 pair of IO power pads for every 4 to 6 signal pads.
@@ -253,7 +253,7 @@ macro placement is done based on connectivity information of macro to IO cell an
 - Fix the Macro locations, so that tool wont alter during Optimization
 - Spacing between Macro:
 
-![macro placement, floorplanning, physical design](macrospacing.jpg)
+![macro placement, floorplanning, physical design](docs/IC/50-数字EDA/attachments/FloorPlan/macrospacing.jpg)
 
 ------
 
@@ -264,7 +264,7 @@ macro placement is done based on connectivity information of macro to IO cell an
 - In advanced Technology Nodes Macro Orientation is fixed since the Poly Orientation can’t vary, so there will be restrictions in Macro Orientation
 - Reserve enough room around Macros for IO Routing
 - Reduce open fields as much as possible
-- Provide necessary Blockages around the Macro ![macro placement, floorplanning, physical design](macroplacement.jpg)
+- Provide necessary Blockages around the Macro ![macro placement, floorplanning, physical design](docs/IC/50-数字EDA/attachments/FloorPlan/macroplacement.jpg)
 
 ------
 
@@ -273,7 +273,7 @@ macro placement is done based on connectivity information of macro to IO cell an
 - blockages are specific location where placing of cells are blocked.
 - blockages acts like guidelines for placement of std cells.
 - blockages will not be guiding the tool to place the std cells at some particular area, but it won't allow the tool to place the std cell in the blocked area.
-  ![blockages in physical design](blockages.jpg)
+  ![blockages in physical design](docs/IC/50-数字EDA/attachments/FloorPlan/blockages.jpg)
 
 
 **Placement Blockage & Routing Blockage**
@@ -302,7 +302,7 @@ macro placement is done based on connectivity information of macro to IO cell an
 
 ### Keep-out / Halo
 
-​               ![keepout margin, halo in physical design](halo.jpg)
+​               ![keepout margin, halo in physical design](docs/IC/50-数字EDA/attachments/FloorPlan/halo.jpg)
 
 - Halo is similar to Soft Blockage meaning it allows placement of buffers and inverters in its area. (Terminology in Cadence EDI)
 - Its basically a keep-out Macro margin
@@ -320,7 +320,7 @@ macro placement is done based on connectivity information of macro to IO cell an
 
 - Macros of same partition which are placed far apart can cause Timing Violation
 
-  ![floorplanning, physical design](floorplan.jpg)
+  ![floorplanning, physical design](docs/IC/50-数字EDA/attachments/FloorPlan/floorplan.jpg)
 
 ------
 

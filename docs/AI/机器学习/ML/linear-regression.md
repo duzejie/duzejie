@@ -4,7 +4,7 @@
 
 > 回归，是指研究一组随机变量(`Y1 ，Y2 ，…，Yi`)和另一组(`X1，X2，…，Xk`)变量之间关系的统计分析方法。
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/76afa005ad30f8d93edbafc55f8d22eb_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/76afa005ad30f8d93edbafc55f8d22eb_MD5.png)
 
 线性回归是统计学中最基础的数学模型，在很多学科的研究中都能看到线性回归的影子，比如量化金融、计量经济学等等。线性回归通过对已有数据建模，从而实现对未知数据的预测。下面会通过一个房价预测的例子来详细说明。
 
@@ -27,7 +27,7 @@ print(data.head(5))
 
 基于已有数据，我们希望通过计算机的学习，找到数据中的规律，并用来预测其他房屋的价格。这是机器学习最朴素的应用场景。这个过程也被称为监督学习（`Supervised Learning`），即给定一些数据，使用计算机学习到一种模型，然后用它来预测新的数据。
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/f8360af9cc2b1f1db398bf423e2327e9_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/f8360af9cc2b1f1db398bf423e2327e9_MD5.png)
 
 在房价预测的例子中，想要预测的目标值房价是连续的，我们称这类问题为回归（`Regression`）问题。与之相对应，当目标值只能在一个有限的离散集合里选择，比如预测房价是否大于100万，结果只有“是”和“否”两种选项，我们称这类问题为分类（`Classification`）问题。
 
@@ -102,7 +102,7 @@ print(np.c_[predict_data, result].astype(np.int))
 
 - 特征预处理：通过一些转换函数将特征数据转换成更加适合算法模型的特征数据。
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/fff06bf72068b8499788151d38c98e58_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/fff06bf72068b8499788151d38c98e58_MD5.png)
 
 > The `sklearn.preprocessing` package provides several common utility functions and transformer classes to change raw feature vectors into a representation that is more suitable for the downstream estimators.
 
@@ -142,7 +142,7 @@ print(scaler.transform(data))
 
 那么，`StandardScaler`到底对数据做了怎样的转换呢？
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/8640875c312207cd3dfe3516b8f9c4a6_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/8640875c312207cd3dfe3516b8f9c4a6_MD5.png)
 
 注意：该转换作用于每一列(即每个特征)。其中`mean`表示这一列数据的平均值，`σ`表示这一列数据的标准差。
 
@@ -150,7 +150,7 @@ print(scaler.transform(data))
 
 如何证明呢？其实并不困难。均值为0很显然，每个原始值都减去`mean`，再求和必然为0，均值也就自然是0。再看标准差：
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/302a53adbb83a4d4be2209a285be2f92_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/302a53adbb83a4d4be2209a285be2f92_MD5.png)
 
 把均值0代进去，就变成了求x的平方和了，再看分子、分母，其实是相等的(能`get`到？想想均值与标准差之间的联系？标准差是如何来的？)。如此一来算出来的结果正好是1。
 
@@ -198,7 +198,7 @@ print(data)
 
 现在把线性回归问题扩展到更一般的场景。假设x是多元的，或者说是多维的。比如，预测房价，需要考虑房屋面积大小、卧室数量、出门到附近地铁口的距离、周围学校或商场的数量等等。
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/da3e350a9bc6a3f5a4d039828b798904_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/da3e350a9bc6a3f5a4d039828b798904_MD5.png)
 这里，训练已有房价数据就是为了确定参数`w`，一旦确定了`w`，就能根据`x`的取值，求出`y`，也就预测出了房价。
 
 此时线性回归的监督学习过程就可以被定义为：给定n个数据对`(x, y)`，寻找最佳参数`w` ，使模型可以更好地拟合这些数据。
@@ -209,13 +209,13 @@ print(data)
 
 对于线性回归，一个简单实用的损失函数计算方式是预测值与真实值误差的平方的均值。数理统计中叫做均方误差(`MSE: Mean Squared Error`)。`MSE`的值越小，说明预测模型具有更好的精确度。
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/5c436dc79f7649d6f25951a9a6cc3d69_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/5c436dc79f7649d6f25951a9a6cc3d69_MD5.png)
 
 同样，`scikit-learn`也提供了对`MSE`相关的描述与实现，详情见：
 
 [https://scikit-learn.org/stable/modules/model_evaluation.html#mean-squared-error](https://scikit-learn.org/stable/modules/model_evaluation.html#mean-squared-error)
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/51db07a6b63f62396d5f06fc1f4f8312_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/51db07a6b63f62396d5f06fc1f4f8312_MD5.png)
 
 下面简单看下如何用`scikit-learn`中的`mean_squared_error`来计算模型误差：
 
@@ -248,23 +248,23 @@ print(mean_squared_error(y_true, y_pred))
 
 > 求解损失函数最小问题，或者说求解使损失函数最小的最优化问题时，经常使用搜索的方法。具体而言，选择一个初始点作为起点，然后开始不断搜索，损失函数逐渐变小，当到达搜索迭代的结束条件时，该位置为搜索算法的最终结果。我们先随机猜测一个`w`，然后对`w`值不断进行调整，来让`L(w)`逐渐变小，最好能找到使得`L(w)`最小的`w`。
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/e76cf4f2475bfd7049dc5a1e7063c613_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/e76cf4f2475bfd7049dc5a1e7063c613_MD5.png)
 
 > 一般情况下，0 < α < 1 。α越大，表示我们希望损失函数以更快的速度下降，α越小，表示我们希望损失函数下降的速度变慢。如果α设置得不合适，每次的步长太大，损失函数很可能无法快速收敛到最小值(步长太大可能直接跨过了极小值点)；步长太小，计算次数过多，时间过长，效率就很差了。到这里，你能理解上面特征预处理时，对特征值进行归一化、标准化的好处吗？【可以有效提高梯度下降(`Gradient Descent`)的收敛速度】
 
 当一个训练集有`m`个训练样本时，求导只需要对多条训练样本的数据做加和。
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/0fb2935f73685db9df92b61d6b5fa593_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/0fb2935f73685db9df92b61d6b5fa593_MD5.png)
 
 代入公式(15)，如下：
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/186725d015604a9abedd35489b0519b0_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/186725d015604a9abedd35489b0519b0_MD5.png)
 
 `w`是一个向量，假设它是`n`维的，在更新`w`时，需要同时对`n`维所有`w`值进行更新，其中第`j`维就是使用这里的公式。
 
 具体而言，这个算法为：
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/43989afddc4f1f1a2b4d0796236d2439_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/43989afddc4f1f1a2b4d0796236d2439_MD5.png)
 
 > 这一方法在每一次迭代时使用整个训练集中的所有样本来更新参数，也叫做批量梯度下降法（`Batch Gradient Descent，BGD`）。线性回归的损失函数`L`是一个凸二次函数（`Convex Quadratic Function`），凸函数的局部极小值就是全局最小值，线性回归的最优化问题只有一个全局解。也就是说，假设不把学习率`α`设置的过大，迭代次数足够多，梯度下降法总是收敛到全局最小值。
 
@@ -402,7 +402,7 @@ if __name__ == '__main__':
 
 再看随着迭代次数的增加，损失值的变化图：
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/linear-regression/115a641c61445306475b7623428d16bb_MD5.png)
+![](docs/AI/机器学习/ML/attachments/linear-regression/115a641c61445306475b7623428d16bb_MD5.png)
 
 可见，在迭代到500次的时候损失值基本不再下降了。当然迭代多少次趋于稳定，与步长(学习率`alpha`)密切相关。
 

@@ -1,6 +1,6 @@
 array of structures (AoS)和structure of arrays (SoA)，这分别代表着两种不同的数组组织形式。
 - [SoA vs AoS - 技术专栏 - Unity官方开发者社区](https://developer.unity.cn/projects/61ff5161edbc2a001cf9856e)
-![[Pasted image 20230526192201.png]]
+![[docs/HPC/attachments/Pasted image 20230526192201.png]]
 
 
 ### Array-of-Structures (AoS)

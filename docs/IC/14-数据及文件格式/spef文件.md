@@ -7,22 +7,22 @@ SPEF支持一下三种net模型
 - reduced net model
 - lumpped capacitance model
 例如，对于下图的连接线
-![[spef1.png|600]]
+![[docs/IC/attachments/spef/spef1.png|600]]
 
 
 三种模型分别抽象为
 
-![|600](docs/IC/14-%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/attachments/spef%E6%96%87%E4%BB%B6/93956dd9880005a8cc59449a32e1c709_MD5.png)
+![|600](docs/IC/14-数据及文件格式/attachments/spef文件/93956dd9880005a8cc59449a32e1c709_MD5.png)
 
 distribute net model每一段net都有自己独立的RC值
-![|500](docs/IC/14-%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/attachments/spef%E6%96%87%E4%BB%B6/168d9ecc95f4a14ef376f8c12376fbbb_MD5.png)
+![|500](docs/IC/14-数据及文件格式/attachments/spef文件/168d9ecc95f4a14ef376f8c12376fbbb_MD5.png)
 
 reduced net model  Load pin是一个简化的RC值，driven 拼端将RC模型简化为一个pie model
-![reduce|500](docs/IC/14-%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/attachments/spef%E6%96%87%E4%BB%B6/7b79379acf42bfa7e6203143bafa9053_MD5.png)
+![reduce|500](docs/IC/14-数据及文件格式/attachments/spef文件/7b79379acf42bfa7e6203143bafa9053_MD5.png)
 
 
 lumpped capacitance model  将所有net的cap简化为一个单一的cap值
-![|500](docs/IC/14-%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/attachments/spef%E6%96%87%E4%BB%B6/34890bf0cafec7fd6a04a3f0d909c1f7_MD5.png)
+![|500](docs/IC/14-数据及文件格式/attachments/spef文件/34890bf0cafec7fd6a04a3f0d909c1f7_MD5.png)
 
 
 ## 3 SPEF文件的内容
@@ -176,7 +176,7 @@ RES部分定义了net之间的电阻，单位见header definition，含义和CAP
 3 *5426:10142 *14214:Q 0.340000
 
 所以对于上面这样一个D_NET的描述信息可以得到如下的RC网络
-![[spef2.png|800]]
+![[docs/IC/attachments/spef/spef2.png|800]]
 
 
 以上就是SPEF内容的介绍，虽然在实际的工作过程中，我们很少会直接去人工分析SPEF进行相关的计算。但是对于工程人员还是要知其然的。

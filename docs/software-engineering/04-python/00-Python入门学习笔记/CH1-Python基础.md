@@ -2,7 +2,7 @@
 
 > Python 非常适合初学者用来进入计算机编程领域。Python 属于非常高级的语言，掌握了这门高级语言，就对计算机编程的核心思想——抽象有了初步理解。如果希望继续深入学习计算机编程，可以学习 Java、C、JavaScript、Lisp 等不同类型的语言，只有多掌握不同领域的语言，有比较才更有收获。
 
-![Python3](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/b2789b8978ece738623ab847026d818a_MD5.png)
+![Python3](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/b2789b8978ece738623ab847026d818a_MD5.png)
 
 
 
@@ -14,13 +14,13 @@
 
 进入官网（[https://www.python.org](https://www.python.org/)），点击 Downloads，选择要下载的版本：
 
-![image-20200517223148826](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/090bfb864716ec1257ff0fe04d1297f4_MD5.png)
+![image-20200517223148826](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/090bfb864716ec1257ff0fe04d1297f4_MD5.png)
 
 （2）安装 Python
 
 安装时注意下图勾选部分一定要勾选：
 
-![image-20200517223527044](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/e6d894dabb03513f85c2af19e9b4d19f_MD5.png)
+![image-20200517223527044](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/e6d894dabb03513f85c2af19e9b4d19f_MD5.png)
 
 
 
@@ -30,13 +30,13 @@
 
 进入官网（[https://www.jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)），点击 Downloads，选择要下载的版本：
 
-![image-20200517223348661](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/19b3ee838deca857d0abae84a9e5416c_MD5.png)
+![image-20200517223348661](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/19b3ee838deca857d0abae84a9e5416c_MD5.png)
 
 （2）安装 PyCharm
 
 设置安装路径之后，一直点 next 即可。
 
-![image-20200517224622654](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/ebaade8a489fdb3f636a3618eaf5bfae_MD5.png)
+![image-20200517224622654](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/ebaade8a489fdb3f636a3618eaf5bfae_MD5.png)
 
 （3）优化 PyCharm 使用
 
@@ -72,7 +72,7 @@ else:
 
 ☎️ `eval()`去掉参数最外侧引号并执行余下语句的函数，称为“评估函数”。
 
-![评估函数](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/e368561668348301521d51a28f210c60_MD5.png)
+![评估函数](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/e368561668348301521d51a28f210c60_MD5.png)
 
 
 
@@ -105,7 +105,7 @@ print("HelloWorld")
 
 效果图：
 
-![image-20200517225658342](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/e522b0278f725075bb90c507b847051e_MD5.png)
+![image-20200517225658342](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/e522b0278f725075bb90c507b847051e_MD5.png)
 
 ### 1.2.2 输入和输出
 
@@ -146,7 +146,7 @@ name = input()
 print('Hello! ',name)
 ```
 
-![image-20200610194537419](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/2b8f2b5f39b7a04410b8c8480803c8ad_MD5.png)
+![image-20200610194537419](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/2b8f2b5f39b7a04410b8c8480803c8ad_MD5.png)
 
 我们也可以直接在 input 中显示一个字符串
 
@@ -155,7 +155,7 @@ name = input('Input your name: ')
 print('Hello! ',name)
 ```
 
-![image-20200610194823007](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/5908e44d84f5af063bcf09fc0a338b5b_MD5.png)
+![image-20200610194823007](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/5908e44d84f5af063bcf09fc0a338b5b_MD5.png)
 
 ### 1.2.3 小结
 
@@ -327,7 +327,7 @@ line3''')
 
 效果：
 
-![image-20200610222139397](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/ffe074176b15107b463245e5abce2206_MD5.png)
+![image-20200610222139397](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/ffe074176b15107b463245e5abce2206_MD5.png)
 
 > 字符串的使用：
 
@@ -488,7 +488,7 @@ classmates.insert(1,'MengLinLin')
 
 效果：
 
-![image-20200611164619720](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/6303e76e3c09757c6a692d9064a41c76_MD5.png)
+![image-20200611164619720](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/6303e76e3c09757c6a692d9064a41c76_MD5.png)
 
 * **删除**
 
@@ -506,7 +506,7 @@ classmates.pop(1)
 
 效果：
 
-![image-20200611165043478](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/b4d869422e88252f279b22de10574b9f_MD5.png)
+![image-20200611165043478](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/b4d869422e88252f279b22de10574b9f_MD5.png)
 
 * **替换**
 
@@ -573,11 +573,11 @@ print(t) # ('a', 'b', ['X', 'Y'])
 
 别急，我们先看看定义的时候 tuple 包含的 3 个元素：
 
-![image-20200611170358099](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/68d297432b1de92739495aa8c8337c39_MD5.png)
+![image-20200611170358099](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/68d297432b1de92739495aa8c8337c39_MD5.png)
 
 当我们把 list 的元素 `'A'` 和 `'B'` 修改为 `'X' `和 `'Y'` 后，tuple 变为：
 
-![image-20200611170515905](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/afee589f728c6bb92be1c8ee3409c384_MD5.png)
+![image-20200611170515905](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/afee589f728c6bb92be1c8ee3409c384_MD5.png)
 
 表面上看，tuple 的元素确实变了，但其实变的不是 tuple 的元素，而是 list 的元素。tuple 一开始指向的 list 并没有改成别的 list，所以，⭐ **tuple 所谓的 “不变” 是说，tuple 的每个元素，指向永远不变。即指向 `'a'`，就不能改成指向 `'b'`，指向一个 list，就不能改成指向其他对象，但指向的这个 list 本身是可变的！**
 
@@ -628,7 +628,7 @@ print(d['Adam']) # 97
 
 如果 key 不存在，dict 就会报错：`KeyError`。
 
-![image-20200611172243031](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/eab339551d9698e03cc513ded3dc65c0_MD5.png)
+![image-20200611172243031](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/eab339551d9698e03cc513ded3dc65c0_MD5.png)
 
 要避免 key 不存在的错误，有两种办法，一是通过`in`判断 key 是否存在：
 
@@ -671,7 +671,7 @@ dict 可以用在需要高速查找的很多地方，在 Python 代码中几乎�
 
 要保证 hash 的正确性，作为 key 的对象就不能变。在 Python 中，字符串、整数等都是不可变的，因此，可以放心地作为 key。而 list 是可变的，就不能作为 key：
 
-![image-20200611173457932](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/dc776ced2629f2282f11073ca36b7bcd_MD5.png)
+![image-20200611173457932](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/dc776ced2629f2282f11073ca36b7bcd_MD5.png)
 
 ##### Ⅱ set（key，且 key 不可重复） ([ \])
 
@@ -761,11 +761,11 @@ print(a) # 'abc'
 
 要始终牢记的是，`a` 是变量，而 `'abc'` 才是字符串对象！有些时候，我们经常说，对象 `a` 的内容是 `'abc'`，但其实是指，`a` 本身是一个变量，它指向的对象的内容才是 `'abc'`：
 
-![image-20200611175123150](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/51ddb6f3e4d9f269a1aab670b9bb94f5_MD5.png)
+![image-20200611175123150](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/51ddb6f3e4d9f269a1aab670b9bb94f5_MD5.png)
 
 当我们调用 `a.replace('a', 'A')` 时，实际上调用方法 `replace` 是作用在字符串对象 `'abc'` 上的，而这个方法虽然名字叫 `replace`，但却没有改变字符串 `'abc'` 的内容。相反，`replace` 方法创建了一个新字符串 `'Abc'` 并返回，如果我们用变量 `b` 指向该新字符串，就容易理解了，变量 `a` 仍指向原有的字符串 `'abc'`，但变量 `b` 却指向新字符串 `'Abc'` 了：
 
-![image-20200611175231653](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/8fbdd8bb7b09a78d1964f390207cd8ad_MD5.png)
+![image-20200611175231653](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/8fbdd8bb7b09a78d1964f390207cd8ad_MD5.png)
 
 所以，对于不变对象来说，调用对象自身的任意方法，也不会改变该对象自身的内容。相反，这些方法会创建新的对象并返回，这样，就保证了不可变对象本身永远是不可变的。
 
@@ -795,7 +795,7 @@ print(a) # 'abc'
 
 **保留字**看下表：
 
-![保留字](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/67b792140b1c8e5fe173dcecceab9fb2_MD5.png)
+![保留字](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/67b792140b1c8e5fe173dcecceab9fb2_MD5.png)
 
 
 
@@ -854,15 +854,15 @@ print(b) # 输出 ABC
 
 - 执行`a = 'ABC'`，解释器创建了字符串`'ABC'`和变量`a`，并把`a`指向`'ABC'`：
 
-  ![img](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/d9f3b9461c96fce6b900ddb1186a3c1c_MD5.png)
+  ![img](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/d9f3b9461c96fce6b900ddb1186a3c1c_MD5.png)
 
 - 执行`b = a`，解释器创建了变量`b`，并把`b`指向`a`指向的字符串`'ABC'`：
 
-  ![img](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/93315df368475d6dc80760976343c592_MD5.png)
+  ![img](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/93315df368475d6dc80760976343c592_MD5.png)
 
 - 执行`a = 'XYZ'`，解释器创建了字符串'XYZ'，并把`a`的指向改为`'XYZ'`，但`b`并没有更改：
 
-  ![img](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/89f4d9e8f19677307415285a99e42838_MD5.png)
+  ![img](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/89f4d9e8f19677307415285a99e42838_MD5.png)
 
 - 所以，最后打印变量`b`的结果自然是`'ABC'`了。
 
@@ -892,7 +892,7 @@ PI = 3.14159265359
 
 你可以想得到的是，全世界有上百种语言，日本把日文编到`Shift_JIS`里，韩国把韩文编到`Euc-kr`里，各国有各国的标准，就会不可避免地出现冲突，结果就是，在多语言混合的文本中，显示出来会有乱码。
 
-![image-20200623172824974](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/167d4b44a3ae33432d1f0e82888709c9_MD5.png)
+![image-20200623172824974](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/167d4b44a3ae33432d1f0e82888709c9_MD5.png)
 
 因此，Unicode 应运而生。**Unicode 把所有语言都统一到一套编码里，这样就不会再有乱码问题了。**
 
@@ -910,7 +910,7 @@ Unicode 标准也在不断发展，但最常用的是用两个字节表示一个
 
 所以，本着节约的精神，又出现了把 Unicode 编码转化为 “可变长编码” 的`UTF-8`编码。UTF-8 编码把一个 Unicode 字符根据不同的数字大小编码成 1-6 个字节，常用的英文字母被编码成 1 个字节，汉字通常是 3 个字节，只有很生僻的字符才会被编码成 4-6 个字节。如果你要传输的文本包含大量英文字符，用 UTF-8 编码就能节省空间：
 
-![image-20200623173834408](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/1ad97a3a93194bb15114025411a32930_MD5.png)
+![image-20200623173834408](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/1ad97a3a93194bb15114025411a32930_MD5.png)
 
 从上面的表格还可以发现，UTF-8 编码有一个额外的好处，就是 ASCII 编码实际上可以被看成是 UTF-8 编码的一部分，所以，大量只支持 ASCII 编码的历史遗留软件可以在 UTF-8 编码下继续工作。
 
@@ -920,11 +920,11 @@ Unicode 标准也在不断发展，但最常用的是用两个字节表示一个
 
 用记事本编辑的时候，从文件读取的 UTF-8 字符被转换为 Unicode 字符到内存里，编辑完成后，保存的时候再把 Unicode 转换为 UTF-8 保存到文件：
 
-![image-20200623174150679](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/88e7c70760a05c105c4f13a74afb5717_MD5.png)
+![image-20200623174150679](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/88e7c70760a05c105c4f13a74afb5717_MD5.png)
 
 浏览网页的时候，服务器会把动态生成的 Unicode 内容转换为 UTF-8 再传输到浏览器：
 
-![image-20200623174254190](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/87853fbfcc7a3a5cfcac3ebddfc68394_MD5.png)
+![image-20200623174254190](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/87853fbfcc7a3a5cfcac3ebddfc68394_MD5.png)
 
 所以你看到很多网页的源码上会有类似 `<meta charset="UTF-8" />` 的信息，表示该网页正是用的 UTF-8 编码。
 
@@ -984,11 +984,11 @@ print(b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8'))
 
 如果`bytes`中包含无法解码的字节，`decode()`方法会报错：
 
-![image-20200623175618702](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/6f08ab896874be9e85c5fe3940f21862_MD5.png)
+![image-20200623175618702](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/6f08ab896874be9e85c5fe3940f21862_MD5.png)
 
 如果`bytes`中只有一小部分无效的字节，可以传入`errors='ignore'`忽略错误的字节：
 
-![image-20200623175706636](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/f556cfccff519dd6586247f0076929de_MD5.png)
+![image-20200623175706636](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/f556cfccff519dd6586247f0076929de_MD5.png)
 
 要计算`str`包含多少个字符，可以用`len()`函数：
 
@@ -1024,7 +1024,7 @@ print(len('中文'.encode('utf-8'))) # 6
 
 最后一个常见的问题是如何`输出格式化的字符串`。我们经常会输出类似`'亲爱的 xxx 你好！你 xx 月的话费是 xx，余额是 xx'`之类的字符串，而 xxx 的内容都是根据变量变化的，所以，需要一种简便的格式化字符串的方式。
 
-![image-20200623180524717](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/962a25d5fd5307fc6e6a2291e8173f15_MD5.png)
+![image-20200623180524717](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/962a25d5fd5307fc6e6a2291e8173f15_MD5.png)
 
 
 
@@ -1040,7 +1040,7 @@ print('Hello, %s, you have %d money' %('WuGenQiang',100))
 
 常见的占位符有：
 
-![image-20200623181028546](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH1-Python%E5%9F%BA%E7%A1%80/76c7f33b9563367a37df44f92c18558a_MD5.png)
+![image-20200623181028546](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH1-Python基础/76c7f33b9563367a37df44f92c18558a_MD5.png)
 
 其中，格式化整数和浮点数还可以指定是否补 0 和整数与小数的位数：
 

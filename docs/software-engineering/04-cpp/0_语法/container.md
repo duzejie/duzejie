@@ -1,6 +1,6 @@
 ## 分类
 
-![](container1.png)
+![](docs/software-engineering/04-cpp/0_语法/images/container1.png)
 
 ### 序列式容器
 

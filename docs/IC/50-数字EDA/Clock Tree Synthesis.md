@@ -33,7 +33,7 @@
 - Double/ Triple Spacing for avoiding Crosstalk
 - NDRs will improve Insertion Delay
 
-![img](ndr.JPG)
+![img](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/ndr.JPG)
 
 
 
@@ -42,7 +42,7 @@
 - Clock Tree Synthesis (CTS) is one of the most important stages in PnR. CTS QoR decides timing convergence & power. In most of the ICs clock consumes 30-40 % of total power. So efficient clock architecture, clock gating & clock tree implementation helps to reduce power.
 - The process of distributing the clock and balancing the load is called CTS. Basically, delivering the clock to all sequential elements. CTS is the process of insertion of buffers or inverters along the clock paths of ASIC design in order to achieve zero/minimum skew or balanced skew. Before CTS, all clock pins are driven by a single clock source. CTS starting point is clock source and CTS ending point is clock pins of sequential cells.
 
-![non default rule ndr](cts.JPG)
+![non default rule ndr](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/cts.JPG)
 
 ------
 
@@ -75,7 +75,7 @@
 
 ### Goals of CTS 
 
-![cts inputs](ctsgoals.JPG)
+![cts inputs](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/ctsgoals.JPG)
 
 ------
 
@@ -135,7 +135,7 @@
 
 #### Clock Tree is a path from the Clock Source (Root) to Clock Sinks (Leaf)Clock Tree Synthesis is the process of creating this Clock Path from Clock Source to Clock SinksAll Clock pins of flip Flop are considered as Clock Sinks (Leaf); where the Clock Tree Synthesis ends
 
-![clock tree synthesis](cts12.JPG)
+![clock tree synthesis](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/cts12.JPG)
 
 
 
@@ -179,14 +179,14 @@
 
 ![img](820_IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/skew.JPG)
 
-![clock uncertainty](skew1.JPG)
+![clock uncertainty](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/skew1.JPG)
 
 **Positive Skew**
 If capture clock comes late than launch clock then it is called positive clock.
 
 **Negative Skew**
 If capture clock comes Early than launch clock then it is called positive clock.
-![positive skew and negative skew](posskew.JPG)
+![positive skew and negative skew](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/posskew.JPG)
 
 **Local Skew**
 It is the difference in arrival of clock at two consecutive pins of a sequential element.
@@ -205,7 +205,7 @@ If clock is skewed intentionally to resolve violations. it is called useful skew
 
 ### Clock Jitter: Temporal Clock Variation 
 
-![clock jitter](jitter.JPG)
+![clock jitter](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/jitter.JPG)
 
 - Jitter is the short-term variations of a signal with respect to its ideal position in time
 - The two major components of Jitter are random Jitter and deterministic Jitter
@@ -252,7 +252,7 @@ If clock is skewed intentionally to resolve violations. it is called useful skew
   - Clock Tree Routing Metal Layers
   - Clock Tree Leaf Pin, Root Pin, Preserve Pin, Through Pin and Exclude Pin
 
-![cts flow](ctsspecex.JPG)
+![cts flow](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/ctsspecex.JPG)
 
 - Compile CTS using CTS Spec. file
 - Place Clock Tree Cells
@@ -271,7 +271,7 @@ The clock tree reference list is,
 - Delay insertion
 
 **Boundary cell insertions:**
- ![img](bci.JPG)
+ ![img](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/bci.JPG)
 
 - When you are working on a block-level design, you might want to preserve the boundary conditions of the block’s clock ports (the boundary clock pins).
 - A boundary cell is a fixed buffer that is inserted immediately after the boundary clock pins to preserve the boundary conditions of the clock pin.
@@ -302,7 +302,7 @@ The clock tree reference list is,
 ------
 
 **Non-stop pin**
-![non stop pin, clock tree exceptions](nonstoppin.JPG)
+![non stop pin, clock tree exceptions](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/nonstoppin.JPG)
 Non-stop pins trace through the endpoints that are normally considered as endpoints of the clock tree.
 Example:
 
@@ -312,7 +312,7 @@ Example:
 ------
 
 **Exclude pin:**
-![exclude pin, clock tree exceptions](excludepin.JPG)
+![exclude pin, clock tree exceptions](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/excludepin.JPG)
 Exclude pin are clock tree endpoints that are excluded from clock tree timing calculation and optimization. The tool considers exclude pins only in calculation and optimizations for design rule constraints. During CTS, the tool isolates exclude pins from the clock tree by inserting a guide buffer before the pin or these pins are need not to be considered during the clock tree propagation.
 
 Example - Non clock input pin of sequential cell
@@ -334,7 +334,7 @@ In the above figure, beyond the exclude pin the tool never perform skew or inser
 ------
 
 **Float pin:**
-![float pin, clock tree exceptions](floatpin.JPG)
+![float pin, clock tree exceptions](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/floatpin.JPG)
 Float pins are clock pins that have special inserƟon delay requirements and balancing is done according to the delay [Macro modeling]. This is same as sync pin but internal clock latency of the pin is taken into consideration while building the clock tree. To adjust the clock arrival for specific endpoints with respect to all other endpoints.
 
 Example - Clock entry pin of hard macros
@@ -344,7 +344,7 @@ Example - Clock entry pin of hard macros
 ------
 
 **Stop pin:**
-![stop pin, clock tree exceptions](stoppin.JPG)
+![stop pin, clock tree exceptions](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/stoppin.JPG)
 Stop pins are the endpoints of clock tree that are used for delay balancing. In CTS, the tool uses stop pins in calculation & optimization for both DRC and clock tree timing.
 
 Example - Clock sink are implicit stop pins
@@ -356,7 +356,7 @@ The optimization is done only upto the stop pin as shown in the above fig. The c
 ------
 
 **Don't Touch Sub-tree:**
-![dont touch sub tree, clock tree exceptions](dont.JPG)
+![dont touch sub tree, clock tree exceptions](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/dont.JPG)
 If we want to preserve a portion of an existing clock tree, we put don’t touch exception on the sub-tree.
 
 CLK1 is the pre-existing clock and path 1 is optimized with respect to CLK1.
@@ -401,23 +401,23 @@ During CTS & optimization, size only cells can only be sized not moved or split.
 - Geometric Matching Algorithm (GMA)
 - Pi Configuration
 
-![clock tree algorithm, h tree, x tree, pi tree](ctsalgo.JPG)
+![clock tree algorithm, h tree, x tree, pi tree](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/ctsalgo.JPG)
 
 ------
 
 
 
 Before CTS all Clock Pins are driven by a single Clock Source
-![cts](cts1.JPG)
+![cts](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/cts1.JPG)
 
 
 
 After CTS the buffer tree is built to balance the loads and minimize the skew
-![cts](cts2.JPG)
+![cts](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/cts2.JPG)
 
 
 
-After CTS a “delay line” is added to meet the minimum Insertion Delay (ID) ![minimum insertion delay](cts3.JPG)
+After CTS a “delay line” is added to meet the minimum Insertion Delay (ID) ![minimum insertion delay](docs/IC/50-数字EDA/attachments/Clock%20Tree%20Synthesis/cts3.JPG)
 
 ------
 

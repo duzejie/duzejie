@@ -70,7 +70,7 @@ IPython的另一个功能是无缝连接文件系统和操作系统。这意味�
 
 表B-1总结了调用shell命令的魔术函数和语法。我会在下面几节介绍这些功能。
 
-![表B-1 IPython系统相关命令](docs/software-engineering/04-python/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/attachments/%E9%99%84%E5%BD%95B-%E6%9B%B4%E5%A4%9A%E5%85%B3%E4%BA%8EIPython%E7%9A%84%E5%86%85%E5%AE%B9/76f96688b07a305930cc30df98a82c3d_MD5.png)
+![表B-1 IPython系统相关命令](docs/software-engineering/04-python/Python数据分析/attachments/附录B-更多关于IPython的内容/76f96688b07a305930cc30df98a82c3d_MD5.png)
 
 ## Shell命令和别名
 用叹号开始一行，是告诉IPython执行叹号后面的所有内容。这意味着你可以删除文件（取决于操作系统，用rm或del）、改变目录或执行任何其他命令。
@@ -266,7 +266,7 @@ ipdb> !b
 
 提高使用交互式调试器的熟练度需要练习和经验。表B-2，列出了所有调试器命令。如果你习惯了IDE，你可能觉得终端的调试器在一开始会不顺手，但会觉得越来越好用。一些Python的IDEs有很好的GUI调试器，选择顺手的就好。
 
-![表B-2 IPython调试器命令](docs/software-engineering/04-python/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/attachments/%E9%99%84%E5%BD%95B-%E6%9B%B4%E5%A4%9A%E5%85%B3%E4%BA%8EIPython%E7%9A%84%E5%86%85%E5%AE%B9/1c35691230f7ce3c74481c025416411e_MD5.png)
+![表B-2 IPython调试器命令](docs/software-engineering/04-python/Python数据分析/attachments/附录B-更多关于IPython的内容/1c35691230f7ce3c74481c025416411e_MD5.png)
 
 ## 使用调试器的其它方式
 

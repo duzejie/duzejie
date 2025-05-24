@@ -8,13 +8,13 @@
 
 进入官网（[https://www.python.org](https://www.python.org/)），点击 Downloads，选择要下载的版本：
 
-![image-20200517223148826](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/090bfb864716ec1257ff0fe04d1297f4_MD5.png)
+![image-20200517223148826](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/090bfb864716ec1257ff0fe04d1297f4_MD5.png)
 
 2、安装 Python
 
 安装时注意下图勾选部分一定要勾选：
 
-![image-20200517223527044](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/e6d894dabb03513f85c2af19e9b4d19f_MD5.png)
+![image-20200517223527044](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/e6d894dabb03513f85c2af19e9b4d19f_MD5.png)
 
 
 
@@ -24,13 +24,13 @@
 
 进入官网（[https://www.jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)），点击 Downloads，选择要下载的版本：
 
-![image-20200517223348661](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/19b3ee838deca857d0abae84a9e5416c_MD5.png)
+![image-20200517223348661](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/19b3ee838deca857d0abae84a9e5416c_MD5.png)
 
 2、安装 PyCharm
 
 设置安装路径之后，一直点 next 即可。
 
-![image-20200517224622654](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/ebaade8a489fdb3f636a3618eaf5bfae_MD5.png)
+![image-20200517224622654](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/ebaade8a489fdb3f636a3618eaf5bfae_MD5.png)
 
 3、优化 PyCharm 使用
 
@@ -48,7 +48,7 @@ print("HelloWorld")
 
 效果图：
 
-![image-20200517225658342](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/e522b0278f725075bb90c507b847051e_MD5.png)
+![image-20200517225658342](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/e522b0278f725075bb90c507b847051e_MD5.png)
 
 ## 四、Python 语法
 
@@ -105,7 +105,7 @@ print('Hi ' + name)
 
 测试：
 
-![image-20200518092805760](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/fc569ee60b23ec67c517f4d8bdf00b69_MD5.png)
+![image-20200518092805760](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/fc569ee60b23ec67c517f4d8bdf00b69_MD5.png)
 
 ### 5.打印年龄
 
@@ -141,7 +141,7 @@ print(course_3)
 
 效果呈现：
 
-![image-20200518100439122](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/f36c3addf7e064283427aa4afcd0440a_MD5.png)
+![image-20200518100439122](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/f36c3addf7e064283427aa4afcd0440a_MD5.png)
 
 获取 course_1 的第一个索引值：
 
@@ -1037,7 +1037,7 @@ wb.save('test2.xlsx')
 
 效果图：
 
-![image-20200526165657549](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/f2d1846664441be02d74b0e2aecce871_MD5.png)
+![image-20200526165657549](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/f2d1846664441be02d74b0e2aecce871_MD5.png)
 
 
 
@@ -1098,7 +1098,7 @@ df
 
 效果：
 
-![image-20200531195556447](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/29754c0f070fdcf0c9fabec2be9337b0_MD5.png)
+![image-20200531195556447](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/29754c0f070fdcf0c9fabec2be9337b0_MD5.png)
 
 #### 获取数据集的形状
 
@@ -1109,7 +1109,7 @@ df.shape
 
 效果：
 
-![image-20200531200756673](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/5fa51e58c0048efa7500227a3751d1e9_MD5.png)
+![image-20200531200756673](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/5fa51e58c0048efa7500227a3751d1e9_MD5.png)
 
 #### 分段输出数据
 
@@ -1120,7 +1120,7 @@ df.describe()
 
 效果：
 
-![image-20200531201607125](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/98bddc62c4a4d4ff598b6186b7891cf6_MD5.png)
+![image-20200531201607125](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/98bddc62c4a4d4ff598b6186b7891cf6_MD5.png)
 
 #### 获取值
 
@@ -1130,11 +1130,11 @@ df.values
 
 效果：
 
-![image-20200531202108365](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/e8cda739e5fcacca0223a30cc6420554_MD5.png)
+![image-20200531202108365](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/e8cda739e5fcacca0223a30cc6420554_MD5.png)
 
 
 
-![image-20200531204830570](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/6%E5%B0%8F%E6%97%B6Python%E5%85%A5%E9%97%A8/dfbdd95cca01703168302e7f4bd62af0_MD5.png)
+![image-20200531204830570](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/6小时Python入门/dfbdd95cca01703168302e7f4bd62af0_MD5.png)
 
 
 

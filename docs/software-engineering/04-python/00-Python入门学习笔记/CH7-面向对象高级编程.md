@@ -286,11 +286,11 @@ else:
 
 如果按照哺乳动物和鸟类归类，我们可以设计出这样的类的层次：
 
-![归类](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH7-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/96399fbc5bcc296c0c41ed50af96fbf6_MD5.png)
+![归类](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH7-面向对象高级编程/96399fbc5bcc296c0c41ed50af96fbf6_MD5.png)
 
 但是如果按照“能跑”和“能飞”来归类，我们就应该设计出这样的类的层次：
 
-![归类](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH7-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/709a71bb9a056dd6bee676b01535e63a_MD5.png)
+![归类](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH7-面向对象高级编程/709a71bb9a056dd6bee676b01535e63a_MD5.png)
 
 如果要把上面的两种分类都包含进来，我们就得设计更多的层次：
 
@@ -299,7 +299,7 @@ else:
 
 这么一来，类的层次就复杂了：
 
-![image-20200811111248510](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH7-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/faeb33c71276deb0d0d627eaccd1dc57_MD5.png)
+![image-20200811111248510](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH7-面向对象高级编程/faeb33c71276deb0d0d627eaccd1dc57_MD5.png)
 
 如果要再增加“宠物类”和“非宠物类”，这么搞下去，类的数量会呈指数增长，很明显这样设计是不行的。
 
@@ -1120,7 +1120,7 @@ ARGS: ['my-pwd', 'test@orm.org', 'Michael', 12345]
 
 不到100行代码，我们就通过metaclass实现了一个精简的ORM框架，是不是非常简单？
 
-![image-20200817100522200](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH7-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/4127c196054de6c6809a6ef902fc09f1_MD5.png)
+![image-20200817100522200](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH7-面向对象高级编程/4127c196054de6c6809a6ef902fc09f1_MD5.png)
 
 > 小结：
 

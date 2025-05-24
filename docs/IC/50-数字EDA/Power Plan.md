@@ -3,7 +3,7 @@
 
 ------
 
-![powerplan in physical design](powerplan.PNG)
+![powerplan in physical design](docs/IC/50-数字EDA/attachments/Power%20Plan/powerplan.PNG)
 
 - To connect Power to the Chip by considering issues like EM and IR Drop
 
@@ -98,22 +98,22 @@ Power rings are formed for I/O cells and trunks are constructed between core pow
 - The power information can obtain from the front end design.
 - the synthesis tool reports static power information
 - dynamic power can be calculated using value change dump (VCD) or switching activity interchange format (SAIF) file in conjunction with RTL description and test bench.
-- Exhaustive test coverage is required for efficient calculation of peak power. this methodology is depicted in figure as shown below. ![powerplanning in physical design](power1.JPG)
+- Exhaustive test coverage is required for efficient calculation of peak power. this methodology is depicted in figure as shown below. ![powerplanning in physical design](docs/IC/50-数字EDA/attachments/Power%20Plan/power1.JPG)
 
 ### PowerPlan : Calculations
 
 
-![powerplan in physical design](powerplancalculations.JPG)
+![powerplan in physical design](docs/IC/50-数字EDA/attachments/Power%20Plan/powerplancalculations.JPG)
 
 ------
 
 
-![powerplan](subblock.JPG)
+![powerplan](docs/IC/50-数字EDA/attachments/Power%20Plan/subblock.JPG)
 
 ------
 
 
-![powerplan](fullchip.JPG)
+![powerplan](docs/IC/50-数字EDA/attachments/Power%20Plan/fullchip.JPG)
 
 ### UPF Contents
 
@@ -144,14 +144,14 @@ Power rings are formed for I/O cells and trunks are constructed between core pow
 ### Isolation cells
 
 - Powered off domains do not drive their outputs anymore and these outputs become floating nodes. This could be a problem when other active domains gets these floating nodes as input. It could result in crowbar current which affects the proper functioning of the powered up domain.
-  ![isolation cell](isolation.PNG)
+  ![isolation cell](docs/IC/50-数字EDA/attachments/Power%20Plan/isolation.PNG)
 - Isolation cells (also called “clamps”) keep the turned off sub-block outputs at a predefined value. This is how the shut-down sub-block does not corrupt other active sub-block functionality.
 - Isolation cells are powered by a constant supply and drive 0, 1 or latch the old value of the turned off domain.
 - Isolation cells pass logic values during the normal mode of operation, but clamp it to some specified value when a control signal is asserted.
 - Isolation cell clamps the output of powered down block to a specified value (‘0’, ‘1’, last)
   - Gate type clamp cells (AND, OR)
   - Transistor type clamp (pull-up, pull-down)
-    ![isolation cell](iso.JPG)
+    ![isolation cell](docs/IC/50-数字EDA/attachments/Power%20Plan/iso.JPG)
 
 ------
 
@@ -161,11 +161,11 @@ Power rings are formed for I/O cells and trunks are constructed between core pow
 - Necessary as most low-power designs have multi-voltage domains and/or employ dynamic voltage scaling.
 - A level shifter swings a logic value in one voltage domain to the same logic value in another voltage domain.
 - An ‘Up’ level shifter swings a logic value from a lower voltage domain to the same logic value in a higher voltage domain.
-- A ‘Down’ level shifter swings a logic value from a higher voltage domain to the same logic value in a lower voltage domain. ![level shifter cell](LevelShifter.png)
+- A ‘Down’ level shifter swings a logic value from a higher voltage domain to the same logic value in a lower voltage domain. ![level shifter cell](docs/IC/50-数字EDA/attachments/Power%20Plan/LevelShifter.png)
 
 #### Internal circuit of level shifter.
 
-![level shifter cell](LevelShifterinternal.JPG)
+![level shifter cell](docs/IC/50-数字EDA/attachments/Power%20Plan/LevelShifterinternal.JPG)
 
 ------
 
@@ -177,7 +177,7 @@ Power rings are formed for I/O cells and trunks are constructed between core pow
 - Retention registers save state information before a power domain is switched off and restore it when the power is turned back on.
 - Retention registers comprise of two circuits.
   - Standard register logic, supplied by primary power VDD
-  - Shadow latch retention circuitry, with alternate supply VDDB ![retention cell](retention.JPG)
+  - Shadow latch retention circuitry, with alternate supply VDDB ![retention cell](docs/IC/50-数字EDA/attachments/Power%20Plan/retention.JPG)
   - SAVE – transfers FF content into shadow latch during shutdown
   - RESTORE – transfers state from shadow latch to FF when powered back on
 
@@ -185,7 +185,7 @@ Power rings are formed for I/O cells and trunks are constructed between core pow
 
 - Power switches are required to Gate the power supply of gated domain when not required. power switches are MT-CMOS (Multi Threshold) cells, which will have very high threshold voltage when device is OFF & very low threshold voltage when deviceis ON.
 
-![powerswitch cell](powerswitch.JPG)
+![powerswitch cell](docs/IC/50-数字EDA/attachments/Power%20Plan/powerswitch.JPG)
 
 
 
@@ -200,7 +200,7 @@ There are 2 types of power switches
 1. header and
 2. footer
 
-![powerswitch cell](headerfooterswitch.JPG)
+![powerswitch cell](docs/IC/50-数字EDA/attachments/Power%20Plan/headerfooterswitch.JPG)
 **Header**
 
 - The header switch is implemented by PMOS transistors to control Vdd supply.
@@ -233,8 +233,8 @@ There are 2 types of power switches
 - Generally gate or latch or flip flop based block gating cells are used for implementing clock gating.
 - 50% of dynamic power is due to clock buffer. Since clock has highest toggle rate and often have higher drive strength to minimize clock delay. And the flops receive clocks dissipates some dynamic power even if input and output remains the same. Also clock buffer tree consumes power. One of the techniques to lower the dynamic power is clock gating.
 - In load enabled flops, the output of the flops switches only when the enable is on. But clock switches continuously, increasing the dynamic power consumption.
-- By converting load enable circuits to clock gating circuit dynamic power can be reduced. Normal clock gating circuit consists of an AND gate in the clock path with one input as enable. But when enable becomes one in between positive level of the clock a glitch is obtained. ![clock gating](clockgating.JPG)
-- To remove the glitches due to AND gate, integrated clock gate is used. It has a negative triggered latch and an AND gate. ![clock gating](clockgating1.JPG)
+- By converting load enable circuits to clock gating circuit dynamic power can be reduced. Normal clock gating circuit consists of an AND gate in the clock path with one input as enable. But when enable becomes one in between positive level of the clock a glitch is obtained. ![clock gating](docs/IC/50-数字EDA/attachments/Power%20Plan/clockgating.JPG)
+- To remove the glitches due to AND gate, integrated clock gate is used. It has a negative triggered latch and an AND gate. ![clock gating](docs/IC/50-数字EDA/attachments/Power%20Plan/clockgating1.JPG)
 - Clock gating makes design more complex. Timing and CG timing closure becomes complex. Clock gating adds more gates to the design. Hence min bit width (minimum register bit width to be clock gated) should be wisely chosen, because the overall dynamic power consumption may increase.
 
 **Voltage and Frequency Scaling:**
@@ -268,7 +268,7 @@ The power dissipation is classified in two categories:
 ### Static Power Dissipation:
 
 In this class, power will be dissipated irrespective of frequency and switching of the system. It is continuous and has become more dominant at lower node technologies. The structure and size of the device results in various leakage currents.
-![static power dissipation](static.JPG)
+![static power dissipation](docs/IC/50-数字EDA/attachments/Power%20Plan/static.JPG)
 Few reasons for static power dissipation are:
 
 - Sub-threshold current
@@ -283,7 +283,7 @@ Its hard to find the accurate amount of leakage currents but it mainly depends o
 There are two reasons of dynamic power dissipation; Switching of the device and short circuit path from supply (VDD) to ground (VSS). This occurs during operation of the device. Signals change their logic state charging and discharging of output mode capacitor.
 
 **Short-circuit Power Dissipation:**
-![short circuit](shortcircuit.JPG)
+![short circuit](docs/IC/50-数字EDA/attachments/Power%20Plan/shortcircuit.JPG)
 Because of slower input transition, there will be certain duration of time “t”, for which both the devices (PMOS and NMOS) are turned ON. Now, there is a short circuit path from VDD to VSS. This short circuit power is given by:
 
 **Pshort-circuit = Vdd. Isc. t
@@ -291,7 +291,7 @@ Because of slower input transition, there will be certain duration of time “t�
 **where, Vdd – Supply voltage, Isc – Short-circuit current and t – Short-circuit time. Short-circuit power is directly proportional to rise time and fall time.
 
 **Switching Power Dissipation:**
-![switching power](switchingpd.JPG)
+![switching power](docs/IC/50-数字EDA/attachments/Power%20Plan/switchingpd.JPG)
 Energy is drawn from the power supply to charge up the output mode capacitance. Charging up of the output cap causes transition from 0V to VDD. So, the power dissipated during charging and discharging of total load [output capacitance + net capacitance + input capacitance of driven cell(s)] is called Switching power dissipation. The switching power is given by:
 
 **Pswitch = α·VDD2 · Cload·f**
@@ -339,7 +339,7 @@ When a high density of current is flowing through metal layers, the atoms (elect
 In higher technology nodes we saw the EM on power and clock metal layers but now in lower nodes the signal metal layers are also needed to be analyzes due to an increased amount of current density.
 clock nets are more prone to EM because they have high switching activity because of this only we are avoiding to use high drive strength clock buffers to build the clock tree.
 
-![electromigration](electromigration.JPG)
+![electromigration](docs/IC/50-数字EDA/attachments/Power%20Plan/electromigration.JPG)
 
 **Methods to solve EM**
 

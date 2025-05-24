@@ -11,31 +11,31 @@
 
 
 - Linux 命令行
-  - [初识 Linux Shell](docs/software-engineering/09-tool/01-shell-cmd/commandLine/shell_first_view)
-  - [更多实用命令](docs/software-engineering/09-tool/01-shell-cmd/commandLine/more_command)
-  - [理解 Shell](docs/software-engineering/09-tool/01-shell-cmd/commandLine/understand_shell)
-  - [Linux 环境变量](docs/software-engineering/09-tool/01-shell-cmd/commandLine/linux_env)
-  - [理解 Linux 文件权限](docs/software-engineering/09-tool/01-shell-cmd/commandLine/security)
-  - [管理文件系统](docs/software-engineering/09-tool/01-shell-cmd/commandLine/file_system)
+  - [初识 Linux Shell](docs/software-engineering/09-tool/01-shell-cmd/commandLine/shell_first_view.md)
+  - [更多实用命令](docs/software-engineering/09-tool/01-shell-cmd/commandLine/more_command.md)
+  - [理解 Shell](docs/software-engineering/09-tool/01-shell-cmd/commandLine/understand_shell.md)
+  - [Linux 环境变量](docs/software-engineering/09-tool/01-shell-cmd/commandLine/linux_env.md)
+  - [理解 Linux 文件权限](docs/software-engineering/09-tool/01-shell-cmd/commandLine/security.md)
+  - [管理文件系统](docs/software-engineering/09-tool/01-shell-cmd/commandLine/file_system.md)
 
 - 基础 Shell 编程
 
-  - [初识脚本编程](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/shell_basic)
-  - [脚本结构化命令](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/structured_command)
-  - [更多的结构化命令](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/more_structured_command)
-  - [处理输入](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/shell_input)
-  - [处理输出](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/shell_output)
-  - [控制 Shell 脚本](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/shell_control)
+  - [初识脚本编程](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/shell_basic.md)
+  - [脚本结构化命令](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/structured_command.md)
+  - [更多的结构化命令](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/more_structured_command.md)
+  - [处理输入](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/shell_input.md)
+  - [处理输出](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/shell_output.md)
+  - [控制 Shell 脚本](docs/software-engineering/09-tool/01-shell-cmd/shellBasic/shell_control.md)
 
 - 进阶 Shell 编程
 
-  - [函数](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/shell_function)
-  - [图形化脚本编程](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/shell_GUI)
-  - [初识 sed 和 gawk](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/sed_gawk_basic)
-  - [正则表达式](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/regular_expression)
-  - [sed 进阶](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/more_sed)
-  - [gawk 进阶](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/more_gawk)
-  - [使用其它 shell](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/other_shell)
+  - [函数](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/shell_function.md)
+  - [图形化脚本编程](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/shell_GUI.md)
+  - [初识 sed 和 gawk](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/sed_gawk_basic.md)
+  - [正则表达式](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/regular_expression.md)
+  - [sed 进阶](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/more_sed.md)
+  - [gawk 进阶](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/more_gawk.md)
+  - [使用其它 shell](docs/software-engineering/09-tool/01-shell-cmd/shellAdvanced/other_shell.md)
 
 - Shell 脚本实战
 

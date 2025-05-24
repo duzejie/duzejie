@@ -89,7 +89,7 @@ $$
 
 这个公式的图形如下图所示。
 
-![](docs/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/attachments/maximum-likelihood-estimation/612f5f97d75d411875080add7ce53524_MD5.png)
+![](docs/AI/机器学习/ML/attachments/maximum-likelihood-estimation/612f5f97d75d411875080add7ce53524_MD5.png)
 
 从图中可以看出：参数$\theta$为0.6时，似然函数最大，参数为其他值时，“6正4反”发生的概率都相对更小。
 

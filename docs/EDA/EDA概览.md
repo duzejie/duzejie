@@ -1,5 +1,5 @@
 
-[EDA术语](EDA术语.md)
+[EDA术语](docs/EDA/EDA术语.md)
 
 ## **1. 从海湾战争说起**
 
@@ -32,13 +32,13 @@
 
 考虑到 EDA 和芯片紧密相关，所以芯片内容也稍微展开介绍一下：
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/fe06e8532488122cd0e2619df36c084d_MD5.png)
+![](docs/EDA/attachments/EDA概览/fe06e8532488122cd0e2619df36c084d_MD5.png)
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/d7ecdec8161a8a41b113bbe0c2b26c96_MD5.png)
+![](docs/EDA/attachments/EDA概览/d7ecdec8161a8a41b113bbe0c2b26c96_MD5.png)
 
 _进一步展开：_  
 
-_![](attachments/EDA%E6%A6%82%E8%A7%88/8edbb77cc60081c5404f33e12ffc51f3_MD5.png)以上图片来源网络_
+_![](docs/EDA/attachments/EDA概览/8edbb77cc60081c5404f33e12ffc51f3_MD5.png)以上图片来源网络_
 
 ## **4.TCAD**  
 
@@ -56,9 +56,9 @@ GAAFET: Gate All Around FET(全栅场效应晶体管)
 
 CMOS: Complementary Metal-Oxide-Semiconductor Transistor 互补金属氧化物半导体，区别 “感光元器件”
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/fc0591a3ec4e012bd724d88402caa27f_MD5.png)
+![](docs/EDA/attachments/EDA概览/fc0591a3ec4e012bd724d88402caa27f_MD5.png)
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/691128e5ba63e75715762125d3872604_MD5.png)
+![](docs/EDA/attachments/EDA概览/691128e5ba63e75715762125d3872604_MD5.png)
 
 _以上图片来源于网络_
 
@@ -74,7 +74,7 @@ TCAD 数值计算中的 PDE 为漂移 - 扩散方程，该方程是用来描述�
 
 简单理解就是单位面积的晶体管数量越多，其计算能力就越强。下图展示了不同时期 Intel 处理器上晶体管的数量。横轴是时间，竖轴是晶体管数量。
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/5d08e506ee710b1496cb167de4a71a65_MD5.png)
+![](docs/EDA/attachments/EDA概览/5d08e506ee710b1496cb167de4a71a65_MD5.png)
 
 更多关于晶体管信息参考：  
 
@@ -84,9 +84,9 @@ TCAD 数值计算中的 PDE 为漂移 - 扩散方程，该方程是用来描述�
 
 ## **5. 复习电磁波**
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/50672d753ce07bf26cf74544a8c61ecd_MD5.png)
+![](docs/EDA/attachments/EDA概览/50672d753ce07bf26cf74544a8c61ecd_MD5.png)
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/26b58ad26f1511ad8850a9bdeaf443c8_MD5.png)
+![](docs/EDA/attachments/EDA概览/26b58ad26f1511ad8850a9bdeaf443c8_MD5.png)
 
 1864 年，英国科学家麦克斯韦在总结前人研究电磁现象的基础上，建立了完整的电磁波理论。他断定电磁波的存在，推导出电磁波与光具有同样的传播速度。
 
@@ -104,7 +104,7 @@ _以上信息来源于网络_
 
 计算电磁学 CEM（computational electromagnetics）是笔者在研发过程中认为最复杂的物理场，难度在 CFD 和计算材料学之上。计算电磁学的复杂主要表现在物理场抽象，计算规模大，同时求解方法众多，涉及到大量的底层技术知识，电磁波在不同频率上所表现的特质完全不同。电磁求解的 PDEs(偏微分方程组) 是麦克斯韦方程组：
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/a89d7239adfc090e286c947b924170cb_MD5.png)
+![](docs/EDA/attachments/EDA概览/a89d7239adfc090e286c947b924170cb_MD5.png)
 
 求解电磁学可分为三类：解析法，数值法，以及半解析半数值。
 
@@ -156,21 +156,21 @@ IC(Integrated Circuit) 一般指集成电路，是一种微型电子器件，IC 
 
 PCB(Printed Circuit Board) 也就是常说的印制电路板，是电子元器件电气相互连接的载体。印刷电路板从单面板发展到多面板，其所具备的性能越来越强大，在智能电子设备生产中占据着重要的地位
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/783c5851ef70e3d75e676398e1005ac8_MD5.png)
+![](docs/EDA/attachments/EDA概览/783c5851ef70e3d75e676398e1005ac8_MD5.png)
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/324b6f5eecfb8ca4759f73e3e6828d2e_MD5.png)
+![](docs/EDA/attachments/EDA概览/324b6f5eecfb8ca4759f73e3e6828d2e_MD5.png)
 
 _以上图片来源于网络_  
 
 ## **9. 研发人员需要了解什么**
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/a72129974b10735bc078532db30eb7b5_MD5.png)
+![](docs/EDA/attachments/EDA概览/a72129974b10735bc078532db30eb7b5_MD5.png)
 
 上图是多次提到的工业软件研发内容，和 EDA 的研发内容其实也高度吻合，比如 CST，HFSS 都需要三维几何内核和显示引擎，使用有限元方法需要网格系统和求解大规模线性方程组，设计无一例外的需要优化算法，比如布线，参数扫描。而类似扫频功能天然适合 HPC 高性能计算。AI 已经应用到 PCB 布线功能中。
 
 最后再强调下，文件介绍主要针对工业软件的研发人员，属于科普性质，因此在很多领域描述并不详尽或准确，尤其是涉及到半导体材料，工艺，产业链，行业发展历史以及设计仿真具体相关内容。
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/b58359db2e64c97d37ab3755c3910dfa_MD5.png)
+![](docs/EDA/attachments/EDA概览/b58359db2e64c97d37ab3755c3910dfa_MD5.png)
 
 ## **10 . 什么是封装？**
 
@@ -182,15 +182,15 @@ _以上图片来源于网络_
 
 传统工艺一般都是 2D 或 2.5D 封装，但随着对芯片功耗，小型化以及工艺的提升，目前主流封装采用三维封装。
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/a4e58ebea164bad67362b33fc1604fe3_MD5.png)
+![](docs/EDA/attachments/EDA概览/a4e58ebea164bad67362b33fc1604fe3_MD5.png)
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/24363ac890e69a6da04f38c44eb66b10_MD5.png)
+![](docs/EDA/attachments/EDA概览/24363ac890e69a6da04f38c44eb66b10_MD5.png)
 
 通过三维封装技术可以大幅度缩小电子产品尺寸和减轻重量，降低功耗。
 
 一张图解释：
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/913cd2f3da0fa862b3bff67292c2dfc8_MD5.png)
+![](docs/EDA/attachments/EDA概览/913cd2f3da0fa862b3bff67292c2dfc8_MD5.png)
 
 常用的封装架构有：
 
@@ -267,6 +267,6 @@ Sign-Off 字面意思是签收，简单理解就是交付。事情全部做完�
 
 一般认为全球 SIMENS，CADENCE，SYNOPSYS 三大公司是 EDA 厂商第一梯队，最近（2022 年）ANSYS 自己表示也已进入 EDA 第一梯队。
 
-![](attachments/EDA%E6%A6%82%E8%A7%88/2f832c7e54e00a76e30b7d7d32ec6ffa_MD5.png)
+![](docs/EDA/attachments/EDA概览/2f832c7e54e00a76e30b7d7d32ec6ffa_MD5.png)
 
 最后再强调下，文件介绍主要针对工业软件的研发人员，属于科普性质，因此在很多领域描述并不详尽或准确，红色标注的是关键字，需要进一步了解可以用作关键字查询。

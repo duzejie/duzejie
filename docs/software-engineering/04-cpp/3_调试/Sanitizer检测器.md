@@ -5,7 +5,7 @@ C/C++ 提供了直接操作内存的强大能力，然而使用不当也会招�
 >"Around 70% of our high severity security bugs are memory unsafety problems (that is, mistakes with C/C++ pointers). Half of those are use-after-free bugs."
 
 
- Sanitizer 工具来帮助工程师快速排查与定位内存问题，提高生产力，它包括了[[AddressSanitizer]]、[[MemorySanitizer]]、[[ThreadSanitizer]]、[[LeakSanitizer]]等多种工具。这些工具最初是LLVM项目的一部分，后来也被GNU的GCC编译器支持。从GCC的4.8版本开始，就已经支持AddressSanitizer和ThreadSanitizer，而4.9版本则开始支持LeakSanitizer。
+ Sanitizer 工具来帮助工程师快速排查与定位内存问题，提高生产力，它包括了[[docs/software-engineering/04-cpp/3_调试/AddressSanitizer]]、[[docs/software-engineering/04-cpp/3_调试/MemorySanitizer]]、[[docs/software-engineering/04-cpp/3_调试/ThreadSanitizer]]、[[docs/software-engineering/04-cpp/3_调试/LeakSanitizer]]等多种工具。这些工具最初是LLVM项目的一部分，后来也被GNU的GCC编译器支持。从GCC的4.8版本开始，就已经支持AddressSanitizer和ThreadSanitizer，而4.9版本则开始支持LeakSanitizer。
 链接：https://github.com/google/sanitizers/wiki/
 
 
@@ -13,7 +13,7 @@ C/C++ 提供了直接操作内存的强大能力，然而使用不当也会招�
 
 Google的sanitizers一共有5种：
 
-- [[AddressSanitizer]] (检查寻址问题) ：包含LeakSanitizer (检查内存泄漏问题)
+- [[docs/software-engineering/04-cpp/3_调试/AddressSanitizer]] (检查寻址问题) ：包含LeakSanitizer (检查内存泄漏问题)
 - ThreadSanitizer：检查数据竞争和死锁问题（支持C++和Go）
 - MemorySanitizer：检查使用未初始化的内存问题
 - HWASAN（Hardware-assisted AddressSanitizer）：AddressSanitizer的变种，相比AddressSanitizer消耗的内存更少。

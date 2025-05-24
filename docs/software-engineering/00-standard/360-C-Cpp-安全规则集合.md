@@ -1,6 +1,6 @@
 <img src="logo.png" align="right"/>
 
-# C/C++ 安全规则集合 ![Version](docs/software-engineering/00-standard/attachments/360-C-Cpp-%E5%AE%89%E5%85%A8%E8%A7%84%E5%88%99%E9%9B%86%E5%90%88/d95349c65cefac7c356575612f4d3b24_MD5.svg)
+# C/C++ 安全规则集合 ![Version](docs/software-engineering/00-standard/attachments/360-C-Cpp-安全规则集合/d95349c65cefac7c356575612f4d3b24_MD5.svg)
 
 > Bjarne Stroustrup: “*C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.*”
 

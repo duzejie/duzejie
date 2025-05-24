@@ -11,7 +11,7 @@
 - Spare Cells for ECO and Decaps for avoiding Instantaneous Voltage Drop (IVD)
 - Place Decaps closer to Power Pads or any larger Drivers
 
-![pre placement in physical design](preplacement.JPG)
+![pre placement in physical design](docs/IC/50-数字EDA/attachments/Placement/preplacement.JPG)
 
 ### Cell Padding 
 
@@ -57,7 +57,7 @@ Note: Take care of don’t use cells while doing optimization
   
 - Placement will be driven by different criteria like timing driven, congestion driven and power optimization.
 
-![placement in physical design](placement.JPG)
+![placement in physical design](docs/IC/50-数字EDA/attachments/Placement/placement.JPG)
 
 Automated Standard Cell Placement for placing the Standard Cells in Placement Tracks
 
@@ -93,7 +93,7 @@ Only Setup Time check, since buffers are getting added during Clock Tree Synthes
 - Library files (.lib & .lef) & TLU+ file
 - Floorplan & Powerplan DEF file
 
-![placement goals](placementsteps1.JPG)
+![placement goals](docs/IC/50-数字EDA/attachments/Placement/placementsteps1.JPG)
 
 ------
 
@@ -136,7 +136,7 @@ Only Setup Time check, since buffers are getting added during Clock Tree Synthes
 
 ------
 
-![placement in physical design](placementsteps.JPG)
+![placement in physical design](docs/IC/50-数字EDA/attachments/Placement/placementsteps.JPG)
 
 ------
 
@@ -214,10 +214,10 @@ Only Setup Time check, since buffers are getting added during Clock Tree Synthes
 **Pin Swapping**
 
 **Optimization techniques**
-![placement optimization](placeopt.JPG)
+![placement optimization](docs/IC/50-数字EDA/attachments/Placement/placeopt.JPG)
 
 **Timing Optimization techniques**
-![placement optimization](placeopttime.JPG)
+![placement optimization](docs/IC/50-数字EDA/attachments/Placement/placeopttime.JPG)
 
 
 

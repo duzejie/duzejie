@@ -32,7 +32,7 @@ Ref:
 5. 如果依赖其他静态库，其他静态库编译时必须指定-fPIC（如果不是请重编）
 
 ## 其它工具
-[[cpp-debug工具]]
+[[docs/software-engineering/04-cpp/3_调试/cpp-debug工具]]
 
 
 

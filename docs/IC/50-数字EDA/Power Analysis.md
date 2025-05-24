@@ -24,7 +24,7 @@
 - **Short Circuit Power (Crowbar Power/ EM Rush Through Power):** Finite non-zero rise and fall times of transistors which causes a direct current path between the Power and Ground`
 
 - Static/ Leakage Power Analysis
-- Dynamic Power Analysis ![power analysis](poweranalysis.JPG)
+- Dynamic Power Analysis ![power analysis](docs/IC/50-数字EDA/attachments/Power%20Analysis/poweranalysis.JPG)
 - With Shrinking technology Static leakage increases which results in more focus in Reducing leakage power for advanced technologies
 
 ------
@@ -104,7 +104,7 @@ where
 
 #### **Dynamic Power Reduction Techniques**
 
-![dynamic power reduction](reduction.JPG)
+![dynamic power reduction](docs/IC/50-数字EDA/attachments/Power%20Analysis/reduction.JPG)
 
 
 
@@ -118,4 +118,4 @@ where
 - Clock Gating logic is generally in the form of "Integrated clock gating" (ICG)
 - Sequential clock gating is the process of extracting/propagating the enable conditions to the upstream/downstream sequential elements, so that additional registers can be clock gated
 - As the granularity on which you gate the clock of a synchronous circuit approaches zero, the power consumption of that circuit approaches that of an asynchronous circuit: the circuit only generates logic transitions when it is actively computing
-  ![power analysis](cgate.JPG)
+  ![power analysis](docs/IC/50-数字EDA/attachments/Power%20Analysis/cgate.JPG)

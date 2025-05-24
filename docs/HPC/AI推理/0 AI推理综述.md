@@ -34,7 +34,7 @@
 这里介绍一些部署常用到的框架，也是老潘使用过的，毕竟对于某些任务来说，自己造轮子不如用别人造好的轮子。
 
 
-[[常见推理框架]] 
+[[docs/HPC/AI推理/常见推理框架]] 
 
 
 ### 需要深度学习基础知识
@@ -66,7 +66,7 @@ AI部署当然也需要深度学习的基础知识，也需要知道怎么训练
 | 计算优化         | 偏向于挖掘芯片编译器的深度优化能力           | 利用引擎已有训练优化能力 |
 |                  |                                              |                          |
 
-![[Pasted image 20230601222756.png|600]]
+![[docs/HPC/AI推理/attachments/Pasted image 20230601222756.png|600]]
 
 
 
@@ -142,7 +142,7 @@ AI部署的基本步骤：
 
 之前有个比较火的RepVgg[15]——**Making VGG-style ConvNets Great Again**就是用了这个想法，是工业届一个**非常solid**的工作。部分思想与很多深度学习推理框架的算子融合有异曲同工之处。
 
-![[Pasted image 20230601230746.png]]
+![[docs/HPC/AI推理/attachments/Pasted image 20230601230746.png]]
 
 老潘也在项目中使用了repvgg，在某些任务的时候，相对于ResNet来说，repvgg可以在相同精度上有更高的速度，还是有一定效果的。
 
@@ -194,7 +194,7 @@ def prune(model, amount=0.3):
 
 - Exploiting NVIDIA Ampere Structured Sparsity with cuSPARSELt[22]
 - How Sparsity Adds Umph to AI Inference[23]
-![[Pasted image 20230601230911.png]]
+![[docs/HPC/AI推理/attachments/Pasted image 20230601230911.png]]
 最近的TensorRT8是支持直接导入稀疏化模型的，目前支持`Structured Sparsity`结构。如果有30系列卡和TensorRT8的童鞋可以尝试尝试~
 
 并且英伟达官方提供了基于Pytorch的自动稀疏化工具——Automatic SParsity[24]，总的流程来说就是：
@@ -263,7 +263,7 @@ NVIDIA官方提供了Pytorch的量化训练框架包，目前虽然不是很完�
 [(19 封私信) 深度学习框架现在支持半精度训练了吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/306508382)
 
 
-![[Pasted image 20230602170735.png]]
+![[docs/HPC/AI推理/attachments/Pasted image 20230602170735.png]]
 
 
 **BF16浮点数在格式，介于FP16和FP32之间。（FP16和FP32是 IEEE 754-2008定义的16位和32位的浮点数格式。）**
@@ -293,7 +293,7 @@ NVIDIA官方提供了Pytorch的量化训练框架包，目前虽然不是很完�
 
 
 ---
-[[pytorch部署]]
+[[docs/HPC/AI推理/pytorch部署]]
 
 
 [图解 72 个机器学习基础知识点 (qq.com)](https://mp.weixin.qq.com/s?__biz=MzI4MDE1NjExMQ==&mid=2247500788&idx=1&sn=fc984a9c61ec060df9c8ac8cac5df9fc&chksm=ebbe4154dcc9c8425456bf5546c05b64d677309cb5ac15e6029c9779fb40eede85a967c266a8&scene=132#wechat_redirect)

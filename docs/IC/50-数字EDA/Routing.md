@@ -11,7 +11,7 @@
 - Lateral (sidewall) and fringing components of capacitance start to dominate the total capacitance of the interconnect
 - Interconnect capacitance dominates total Gate loading
 
-![routing in physical design](shrink.JPG)
+![routing in physical design](docs/IC/50-数字EDA/attachments/Routing/shrink.JPG)
 
 
 
@@ -30,7 +30,7 @@
 
 ### Routing 
 
-![routing in physical design](routing.JPG)
+![routing in physical design](docs/IC/50-数字EDA/attachments/Routing/routing.JPG)
 
 - Making physical connections between signal pins using metal layers are called Routing. Routing is the stage after CTS and optimization where exact paths for the interconnection of standard cells and macros and I/O pins are determined. Electrical connections using metals and vias are created in the layout, defined by the logical connections present in the netlist (i.e. Logical connectivity converted as physical connectivity).
 - After CTS, we have information of all the placed cells, blockages, clock tree buffers/inverters and I/O pins. The tool relies on this information to electrically complete all connections defined in the netlist such that:
@@ -83,7 +83,7 @@
 
 The different tasks that are performed in the routing stage are as follows:
 
-![routing flow in physical design](routingflow.JPG)
+![routing flow in physical design](docs/IC/50-数字EDA/attachments/Routing/routingflow.JPG)
 
 ------
 
@@ -113,7 +113,7 @@ The different tasks that are performed in the routing stage are as follows:
 
 ### Detail/Nano Routing 
 
-![routing in physical design](detailed.JPG)
+![routing in physical design](docs/IC/50-数字EDA/attachments/Routing/detailed.JPG)
 
 - Detailed routing follows up with the track routed net segments and performs the complete DRC aware and timing driven routing
 - It is the final routing for the design built after the CTS and the timing is freeze
@@ -124,7 +124,7 @@ The different tasks that are performed in the routing stage are as follows:
 
 ### Grid Based Routing 
 
-![routing in physical design](grid.JPG)
+![routing in physical design](docs/IC/50-数字EDA/attachments/Routing/grid.JPG)
 
 - Metal traces (routes) are built along and centered upon routing tracks on the grid points
 - Various types of grids are Manufacturing Grid, Routing Grid (Pitch) and Placement Grid
@@ -144,7 +144,7 @@ The different tasks that are performed in the routing stage are as follows:
   - Wire segments can cross wires on other layers
   - Power and Ground have their own layers, mostly the top layers
 
-![routing in physical design](manhattan.JPG)
+![routing in physical design](docs/IC/50-数字EDA/attachments/Routing/manhattan.JPG)
 
 - Layer Routing directions: Each metal layer has its own preferred routing direction and are defined in a technology rule file
 
@@ -177,7 +177,7 @@ The different tasks that are performed in the routing stage are as follows:
   - Same layer shielding
   - Adjacent layer/ Coaxial shielding
 
-![routing in physical design](signal.JPG)
+![routing in physical design](docs/IC/50-数字EDA/attachments/Routing/signal.JPG)
 
 ------
 

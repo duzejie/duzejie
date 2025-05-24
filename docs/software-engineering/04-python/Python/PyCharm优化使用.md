@@ -10,15 +10,15 @@
 
 点击 Project --> Project Interpreter，在右侧 Project Interpreter 下拉，选择 python 路径（若没有，选择 show all），实现 pycharm的 python 路径设置。
 
-![image-20200517235214785](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/59bd49dac44157d0caeaa9de223917cd_MD5.png)
+![image-20200517235214785](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/59bd49dac44157d0caeaa9de223917cd_MD5.png)
 
 然后如下图操作即可
 
-![image-20200517235401232](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/2e566e9a0da4d6f62654af9aee096bbd_MD5.png)
+![image-20200517235401232](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/2e566e9a0da4d6f62654af9aee096bbd_MD5.png)
 
 设置成功显示下图
 
-![image-20200517235457258](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/e067fa242ddd8abaeced552aa617f948_MD5.png)
+![image-20200517235457258](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/e067fa242ddd8abaeced552aa617f948_MD5.png)
 
 ## 编码设置
 
@@ -29,7 +29,7 @@ Python 的编码问题由来已久，为了避免一步一坑， Pycharm 提供�
 #-*- coding: utf-8 -*
 ```
 
-![image-20200518000023055](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/b1074225640184d29cb29d2530fe4ec9_MD5.png)
+![image-20200518000023055](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/b1074225640184d29cb29d2530fe4ec9_MD5.png)
 
 ## 快捷键风格
 
@@ -37,7 +37,7 @@ Python 的编码问题由来已久，为了避免一步一坑， Pycharm 提供�
 
 File --> Setting --> Keymap --> Keymaps --> XXX --> Apply
 
-![image-20200518000651606](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/d208e44e221495a485cf13d4bed1feb4_MD5.png)
+![image-20200518000651606](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/d208e44e221495a485cf13d4bed1feb4_MD5.png)
 
 ## 改变字体大小
 
@@ -55,7 +55,7 @@ File --> Setting --> Keymap --> Keymaps --> XXX --> Apply
 
 File --> Setting --> Editor --> General
 
-![image-20200518001247655](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/284836e34c186bfe9cf09d9c00ac95dc_MD5.png)
+![image-20200518001247655](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/284836e34c186bfe9cf09d9c00ac95dc_MD5.png)
 
 ## 文件模板
 
@@ -91,17 +91,17 @@ File --> Settings --> Editor --> File and Code Templates --> Python Scripts
 
 如图：
 
-![image-20200518084010759](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/e49ef346dfd82e205c5779329a806351_MD5.png)
+![image-20200518084010759](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/e49ef346dfd82e205c5779329a806351_MD5.png)
 
 测试：
 
-![image-20200518084104834](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/8985af8ea3be7f8a1193dc4e05792b23_MD5.png)
+![image-20200518084104834](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/8985af8ea3be7f8a1193dc4e05792b23_MD5.png)
 
 ## 设置提示函数及其参数和使用
 
 File --> Settings --> Editor --> Code Completion
 
-![image-20200518104823559](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/5cba7de6287977b5ecd17c4a3545bead_MD5.png)
+![image-20200518104823559](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/5cba7de6287977b5ecd17c4a3545bead_MD5.png)
 
 鼠标放到函数名或者按住 ctrl 即可查看
 
@@ -109,7 +109,7 @@ File --> Settings --> Editor --> Code Completion
 
 File --> Settings --> Editor --> Code Completion
 
-![image-20200518110552692](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/6379daff23a3c7079125803fcc1f0510_MD5.png)
+![image-20200518110552692](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/6379daff23a3c7079125803fcc1f0510_MD5.png)
 
 ## 打出表情符号
 
@@ -117,4 +117,4 @@ File --> Settings --> Editor --> Code Completion
 
 效果图：
 
-![image-20200520161932850](docs/software-engineering/04-python/Python/attachments/PyCharm%E4%BC%98%E5%8C%96%E4%BD%BF%E7%94%A8/b889ac00430524d5e41b087e1997fd9e_MD5.png)
+![image-20200520161932850](docs/software-engineering/04-python/Python/attachments/PyCharm优化使用/b889ac00430524d5e41b087e1997fd9e_MD5.png)

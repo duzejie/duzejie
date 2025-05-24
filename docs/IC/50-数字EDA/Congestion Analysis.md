@@ -52,7 +52,7 @@
 - Module splitting
 
 
-![congestion in physical design](congestion.JPG)
+![congestion in physical design](docs/IC/50-数字EDA/attachments/Congestion%20Analysis/congestion.JPG)
 
 
 ------
@@ -66,12 +66,12 @@
 - Continue the iterations until good congestion results
 - Density screen is applied to limit the density of standard cells in an area to reduce congestion due high pin density 
 
-![congestion fixes in physical design](congestion1.JPG)
+![congestion fixes in physical design](docs/IC/50-数字EDA/attachments/Congestion%20Analysis/congestion1.JPG)
 
 
 ------
 
-- Routing congestion, results when too many routes need to go through an area with insufficient “routing tracks” to accommodate them ![routing cpngestion](congestion2.JPG)
+- Routing congestion, results when too many routes need to go through an area with insufficient “routing tracks” to accommodate them ![routing cpngestion](docs/IC/50-数字EDA/attachments/Congestion%20Analysis/congestion2.JPG)
 - Two major categories: Global Congestion and Local Congestion
 	- **Global Congestion:** This occurs when there are a lot of chip-level or interblock wires that need to cross an area
 	- **Local Congestion:** This occurs when the floorplan has macros and other routing blockages that are too close together to get enough routes through to connect to the macros
@@ -80,4 +80,4 @@
 
 #### **Congestion Profiles**
 
-![congestion profiles, global local congestion](congestion3.JPG)
+![congestion profiles, global local congestion](docs/IC/50-数字EDA/attachments/Congestion%20Analysis/congestion3.JPG)

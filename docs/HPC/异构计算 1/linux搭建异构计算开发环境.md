@@ -67,7 +67,7 @@ Manjaro 提供了强大的硬件检测模块`mhwd`,可以很方便的安装各�
   > sudo vim /etc/default/grub
 
 - 给 “GRUB_CMLINE_LINUX_DEFAULT”添加你可以正常启动Linux的‘acpi_osi’参数，如图我用的是’Windows 2009’。
-  ![Grub](manjaro_grub.png)
+  ![Grub](docs/HPC/异构计算%201/attachments/linux搭建异构计算开发环境/manjaro_grub.png)
 
 - 更新Grub文件,即可永久解决不能启动图形界面的问题
 

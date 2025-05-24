@@ -12,7 +12,7 @@
 - Pads will have pins on all metal layers used in design for easy access while routing the design
 - Number of layers depends on technology
 - Multiple Power Pads are often used to reduce the power
-- Pads consists of some logic cells like level shifters and buffers which will control the voltages of input and output signals and to increase/ decrease drive strength ![physical design input output ports](iopads.JPG)
+- Pads consists of some logic cells like level shifters and buffers which will control the voltages of input and output signals and to increase/ decrease drive strength ![physical design input output ports](docs/IC/50-数字EDA/attachments/IO%20Design/iopads.JPG)
 
 **Structure of Pads**
 
@@ -20,7 +20,7 @@
   - Area to which the bond wire is soldered
   - The wire goes from the bonding pad to a chip pin
 - ESD (Electrostatic Discharge) protection circuitry consisting of a pair of big PMOS, NMOS in a reverse biased diode structure
-- Driving and Logic Circuitry for which the area of is designated ![pad in physical design](structure.JPG)
+- Driving and Logic Circuitry for which the area of is designated ![pad in physical design](docs/IC/50-数字EDA/attachments/IO%20Design/structure.JPG)
 
 
 **Implementation Guidelines**
@@ -32,7 +32,7 @@
 - Power supply pads must be evenly distributed
 - The number of Power Pads required are calculated based on the IO Signal Pads power requirement and Core Power requirement (IR drop limit)
 - No. of IO Power Pads required in a design, Thumb Rule: One Pair of Power Pads for every 4 or 6 Signal Pads
-- No. of Core Power Pads required in a design, ![IO Signals in physical design](equ.JPG)
+- No. of Core Power Pads required in a design, ![IO Signals in physical design](docs/IC/50-数字EDA/attachments/IO%20Design/equ.JPG)
 
 **Pad Limited design**
 
@@ -48,7 +48,7 @@
 - In these designs Inline IOs will be used
 - It can be either due to large no. of Macros the design or due to larger logic
 
-![core limited design pad limited design](paddesign.JPG)
+![core limited design pad limited design](docs/IC/50-数字EDA/attachments/IO%20Design/paddesign.JPG)
 
 
 
@@ -62,7 +62,7 @@
 - Output Pad
 - Bidirectional Pad
 
-![IO Pads ](types.JPG)
+![IO Pads ](docs/IC/50-数字EDA/attachments/IO%20Design/types.JPG)
 
 **Types of Pads according to Logic Styles**
 
@@ -80,7 +80,7 @@
 
 - Peripheral IO Pads
 - Area IO Pads
-  ![IO Pad location](iopads1.JPG)
+  ![IO Pad location](docs/IC/50-数字EDA/attachments/IO%20Design/iopads1.JPG)
 
 **Types of Pads according to Implementation Styles**
 
@@ -91,7 +91,7 @@
 - Flip Chip
 
 **Inline IO Pads**
-![Inline IO Pad](inline.JPG)
+![Inline IO Pad](docs/IC/50-数字EDA/attachments/IO%20Design/inline.JPG)
 
 - 
 
@@ -121,4 +121,4 @@
 - In Flip Chip, IO Bumps and driver cells may be placed in the peripheral or core area
 - Note, the large octagonal area IO Bumps overlaying placed cells in the core area
 - No chip area benefit for small chips – full Bump array redistribution is very difficult
-- In advanced technology nodes a separate Re-distribution layer (RDL) is make use of for the Bump connections ![flip chip](flip.JPG)
+- In advanced technology nodes a separate Re-distribution layer (RDL) is make use of for the Bump connections ![flip chip](docs/IC/50-数字EDA/attachments/IO%20Design/flip.JPG)

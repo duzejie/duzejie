@@ -3,5 +3,6 @@
   "attachmentFolderPath": "./attachments",
   "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "showUnsupportedFiles": true
 }

@@ -23,10 +23,10 @@
 
 #### Interconnect Delay Models
 
-![delay model](interconnect.JPG)
+![delay model](docs/IC/50-数字EDA/attachments/Delay%20Models/interconnect.JPG)
 
 
 
 #### Cell Delay Models
 
-![cell delay model](cell.JPG)
+![cell delay model](docs/IC/50-数字EDA/attachments/Delay%20Models/cell.JPG)

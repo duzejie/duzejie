@@ -1,7 +1,7 @@
 # docker
 * client-server 架构
 * `docker client`使用REST API，通过UDS或者network，与`dockerd`进行通信
-![Img](docs/software-engineering/05.%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6-%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%AE%B9%E5%99%A8%E5%8C%96/attachments/docker/3830530c6c57017aae22ca1b29f328f1_MD5.png)
+![Img](docs/software-engineering/05.常用组件-中间件/容器化/attachments/docker/3830530c6c57017aae22ca1b29f328f1_MD5.png)
 
 ## Docker Registries
 * 用来存储Docker Images
@@ -74,7 +74,7 @@
 ### Volumes/bind mounts/tmpfs
 * 作用：将容器中的数据持久化，volumes不会随着container销毁而消失
 * 图解：
-![Img](docs/software-engineering/05.%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6-%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%AE%B9%E5%99%A8%E5%8C%96/attachments/docker/5358cefba53c767096438c0b514ba7de_MD5.png)
+![Img](docs/software-engineering/05.常用组件-中间件/容器化/attachments/docker/5358cefba53c767096438c0b514ba7de_MD5.png)
 * 差异对比：
 |方式|管理方式中文名|目录位置|数据隔离|使用场景|
 |:----|:----|:----|:----|:----|
@@ -170,7 +170,7 @@ $ docker inspect --format '{{join .Args " , "}}'
 
 ## Build 镜像
 * client-server架构图：
-![Img](docs/software-engineering/05.%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6-%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%AE%B9%E5%99%A8%E5%8C%96/attachments/docker/2f80c6cca13b246f0417a216f17183a7_MD5.png)
+![Img](docs/software-engineering/05.常用组件-中间件/容器化/attachments/docker/2f80c6cca13b246f0417a216f17183a7_MD5.png)
 ### 传统build VS buildx
 * docker build 是 Docker 的标准构建命令
 * ✅ docker buildx build 是使用`docker buildkit`进行构建，支持多平台构建、并行构建，是下一代构建工具
@@ -299,7 +299,7 @@ $ docker inspect --format '{{join .Args " , "}}'
             * 并且会先启动shell作为1号进程，然后在shell环境下执行对应命令
             * docker stop 不够优雅，docker内的程序并不能基于外部的退出信号优雅退出
     * `CMD 和 ENTRYPOINT的组合`：
-    ![Img](docs/software-engineering/05.%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6-%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%AE%B9%E5%99%A8%E5%8C%96/attachments/docker/cae18f962c0ea6c28ad3b34c24ecb5d7_MD5.png)
+    ![Img](docs/software-engineering/05.常用组件-中间件/容器化/attachments/docker/cae18f962c0ea6c28ad3b34c24ecb5d7_MD5.png)
 
 * **RUN**
     * 通过执行命令，解决镜像构建过程中的依赖

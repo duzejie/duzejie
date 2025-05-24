@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/software-engineering/02-system/_sidebar.md",
-                "mode": "source",
+                "file": "docs/HPC/深入理解cache对写好代码至关重要.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_sidebar"
+              "title": "深入理解cache对写好代码至关重要"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/software-engineering/02-system/_sidebar.md",
+                "file": "docs/HPC/深入理解cache对写好代码至关重要.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "_sidebar 的反向链接列表"
+              "title": "深入理解cache对写好代码至关重要 的反向链接列表"
             }
           },
           {
@@ -159,17 +159,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "ed7f0623adcac6ca",
   "lastOpenFiles": [
+    "docs/EDA/EDA概览.md",
+    "docs/software-engineering/02-system/_sidebar.md",
+    "docs/EDA/EDA江湖/attachments/鸿芯微纳发展史",
+    "docs/tmp",
     "docs/software-engineering/_sidebar.md",
     "docs/Social-Science/_sidebar.md",
     "docs/IC/23-IC验证/数字IC验证.md",
@@ -198,8 +202,6 @@
     "docs/IC/gen_sidbar.py",
     "docs/IC/23-IC验证/功能验证.md",
     "docs/IC/23-IC验证/等价性验证.md",
-    "docs/IC/03-学习资源/数字IC后端资源汇总.md",
-    "docs/IC/03-学习资源/IC学习资源.md",
     "docs/HPC/AI推理/attachments/pytorch部署/1e3f9bf195b43defa8e6223ad6fe7327_MD5.png",
     "docs/HPC/AI推理/attachments/pytorch部署/7f42d09cfddd38071d8dcd4f0a9257af_MD5.png",
     "docs/HPC/AI推理/attachments/pytorch部署/8ed05eafa7003285f321207273332285_MD5.png",
@@ -213,8 +215,6 @@
     "docs/HPC/attachments/深入理解cache对写好代码至关重要",
     "docs/HPC/AI推理/attachments/常见推理框架",
     "docs/HPC/AI推理/attachments/pytorch部署",
-    "docs/HPC/异构计算 1/attachments/如何成为一名异构并行计算工程师",
-    "docs/HPC/异构计算 1/attachments/linux搭建异构计算开发环境",
-    "docs/HPC/异构计算 1/attachments"
+    "docs/HPC/异构计算 1/attachments/如何成为一名异构并行计算工程师"
   ]
 }

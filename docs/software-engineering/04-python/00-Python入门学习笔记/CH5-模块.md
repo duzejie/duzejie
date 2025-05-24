@@ -196,7 +196,7 @@ pip install Pillow
 
 耐心等待下载并安装后，就可以使用 Pillow 了。
 
-![image-20200720224346246](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/13ca792ba2d983b0cc248c482b851cb6_MD5.png)
+![image-20200720224346246](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/13ca792ba2d983b0cc248c482b851cb6_MD5.png)
 
 ### 5.2.1 安装常用模块
 
@@ -206,7 +206,7 @@ pip install Pillow
 
 安装好 Anaconda 后，重新打开命令行窗口，输入 python，可以看到 Anaconda 的信息：
 
-![image-20200720225025797](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/11c869e2ef5ba58bbedb0980d6fb71f2_MD5.png)
+![image-20200720225025797](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/11c869e2ef5ba58bbedb0980d6fb71f2_MD5.png)
 
 可以尝试直接`import numpy`等已安装的第三方模块。
 
@@ -280,7 +280,7 @@ turtle.done()
 
 效果：
 
-![Sep-122-2020 09-31-22](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/afd6486fa76673797d1d3d3632694150_MD5.gif)
+![Sep-122-2020 09-31-22](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/afd6486fa76673797d1d3d3632694150_MD5.gif)
 
 > ☎️ 拓展：
 
@@ -310,7 +310,7 @@ turtle.setup(width,height,startx,starty)
 
 
 
-![窗体](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/f5d327176a2e906a503dc520654e1427_MD5.png)
+![窗体](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/f5d327176a2e906a503dc520654e1427_MD5.png)
 
 
 
@@ -318,27 +318,27 @@ turtle.setup(width,height,startx,starty)
 
 #### ④ turtle 空间坐标体系
 
-![坐标系](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/f258a2d280906eff450a2d439226d122_MD5.png)
+![坐标系](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/f258a2d280906eff450a2d439226d122_MD5.png)
 
 
 
-![image-20200922110047817](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/4053b4fcc3e59ad023ec166c10503b72_MD5.png)
+![image-20200922110047817](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/4053b4fcc3e59ad023ec166c10503b72_MD5.png)
 
 
 
-![这个好](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/c66b43073b3f03965012d85dac554f33_MD5.png)
+![这个好](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/c66b43073b3f03965012d85dac554f33_MD5.png)
 
 #### ⑤ turtle 角度坐标体系
 
-![image-20200922110403533](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/e6f2af1038ec9d7a4042c45fe242d605_MD5.png)
+![image-20200922110403533](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/e6f2af1038ec9d7a4042c45fe242d605_MD5.png)
 
 改变运行角度：
 
-![image-20200922110505608](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/6861837ff055b96c6d89c6767b345547_MD5.png)
+![image-20200922110505608](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/6861837ff055b96c6d89c6767b345547_MD5.png)
 
 > 小例子：
 
-![image-20200922110548219](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/20e8e439bc58edb07848d44bf275b4e2_MD5.png)
+![image-20200922110548219](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/20e8e439bc58edb07848d44bf275b4e2_MD5.png)
 
 
 
@@ -350,9 +350,9 @@ turtle.setup(width,height,startx,starty)
 * 覆盖视力所能感知的所有颜色
 * RGB 每色取值范围 0～255 整数或 0-1 小数
 
-![image-20200922111016351](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/2332a75a3805ef6208cca33c2b0238b4_MD5.png)
+![image-20200922111016351](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/2332a75a3805ef6208cca33c2b0238b4_MD5.png)
 
-![image-20200922125919301](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/57ab089c0681274050a16f404cd1d225_MD5.png)
+![image-20200922125919301](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/57ab089c0681274050a16f404cd1d225_MD5.png)
 
 **默认采用小数值，可切换为整数值**
 
@@ -390,7 +390,7 @@ from <库名> import *
 
 🐹 两种方法比较：
 
-![比较](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/ea423e6eb4baf4063ea4762d0df9cb4d_MD5.png)
+![比较](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/ea423e6eb4baf4063ea4762d0df9cb4d_MD5.png)
 
 所以，推荐使用下面的 import 用法：
 
@@ -447,7 +447,7 @@ import <库名> as <库别名>
 
 > 举例：
 
-![image-20200923112538907](docs/software-engineering/04-python/00-Python%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/attachments/CH5-%E6%A8%A1%E5%9D%97/cd27c7e1bf8efca66f09a8f3b5fa8f70_MD5.png)
+![image-20200923112538907](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH5-模块/cd27c7e1bf8efca66f09a8f3b5fa8f70_MD5.png)
 
 （4）方向控制函数
 
