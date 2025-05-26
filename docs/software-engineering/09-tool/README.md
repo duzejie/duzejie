@@ -1,7 +1,7 @@
 # 开发规范
 
 <br />
-<img  src='./img/xygj.PNG' width="600" alt="logo">
+<img  src='./config/img/xygj.PNG' width="600" alt="logo">
 <br />
 <br />
 <div align="center">

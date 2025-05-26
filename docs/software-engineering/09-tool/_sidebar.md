@@ -1,12 +1,42 @@
+# Markdown笔记列表
 
--   [linux-shell-cmd](01-shell-cmd/_sidebar.md)
-- [正则表达式](正则表达式.md)
-- [crontab](crontab.md)
-- [docsify](docsify.md)
-- [github-page-docsify](github-page-docsify.md)
-- [ssh](ssh.md)
-- [sublime](sublime.md)
-- [TamperMonkey使用指南](TamperMonkey使用指南.md)
-- [vim](vim.md)
-- 
-
+- **01-shell-cmd**
+  - **commandLine**
+    - [file_system.md](docs/software-engineering/09-tool01-shell-cmd/commandLine/file_system.md)
+    - [linux_env.md](docs/software-engineering/09-tool01-shell-cmd/commandLine/linux_env.md)
+    - [more_command.md](docs/software-engineering/09-tool01-shell-cmd/commandLine/more_command.md)
+    - [security.md](docs/software-engineering/09-tool01-shell-cmd/commandLine/security.md)
+    - [shell_first_view.md](docs/software-engineering/09-tool01-shell-cmd/commandLine/shell_first_view.md)
+    - [understand_shell.md](docs/software-engineering/09-tool01-shell-cmd/commandLine/understand_shell.md)
+  - **shellAdvanced**
+    - [more_gawk.md](docs/software-engineering/09-tool01-shell-cmd/shellAdvanced/more_gawk.md)
+    - [more_sed.md](docs/software-engineering/09-tool01-shell-cmd/shellAdvanced/more_sed.md)
+    - [other_shell.md](docs/software-engineering/09-tool01-shell-cmd/shellAdvanced/other_shell.md)
+    - [regular_expression.md](docs/software-engineering/09-tool01-shell-cmd/shellAdvanced/regular_expression.md)
+    - [sed_gawk_basic.md](docs/software-engineering/09-tool01-shell-cmd/shellAdvanced/sed_gawk_basic.md)
+    - [shell_GUI.md](docs/software-engineering/09-tool01-shell-cmd/shellAdvanced/shell_GUI.md)
+    - [shell_function.md](docs/software-engineering/09-tool01-shell-cmd/shellAdvanced/shell_function.md)
+  - **shellBasic**
+    - [more_structured_command.md](docs/software-engineering/09-tool01-shell-cmd/shellBasic/more_structured_command.md)
+    - [shell_basic.md](docs/software-engineering/09-tool01-shell-cmd/shellBasic/shell_basic.md)
+    - [shell_control.md](docs/software-engineering/09-tool01-shell-cmd/shellBasic/shell_control.md)
+    - [shell_input.md](docs/software-engineering/09-tool01-shell-cmd/shellBasic/shell_input.md)
+    - [shell_output.md](docs/software-engineering/09-tool01-shell-cmd/shellBasic/shell_output.md)
+    - [structured_command.md](docs/software-engineering/09-tool01-shell-cmd/shellBasic/structured_command.md)
+  - [Shell脚本编程.md](docs/software-engineering/09-tool01-shell-cmd/Shell脚本编程.md)
+  - [_sidebar.md](docs/software-engineering/09-tool01-shell-cmd/_sidebar.md)
+  - [linux.md](docs/software-engineering/09-tool01-shell-cmd/linux.md)
+  - [linuxs.md](docs/software-engineering/09-tool01-shell-cmd/linuxs.md)
+  - [liunx.md](docs/software-engineering/09-tool01-shell-cmd/liunx.md)
+- **img**
+  - [jenkins.md](docs/software-engineering/09-toolimg/jenkins.md)
+- [README.md](docs/software-engineering/09-toolREADME.md)
+- [TamperMonkey使用指南.md](docs/software-engineering/09-toolTamperMonkey使用指南.md)
+- [_sidebar.md](docs/software-engineering/09-tool_sidebar.md)
+- [crontab.md](docs/software-engineering/09-toolcrontab.md)
+- [docsify.md](docs/software-engineering/09-tooldocsify.md)
+- [github-page-docsify.md](docs/software-engineering/09-toolgithub-page-docsify.md)
+- [ssh.md](docs/software-engineering/09-toolssh.md)
+- [sublime.md](docs/software-engineering/09-toolsublime.md)
+- [vim.md](docs/software-engineering/09-toolvim.md)
+- [正则表达式.md](docs/software-engineering/09-tool正则表达式.md)

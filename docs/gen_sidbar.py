@@ -69,67 +69,67 @@ def print_markdown_list(structure, pre_fix, level=0, path_parts=None, output_fil
 
 if __name__ == "__main__":
     
-    '''
-    
-    # 指定要遍历的目录路径
-    directory_path = "./AI"  # 当前目录，可修改为实际路径
-    output_path = "./AI/_sidebar.md"  # 输出文件路径
-    pre_fix     = "docs/AI/"    
-    print(f"正在生成Markdown笔记列表并写入 '{output_path}'...")
-    structure = generate_markdown_list(directory_path)
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write("# Markdown笔记列表\n\n")
-        print_markdown_list(structure,pre_fix, output_file=f)
-    
-    print(f"列表已成功写入 '{output_path}'")    
-    '''
-    
-    '''    
-    # 指定要遍历的目录路径
-    directory_path = "./EDA"  # 当前目录，可修改为实际路径
-    output_path = "./EDA/_sidebar.md"  # 输出文件路径
-    pre_fix     = "docs/EDA/"    
-    print(f"正在生成Markdown笔记列表并写入 '{output_path}'...")
-    structure = generate_markdown_list(directory_path)
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write("# Markdown笔记列表\n\n")
-        print_markdown_list(structure,pre_fix, output_file=f)
-    
-    print(f"列表已成功写入 '{output_path}'")    
-
-    '''
-    
-    '''    
-    # 指定要遍历的目录路径
-    directory_path = "./HPC"  # 当前目录，可修改为实际路径
-    output_path = "./HPC/_sidebar.md"  # 输出文件路径
-    pre_fix     = "docs/HPC/"    
-    print(f"正在生成Markdown笔记列表并写入 '{output_path}'...")
-    structure = generate_markdown_list(directory_path)
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write("# Markdown笔记列表\n\n")
-        print_markdown_list(structure,pre_fix, output_file=f)
-    
-    print(f"列表已成功写入 '{output_path}'")
-    '''
 
 
-    # 指定要遍历的目录路径
-    directory_path = "./IC"  # 当前目录，可修改为实际路径
-    output_path = "./IC/_sidebar.md"  # 输出文件路径
-    pre_fix     = "docs/IC/"    
-    print(f"正在生成Markdown笔记列表并写入 '{output_path}'...")
-    structure = generate_markdown_list(directory_path)
     
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write("# Markdown笔记列表\n\n")
-        print_markdown_list(structure,pre_fix, output_file=f)
-    
-    print(f"列表已成功写入 '{output_path}'")    
+    top_topics = {  "AI",   \
+                    "AI/LLM", \
+                    "AI/机器学习", \
+                    "AI/深度学习", \
+                    "EDA",   \
+                    "HPC",   \
+                    "IC",  \
+                    "Social-Science", \
+                    "software-engineering" }
+    for subdir in top_topics:
+        # 指定要遍历的目录路径
+        directory_path = f"./{subdir}"  # 当前目录，可修改为实际路径
+        output_path = f"./{subdir}/_sidebar.md"  # 输出文件路径
+        pre_fix     = f"docs/{subdir}/"    
+        print(f"正在生成Markdown笔记列表并写入 '{output_path}'...")
+        structure = generate_markdown_list(directory_path)
         
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write("# Markdown笔记列表\n\n")
+            print_markdown_list(structure,pre_fix, output_file=f)
+        
+        print(f"列表已成功写入 '{output_path}'")    
+
+
     
+    # 指定要遍历的目录路径
+    directory_path = "./software-engineering"  # 当前目录，可修改为实际路径
+    output_path = "./software-engineering/_sidebar.md"  # 输出文件路径
+    pre_fix     = "docs/software-engineering/"    
+    print(f"正在生成Markdown笔记列表并写入 '{output_path}'...")
+    structure = generate_markdown_list(directory_path)
     
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write("# Markdown笔记列表\n\n")
+        print_markdown_list(structure,pre_fix, output_file=f)
     
+    print(f"列表已成功写入 '{output_path}'")    
+    
+    software_engineering_topics = {"00-standard",   \
+        "01-FrontEnd-web",   \
+            "02-system",   \
+                "03.算法、数据结构",  \
+                    "04-python",   "04-cpp",   \
+                        "05.常用组件-中间件",  \
+                            "06-architecture",  \
+                                "08-敏捷-ci", \
+                                    "09-toolchain",   "09-tool",    \
+                                        "10-interview" }
+    for subdir in software_engineering_topics:
+        # 指定要遍历的目录路径
+        directory_path = f"./software-engineering/{subdir}"  # 当前目录，可修改为实际路径
+        output_path = f"./software-engineering/{subdir}/_sidebar.md"  # 输出文件路径
+        pre_fix     = f"docs/software-engineering/{subdir}"    
+        print(f"正在生成Markdown笔记列表并写入 '{output_path}'...")
+        structure = generate_markdown_list(directory_path)
+        
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write("# Markdown笔记列表\n\n")
+            print_markdown_list(structure,pre_fix, output_file=f)
+        
+        print(f"列表已成功写入 '{output_path}'")    

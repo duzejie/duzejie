@@ -1,84 +1,66 @@
+# Markdown笔记列表
 
--  [0.学习路径](0.学习路径.md)
-- [1.思维导图](1.思维导图.md)
-- [算法与数据结构笔记](算法与数据结构笔记.md)
-
-
-### 数据结构
-
-**线性表**
-[0.线性表](数据结构/01.线性表/0.线性表.md)
-[1.数组](数据结构/01.线性表/1.数组.md)
-[2.1列表](数据结构/01.线性表/2.1列表.md)
-[2.链表](数据结构/01.线性表/2.链表.md)
-[3.栈](数据结构/01.线性表/3.栈.md)
-[4.队列](数据结构/01.线性表/4.队列.md)
-
-**哈希表**
-[1.散列表](数据结构/02.哈希表/1.散列表.md)
-[2.哈希函数](数据结构/02.哈希表/2.哈希函数.md)
-[3.冲突处理](数据结构/02.哈希表/3.冲突处理.md)
-[4.动态扩容](数据结构/02.哈希表/4.动态扩容.md)
-[5.位图](数据结构/02.哈希表/5.位图.md)
-
-
-**树**
-[1.树](数据结构/03.树/1.树.md)
-[2.二叉树](数据结构/03.树/2.二叉树.md)
-[3.AVL平衡树](数据结构/03.树/3.AVL平衡树.md)
-[4.红黑树](数据结构/03.树/4.红黑树.md)
-[5.多路查找树](数据结构/03.树/5.多路查找树.md)
-[6.堆](数据结构/03.树/6.堆.md)
-
-**图**
-[0.图](数据结构/04.图/0.图.md)
-[1.图的存储](数据结构/04.图/1.图的存储.md)
-[2.拓扑排序](数据结构/04.图/2.拓扑排序.md)
-[3.关键路径](数据结构/04.图/3.关键路径.md)
-[4.最短路径](数据结构/04.图/4.最短路径.md)
-[5.最小生成树](数据结构/04.图/5.最小生成树.md)
-
-
-
-### 算法
-
-基本思想
-[动态规划](算法/0.基本思想/动态规划.md)
-[分治算法](算法/0.基本思想/分治算法.md)
-[回溯算法](算法/0.基本思想/回溯算法.md)
-[枚举算法](算法/0.基本思想/枚举算法.md)
-[贪心算法](算法/0.基本思想/贪心算法.md)
-
-复杂度分析
-[复杂度分析](算法/1.复杂度分析/复杂度分析.md)
-
-
-排序
-[排序算法](算法/2.排序/排序算法.md)
-[冒泡、插入、选择](算法/2.排序/O(n^2)/冒泡、插入、选择.md)
-[桶、计数、基数](算法/2.排序/O(n+k)/桶、计数、基数.md)
-[快速、归并、堆、希尔](算法/2.排序/O(nlogn)/快速、归并、堆、希尔.md)
-
-搜索
-[0.搜索](算法/3.搜索/0.搜索.md)
-[1.二分查找](算法/3.搜索/1.二分查找.md)
-[2.遍历查找-广度、深度优先](算法/3.搜索/2.遍历查找-广度、深度优先.md)
-[3.搜索树查找](算法/3.搜索/3.搜索树查找.md)
-
-字符串匹配
-[朴素](算法/5.字符串匹配/朴素.md)
-[AC自动机](算法/5.字符串匹配/AC自动机.md)
-[KMP](算法/5.字符串匹配/KMP.md)
-[LSM-Tree](算法/5.字符串匹配/LSM-Tree.md)
-[Tier树](算法/5.字符串匹配/Tier树.md)
-
-其它
-[递归](算法/6.其他/递归.md)
-[概率分析](算法/6.其他/概率分析.md)
-
-
-
-
-
-
-
+- **数据结构**
+  - **01.线性表**
+    - [0.线性表.md](docs/software-engineering/03.算法、数据结构数据结构/01.线性表/0.线性表.md)
+    - [1.数组.md](docs/software-engineering/03.算法、数据结构数据结构/01.线性表/1.数组.md)
+    - [2.1列表.md](docs/software-engineering/03.算法、数据结构数据结构/01.线性表/2.1列表.md)
+    - [2.链表.md](docs/software-engineering/03.算法、数据结构数据结构/01.线性表/2.链表.md)
+    - [3.栈.md](docs/software-engineering/03.算法、数据结构数据结构/01.线性表/3.栈.md)
+    - [4.队列.md](docs/software-engineering/03.算法、数据结构数据结构/01.线性表/4.队列.md)
+  - **02.哈希表**
+    - [1.散列表.md](docs/software-engineering/03.算法、数据结构数据结构/02.哈希表/1.散列表.md)
+    - [2.哈希函数.md](docs/software-engineering/03.算法、数据结构数据结构/02.哈希表/2.哈希函数.md)
+    - [3.冲突处理.md](docs/software-engineering/03.算法、数据结构数据结构/02.哈希表/3.冲突处理.md)
+    - [4.动态扩容.md](docs/software-engineering/03.算法、数据结构数据结构/02.哈希表/4.动态扩容.md)
+    - [5.位图.md](docs/software-engineering/03.算法、数据结构数据结构/02.哈希表/5.位图.md)
+  - **03.树**
+    - [1.树.md](docs/software-engineering/03.算法、数据结构数据结构/03.树/1.树.md)
+    - [2.二叉树.md](docs/software-engineering/03.算法、数据结构数据结构/03.树/2.二叉树.md)
+    - [3.AVL平衡树.md](docs/software-engineering/03.算法、数据结构数据结构/03.树/3.AVL平衡树.md)
+    - [4.红黑树.md](docs/software-engineering/03.算法、数据结构数据结构/03.树/4.红黑树.md)
+    - [5.多路查找树.md](docs/software-engineering/03.算法、数据结构数据结构/03.树/5.多路查找树.md)
+    - [6.堆.md](docs/software-engineering/03.算法、数据结构数据结构/03.树/6.堆.md)
+  - **04.图**
+    - [0.图.md](docs/software-engineering/03.算法、数据结构数据结构/04.图/0.图.md)
+    - [1.图的存储.md](docs/software-engineering/03.算法、数据结构数据结构/04.图/1.图的存储.md)
+    - [2.拓扑排序.md](docs/software-engineering/03.算法、数据结构数据结构/04.图/2.拓扑排序.md)
+    - [3.关键路径.md](docs/software-engineering/03.算法、数据结构数据结构/04.图/3.关键路径.md)
+    - [4.最短路径.md](docs/software-engineering/03.算法、数据结构数据结构/04.图/4.最短路径.md)
+    - [5.最小生成树.md](docs/software-engineering/03.算法、数据结构数据结构/04.图/5.最小生成树.md)
+- **算法**
+  - **0.基本思想**
+    - [分治算法.md](docs/software-engineering/03.算法、数据结构算法/0.基本思想/分治算法.md)
+    - [动态规划.md](docs/software-engineering/03.算法、数据结构算法/0.基本思想/动态规划.md)
+    - [回溯算法.md](docs/software-engineering/03.算法、数据结构算法/0.基本思想/回溯算法.md)
+    - [枚举算法.md](docs/software-engineering/03.算法、数据结构算法/0.基本思想/枚举算法.md)
+    - [贪心算法.md](docs/software-engineering/03.算法、数据结构算法/0.基本思想/贪心算法.md)
+  - **1.复杂度分析**
+    - [复杂度分析.md](docs/software-engineering/03.算法、数据结构算法/1.复杂度分析/复杂度分析.md)
+  - **2.排序**
+    - **O(n+k)**
+      - [桶、计数、基数.md](docs/software-engineering/03.算法、数据结构算法/2.排序/O(n+k)/桶、计数、基数.md)
+    - **O(n^2)**
+      - [冒泡、插入、选择.md](docs/software-engineering/03.算法、数据结构算法/2.排序/O(n^2)/冒泡、插入、选择.md)
+    - **O(nlogn)**
+      - [快速、归并、堆、希尔.md](docs/software-engineering/03.算法、数据结构算法/2.排序/O(nlogn)/快速、归并、堆、希尔.md)
+    - [排序算法.md](docs/software-engineering/03.算法、数据结构算法/2.排序/排序算法.md)
+  - **3.搜索**
+    - [0.搜索.md](docs/software-engineering/03.算法、数据结构算法/3.搜索/0.搜索.md)
+    - [1.二分查找.md](docs/software-engineering/03.算法、数据结构算法/3.搜索/1.二分查找.md)
+    - [2.遍历查找-广度、深度优先.md](docs/software-engineering/03.算法、数据结构算法/3.搜索/2.遍历查找-广度、深度优先.md)
+    - [3.搜索树查找.md](docs/software-engineering/03.算法、数据结构算法/3.搜索/3.搜索树查找.md)
+  - **5.字符串匹配**
+    - [AC自动机.md](docs/software-engineering/03.算法、数据结构算法/5.字符串匹配/AC自动机.md)
+    - [KMP.md](docs/software-engineering/03.算法、数据结构算法/5.字符串匹配/KMP.md)
+    - [LSM-Tree.md](docs/software-engineering/03.算法、数据结构算法/5.字符串匹配/LSM-Tree.md)
+    - [Tier树.md](docs/software-engineering/03.算法、数据结构算法/5.字符串匹配/Tier树.md)
+    - [朴素.md](docs/software-engineering/03.算法、数据结构算法/5.字符串匹配/朴素.md)
+  - **6.其他**
+    - [概率分析.md](docs/software-engineering/03.算法、数据结构算法/6.其他/概率分析.md)
+    - [递归.md](docs/software-engineering/03.算法、数据结构算法/6.其他/递归.md)
+- [0.学习路径.md](docs/software-engineering/03.算法、数据结构0.学习路径.md)
+- [1.思维导图.md](docs/software-engineering/03.算法、数据结构1.思维导图.md)
+- [README.md](docs/software-engineering/03.算法、数据结构README.md)
+- [_sidebar.md](docs/software-engineering/03.算法、数据结构_sidebar.md)
+- [算法与数据结构笔记.md](docs/software-engineering/03.算法、数据结构算法与数据结构笔记.md)

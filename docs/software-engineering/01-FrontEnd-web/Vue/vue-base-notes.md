@@ -1073,7 +1073,7 @@ index.html
 <!-- 底部 -->
 <footer class="info">
     <p>
-        <a href="https://wugenqiang.gitee.io/"><img src="./img/black.png" alt="" /></a>
+        <a href="https://wugenqiang.gitee.io/"><img src="./config/img/black.png" alt="" /></a>
     </p>
 </footer>
 <!-- 1.开发环境版本，包含了有帮助的命令行警告 -->

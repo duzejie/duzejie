@@ -16,7 +16,7 @@ window.$docsify = {
   el: '#app',
   themeColor: '#39BAE8',
   name: '幸福拾荒者',
-  logo: './img/xfshz.PNG',
+  logo: './config/img/xfshz.PNG',
   auto2top: true, //切换页面后是否自动跳转到页面顶部
   coverpage: true, //封面图
   maxLevel: 4, //配置最大支持渲染的标题层级
@@ -27,10 +27,16 @@ window.$docsify = {
   // routerMode: 'history', //路由方式 默认hash
   // basePath: '/duzejie/',
   // nameLink: '/docs/',
+  //relativePath: false,
   subMaxLevel: 2, //自定义侧边栏同时也可以开启目录功能
   // repo: 'https://github.com/xflihaibo/docs', // 右上角小部件
   formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}', //变量显示文档更新日期
   notFoundPage: 'error.md',
+  alias: {
+    '/_sidebar.md': '/config/_sidebar.md', // See #301
+    // '/error.md': '/config/error.md',
+    '/_navbar.md': '/config/_navbar.md',
+  },
   search: {
     placeholder: '  🔍  搜索试试',
     noData: '抱歉！找不到对应的结果'

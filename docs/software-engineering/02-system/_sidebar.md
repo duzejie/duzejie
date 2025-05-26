@@ -1,8 +1,11 @@
--   [磁盘(IO)](linux系统/硬件资源/磁盘(IO).md)
-- [内存](linux系统/硬件资源/内存.md)
-- [网络吞吐(IO)](linux系统/硬件资源/网络吞吐(IO).md)
-- [CPU(负载)](linux系统/硬件资源/CPU(负载).md)
-- [输入输出系统IO](linux系统/输入输出系统IO.md)
+# Markdown笔记列表
 
-
-
+- **linux系统**
+  - **硬件资源**
+    - [CPU(负载).md](docs/software-engineering/02-systemlinux系统/硬件资源/CPU(负载).md)
+    - [内存.md](docs/software-engineering/02-systemlinux系统/硬件资源/内存.md)
+    - [磁盘(IO).md](docs/software-engineering/02-systemlinux系统/硬件资源/磁盘(IO).md)
+    - [网络吞吐(IO).md](docs/software-engineering/02-systemlinux系统/硬件资源/网络吞吐(IO).md)
+  - [输入输出系统IO.md](docs/software-engineering/02-systemlinux系统/输入输出系统IO.md)
+- [README.md](docs/software-engineering/02-systemREADME.md)
+- [_sidebar.md](docs/software-engineering/02-system_sidebar.md)
