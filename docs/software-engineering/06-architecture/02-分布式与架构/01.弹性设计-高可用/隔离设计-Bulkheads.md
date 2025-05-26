@@ -4,9 +4,9 @@
 
 隔离方式：
 
-1. 按服务种类![图片](docs/software-engineering/06-architecture/02-分布式与架构/01.弹性设计-高可用/attachments/隔离设计-Bulkheads/5494ecd2b85787d1e8b6066b02d8b306_MD5.png)
+1. 按服务种类![图片](attachments/隔离设计-Bulkheads/5494ecd2b85787d1e8b6066b02d8b306_MD5.png)
 
-2. 按租户![图片](docs/software-engineering/06-architecture/02-分布式与架构/01.弹性设计-高可用/attachments/隔离设计-Bulkheads/d3eb994b9f523d34c08c1fdad476a467_MD5.png)
+2. 按租户![图片](attachments/隔离设计-Bulkheads/d3eb994b9f523d34c08c1fdad476a467_MD5.png)
 
 
 

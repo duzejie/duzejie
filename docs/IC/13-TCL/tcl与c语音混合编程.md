@@ -427,7 +427,7 @@ int main(int argc, char** argv)
 
 运行结果如图:
 
-![img](docs/IC/13-TCL/tcl与c语音混合编程/3812b31bb051f81916994de4dab44aed2f73e7e4.jpg)
+![img](tcl与c语音混合编程/3812b31bb051f81916994de4dab44aed2f73e7e4.jpg)
 
 现在分析一下这个程序。一些顾名思义的地方我们就不费文字来介绍了。
 
@@ -504,7 +504,7 @@ int main(int argc, char** argv){
 }
 ```
 
-![img](docs/IC/13-TCL/tcl与c语音混合编程/8b13632762d0f7032313db7208fa513d2797c5ff.jpg)
+![img](tcl与c语音混合编程/8b13632762d0f7032313db7208fa513d2797c5ff.jpg)
 
 好啦，evod已经诞生了。
 
@@ -758,7 +758,7 @@ int main(int argc, char** argv)
 
 
 
-![img](docs/IC/13-TCL/tcl与c语音混合编程/aa64034f78f0f736d4db05af0a55b319ebc41372.jpg)
+![img](tcl与c语音混合编程/aa64034f78f0f736d4db05af0a55b319ebc41372.jpg)
 
 
 
@@ -826,41 +826,41 @@ TCL作为一种工具语言已经在很多地方得到广泛的应用，在土�
 
 下载之后直接安装到C:\Program Files\Tcl目录下即可，打开Qt Creator新建一个Project：
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/CppVTcl1.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/CppVTcl1.png)
 
 C++(QT)调用TCL解释器
 
 选择Qt Console Application，因为我只是建立一个测试程，选择Choose…后设置项目的名称和路径：
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/CppVTcl2.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/CppVTcl2.png)
 
 C++(QT)调用TCL解释器
 
 完成之后需要做一件重要的事情就是将Tcl目录下的include和lib复制到工程文件夹E:\QT\tcltest\tcltest下并从新命名为tcltkinclude和tcltklib：
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/TclSet1.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/TclSet1.png)
 
 C++(QT)调用TCL解释器
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/TclSet2.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/TclSet2.png)
 
 C++(QT)调用TCL解释器
 
 然后回到Qt Creator中右键工程文件夹，选择添加库…：
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/CppVTcl3.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/CppVTcl3.png)
 
 C++(QT)调用TCL解释器
 
 选择外部库：
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/CppVTcl4.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/CppVTcl4.png)
 
 C++(QT)调用TCL解释器
 
 在外部库的设置页面，选择tcktklib中的tcl85.lib，链接选择动态，将“为debug版本添加‘d’作为后缀”选项去掉，点击下一步完成添加：
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/CppVTcl5.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/CppVTcl5.png)
 
 C++(QT)调用TCL解释器
 
@@ -892,13 +892,13 @@ DEPENDPATH += $$PWD/tcltklib
 
 然后回到main.cpp直接Ctrl+R运行一下，如果没有出错会出现一个黑框框。然后在main.cpp中增加include “tcl.h”，这样在主文件中输入Tcl_就可以看到Qt Creator的智能提示了：
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/CppVTcl6.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/CppVTcl6.png)
 
 C++(QT)调用TCL解释器
 
 这样环境就部署好了，下面先创建一个test.tcl文件，文件的路径为E:\QT\tcltest\tcltest\test.tcl：
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/CppVTcl7.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/CppVTcl7.png)
 
 C++(QT)调用TCL解释器
 
@@ -950,7 +950,7 @@ Tcl_GetStringResult()可以从解释器接受解释器的信息，这个信息�
 
 这里我用没有用qDebug()而是直接用了cout输出到控制台，直接使用Ctrl+R执行之后就可以看到黑框框里面直接输出“orycho”和“Success!”表明调用tcl解释器成功：
 
-![C++(QT)调用TCL解释器](docs/IC/13-TCL/tcl与c语音混合编程/CppVTcl8.png)
+![C++(QT)调用TCL解释器](tcl与c语音混合编程/CppVTcl8.png)
 
 C++(QT)调用TCL解释器
 
@@ -1073,7 +1073,7 @@ argc为5表示总共五个参数，包括length本身，而argv[0]~argv[4]指代
 
 因此我们运行上面的命令，可以得到下图所示的结果：
 
-![C++(QT)创建自定义TCL命令](docs/IC/13-TCL/tcl与c语音混合编程/TCLCreateCMD.png)
+![C++(QT)创建自定义TCL命令](tcl与c语音混合编程/TCLCreateCMD.png)
 
 C++(QT)创建自定义TCL命令
 

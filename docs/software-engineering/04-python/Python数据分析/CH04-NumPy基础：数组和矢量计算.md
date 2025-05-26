@@ -177,7 +177,7 @@ Out[32]: array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14])
 
 表4-1列出了一些数组创建函数。由于NumPy关注的是数值计算，因此，如果没有特别指定，数据类型基本都是float64（浮点数）。
 
-![表4-1 数组创建函数](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/9626342733456183b314c0c3d8d43272_MD5.png)
+![表4-1 数组创建函数](attachments/CH04-NumPy基础：数组和矢量计算/9626342733456183b314c0c3d8d43272_MD5.png)
 
 ## 4.1.2 ndarray的数据类型
 dtype（数据类型）是一个特殊的对象，它含有ndarray将一块内存解释为特定数据类型所需的信息：
@@ -197,9 +197,9 @@ Out[36]: dtype('int32')
 
 >笔记：记不住这些NumPy的dtype也没关系，新手更是如此。通常只需要知道你所处理的数据的大致类型是浮点数、复数、整数、布尔值、字符串，还是普通的Python对象即可。当你需要控制数据在内存和磁盘中的存储方式时（尤其是对大数据集），那就得了解如何控制存储类型。
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/50c8bb7668c77aa51418fc9c7f7eff48_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/50c8bb7668c77aa51418fc9c7f7eff48_MD5.png)
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/f26756a289d6907f96e68e941a3bebbe_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/f26756a289d6907f96e68e941a3bebbe_MD5.png)
 
 你可以通过ndarray的astype方法明确地将一个数组从一个dtype转换成另一个dtype：
 ```python
@@ -380,7 +380,7 @@ Out[75]: 3
 
 图4-1说明了二维数组的索引方式。轴0作为行，轴1作为列。
 
-![图4-1 NumPy数组中的元素索引](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/8e7889364d9004af2ba384c8fe9c26be_MD5.png)
+![图4-1 NumPy数组中的元素索引](attachments/CH04-NumPy基础：数组和矢量计算/8e7889364d9004af2ba384c8fe9c26be_MD5.png)
 
 在多维数组中，如果省略了后面的索引，则返回对象会是一个维度低一点的ndarray（它含有高一级维度上的所有数据）。因此，在2×2×3数组arr3d中：
 ```python
@@ -503,7 +503,7 @@ array([[1],
        [7]])
 ```
 
-![图4-2 二维数组切片](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/7c238438e25bb3ff6f1c0ff9b7649202_MD5.png)
+![图4-2 二维数组切片](attachments/CH04-NumPy基础：数组和矢量计算/7c238438e25bb3ff6f1c0ff9b7649202_MD5.png)
 
 
 自然，对切片表达式的赋值操作也会被扩散到整个选区：
@@ -891,15 +891,15 @@ Out[154]: array([    nan,     nan,     nan,  2.318 ,  1.9022,  1.8574,  2.2378])
 
 表4-3和表4-4分别列出了一些一元和二元ufunc。
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/487ba72f2447e3fa30efd12941446234_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/487ba72f2447e3fa30efd12941446234_MD5.png)
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/6f30d77bc1ee6a32ff553776fb0a5efd_MD5.webp)
+![](attachments/CH04-NumPy基础：数组和矢量计算/6f30d77bc1ee6a32ff553776fb0a5efd_MD5.webp)
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/78933cd4b9d85e6555e115aaf1b20074_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/78933cd4b9d85e6555e115aaf1b20074_MD5.png)
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/73883d89b549e84c9028c2c0c726a91c_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/73883d89b549e84c9028c2c0c726a91c_MD5.png)
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/836d406fd9e870958a898d0097f61bc4_MD5.webp)
+![](attachments/CH04-NumPy基础：数组和矢量计算/836d406fd9e870958a898d0097f61bc4_MD5.webp)
 
 # 4.3 利用数组进行数据处理
 > NumPy数组使你可以将许多种数据处理任务表述为简洁的数组表达式（否则需要编写循环）。**用数组表达式代替循环的做法，通常被称为矢量化**。一般来说，矢量化数组运算要比等价的纯Python方式快上一两个数量级（甚至更多），尤其是各种数值计算。在后面内容中（见附录A）我将介绍广播，这是一种针对矢量化计算的强大手段。
@@ -948,7 +948,7 @@ Out[162]: <matplotlib.text.Text at 0x7f715d2de748>
 
 见图4-3。这张图是用matplotlib的imshow函数创建的。
 
-![图4-3 根据网格对函数求值的结果](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/6f75727ac83d7e57b2e0e24857eb3fc0_MD5.png)
+![图4-3 根据网格对函数求值的结果](attachments/CH04-NumPy基础：数组和矢量计算/6f75727ac83d7e57b2e0e24857eb3fc0_MD5.png)
 
 ## 4.3.1 将条件逻辑表述为数组运算
 numpy.where函数是三元表达式x if condition else y的矢量化版本。假设我们有一个布尔数组和两个值数组：
@@ -1084,9 +1084,9 @@ array([[  0,   0,   0],
 
 表4-5列出了全部的基本数组统计方法。后续章节中有很多例子都会用到这些方法。
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/19d4e6b0f6fc8ef07ee87b20132154e7_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/19d4e6b0f6fc8ef07ee87b20132154e7_MD5.png)
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/6808084b759ecda1b48cc28d123490ad_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/6808084b759ecda1b48cc28d123490ad_MD5.png)
 
 ## 4.3.3 用于布尔型数组的方法
 在上面这些方法中，布尔值会被强制转换为1（True）和0（False）。因此，sum经常被用来对布尔型数组中的True值计数：
@@ -1190,7 +1190,7 @@ Out[212]: array([ True, False, False,  True,  True, False,  True], dtype=bool)
 ```
 
 NumPy中的集合函数请参见表4-6。
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/7b034ae812dcf9cf4a24b0360dc9e591_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/7b034ae812dcf9cf4a24b0360dc9e591_MD5.png)
 
 # 4.4 用于数组的文件输入输出
 NumPy能够读写磁盘上的文本数据或二进制数据。这一小节只讨论NumPy的内置二进制格式，因为更多的用户会使用pandas或其它工具加载文本或表格数据（见第6章）。
@@ -1309,7 +1309,7 @@ array([[-1.6914,  4.38  ,  0.1757,  0.4075, -0.7838],
 
 表4-7中列出了一些最常用的线性代数函数。
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/62b199b057872515c760d48fda2259d5_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/62b199b057872515c760d48fda2259d5_MD5.png)
 
 # 4.6 伪随机数生成
 numpy.random模块对Python内置的random进行了补充，增加了一些用于高效生成多种概率分布的样本值的函数。例如，你可以用normal来得到一个标准正态分布的4×4样本数组：
@@ -1354,9 +1354,9 @@ array([ 0.4714, -1.191 ,  1.4327, -0.3127, -0.7206,  0.8872,  0.8596,
 
 表4-8列出了numpy.random中的部分函数。在下一节中，我将给出一些利用这些函数一次性生成大量样本值的范例。
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/480aef5a6fc0c9024f882b2aba880424_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/480aef5a6fc0c9024f882b2aba880424_MD5.png)
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/129318eb3774008a7677893acfb963df_MD5.png)
+![](attachments/CH04-NumPy基础：数组和矢量计算/129318eb3774008a7677893acfb963df_MD5.png)
 
 # 4.7 示例：随机漫步
 我们通过模拟随机漫步来说明如何运用数组运算。先来看一个简单的随机漫步的例子：从0开始，步长1和－1出现的概率相等。
@@ -1379,7 +1379,7 @@ In [247]: import random
 In [249]: plt.plot(walk[:100])
 ```
 
-![图4-4 简单的随机漫步](docs/software-engineering/04-python/Python数据分析/attachments/CH04-NumPy基础：数组和矢量计算/71e34003e63cf54b8c03586b9149c0ca_MD5.png)
+![图4-4 简单的随机漫步](attachments/CH04-NumPy基础：数组和矢量计算/71e34003e63cf54b8c03586b9149c0ca_MD5.png)
 
 不难看出，这其实就是随机漫步中各步的累计和，可以用一个数组运算来实现。因此，我用np.random模块一次性随机产生1000个“掷硬币”结果（即两个数中任选一个），将其分别设置为1或－1，然后计算累计和：
 ```python

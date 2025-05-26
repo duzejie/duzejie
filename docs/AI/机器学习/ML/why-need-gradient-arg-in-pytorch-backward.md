@@ -66,7 +66,7 @@ $$
 
 在上面调用`z.backward()`时，是可以传入一些参数的，如下所示：
 
-![](docs/AI/机器学习/ML/attachments/why-need-gradient-arg-in-pytorch-backward/b40fbb6746ce9d95521fdc94a7605150_MD5.png)
+![](attachments/why-need-gradient-arg-in-pytorch-backward/b40fbb6746ce9d95521fdc94a7605150_MD5.png)
 
 不知道你是怎么理解这里的`gradient`参数的，有深入理解这个参数的朋友欢迎评论区分享你的高见！
 
@@ -147,7 +147,7 @@ $$
 答案是由`PyTorch`的`backward`函数的`gradient`参数提供。这就是`gradient`参数的作用。
 
 比如，我们传入`gradient`参数为`torch.tensor([0.1, 0.2, 0.3], dtype=torch.float)`，并且假定$x_1=1$,$x_2=2$,$x_3=3$，按照上面的推导方法：
-![](docs/AI/机器学习/ML/attachments/why-need-gradient-arg-in-pytorch-backward/306a4fb2b0111b4125524530f07beae0_MD5.png)
+![](attachments/why-need-gradient-arg-in-pytorch-backward/306a4fb2b0111b4125524530f07beae0_MD5.png)
 
 紧接着可以用代码验证一下：
 ```python

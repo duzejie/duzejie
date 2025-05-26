@@ -180,4 +180,4 @@ easy-motion:插件 xs
 <td bgcolor=Orange>Orange / Blue = 高级</td>
 <td bgcolor=Red>Red = 专家级</td></tr></table>
 
-![](docs/software-engineering/09-toolchain/img/vim02.png)
+![](../09-toolchain/img/vim02.png)

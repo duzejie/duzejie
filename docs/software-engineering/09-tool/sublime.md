@@ -60,7 +60,7 @@ Sublime Text 默认的 Autocomplete 功能只考虑当前的文件，而 AllAuto
 
 快速录入文件路径
 
-![](docs/software-engineering/09-tool/img/sub04.png)
+![](img/sub04.png)
 
 ### Autoprefixer
 
@@ -99,7 +99,7 @@ CSS3 私有前缀自动补全插件，显然也很有用哇
 ### Console Warp
 
 这个插件帮助您轻松地创建（注释、删除、显示所有）日志语句（控制台、日志、打印等）
-![](docs/software-engineering/09-tool/img/sub05.png)
+![](img/sub05.png)
 
 ### ChineseLocalizations
 
@@ -183,7 +183,7 @@ emmet 通过一套简单的语法让你快速生成大量的 HTML 代码
 
 ?>例如 ul>li\*4 tab
 
-![](docs/software-engineering/09-tool/img/emmet.gif)
+![](img/emmet.gif)
 
 ### FileDiffs
 
@@ -193,12 +193,12 @@ emmet 通过一套简单的语法让你快速生成大量的 HTML 代码
 
 对文件分类前加图标提示，更加清晰文件类别
 
-![](docs/software-engineering/09-tool/img/sub06.png)
+![](img/sub06.png)
 
 ### GitGutter
 
 它能在 gutter 中显示你这次编辑的文件相比目前 git 暂存区中的文件的异同,将鼠标放在提示符上，会自动显示修改之前的内容信息
-![](docs/software-engineering/09-tool/img/sub07.png)
+![](img/sub07.png)
 
 ### html-css-js prettify
 
@@ -211,7 +211,7 @@ emmet 通过一套简单的语法让你快速生成大量的 HTML 代码
 ### JavaScript Completions
 
 [JavaScript Completions](https://packagecontrol.io/packages/JavaScript%20Completions#on-hover-description)最基本的 api 快查片段
-![](docs/software-engineering/09-tool/img/sub08.gif)
+![](img/sub08.gif)
 
 ### JsPrettier
 
@@ -305,15 +305,15 @@ less 文件语法高亮插件
 ##### APIkey 获取
 
 打开 WakeTime 的个人设置面板 Account 里的 API Key 单击获取 key
-![](docs/software-engineering/09-tool/img/sub03.jpg)
+![](img/sub03.jpg)
 
 #### 控制面板
 
-![](docs/software-engineering/09-tool/img/sub01.jpeg)
+![](img/sub01.jpeg)
 
 #### 插架支持
 
-![](docs/software-engineering/09-tool/img/sub02.jpg)
+![](img/sub02.jpg)
 
 ```javascritpt
 {

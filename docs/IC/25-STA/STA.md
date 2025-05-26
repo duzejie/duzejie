@@ -46,15 +46,15 @@ STA is basically method of adding the net delays and cell delays to obtain path 
 
 ### STA inputs and outputs
 
-![STA inputs and outputs](docs/IC/25-STA/attachments/STA/staio.JPG)
+![STA inputs and outputs](attachments/STA/staio.JPG)
 
 ------
 
 ### Timing Report
 
-![timing report](docs/IC/25-STA/attachments/STA/timingreport1.JPG)
+![timing report](attachments/STA/timingreport1.JPG)
 
-![timing report](docs/IC/25-STA/attachments/STA/timingreport.JPG)
+![timing report](attachments/STA/timingreport.JPG)
 
 ------
 
@@ -98,12 +98,12 @@ Most timing reports use ns for the time unit. However, you can use the PrimeTime
 #### Transparent Latch, Level Sensitive
 
 Data passes through Latch when clock high, latched when clock is low
-![latch vs flip flop, difference between latch and flip flop](docs/IC/25-STA/attachments/STA/latch.JPG)
+![latch vs flip flop, difference between latch and flip flop](attachments/STA/latch.JPG)
 
 #### D-Type Register or Flip-Flop, Edge-Triggered
 
 Data captured on rising edge of clock, held for rest of the cycle
-![latch vs flip flop, difference between latch and flip flop](docs/IC/25-STA/attachments/STA/flop.JPG)
+![latch vs flip flop, difference between latch and flip flop](attachments/STA/flop.JPG)
 
 ------
 
@@ -131,7 +131,7 @@ Total time for charging/discharging all the parasitic present in the given net
 
 ### Pins related to Clock Design
 
-![clock pins](docs/IC/25-STA/attachments/STA/pins.JPG)
+![clock pins](attachments/STA/pins.JPG)
 **Start/ Source / Root Pins**
 - Source pin of a Clock
 
@@ -168,7 +168,7 @@ Total time for charging/discharging all the parasitic present in the given net
 
 ### Timing Arc
 
-![timing arc](docs/IC/25-STA/attachments/STA/arc.JPG)
+![timing arc](attachments/STA/arc.JPG)
 
 - Timing Arc is internal to the cell
 - Combinational Cells has Timing Arcs from each Input to each Output of the cell
@@ -181,7 +181,7 @@ Total time for charging/discharging all the parasitic present in the given net
 
 ### Timing Unate
 
-![timing unate](docs/IC/25-STA/attachments/STA/unate.JPG)
+![timing unate](attachments/STA/unate.JPG)
 **positive unate** /[ju:'neit] 单边/ if a rising transition on an input causes the output to rise (or not to change) and a falling transition on an input causes the output to fall (or not to change). For example, the timing arcs for *AND* and *OR* type cells are positive unate. See Figure(a)
 
 A **negative unate** timing arc is one where a rising transition on an input causes the output to have a falling transition (or not to change) and a fall ing transition on an input causes the output to have a rising transition (or not to change). For example, the timing arcs for *NAND* and *NOR* type cells are negative unate.See Figure(b)
@@ -191,7 +191,7 @@ In a **non-unate timing arc**, the output transition cannot be determined solely
 Unateness is important for timing as it specifies how the edges (transitions) can propagate through a cell and how they appear at the output of the cell.
 
 One can take advantage of the non-unateness property of a timing arc, such as when an xor cell is used, to invert the polarity of a clock. See the example below(figure). If input POLCTRL is a logic-0, the clock DDRCLK on output of the cell UXOR0 has the same polarity as the input clock MEMCLK. If POLCTRL is a logic-1, the clock on the output of the cell UXOR0 has the opposite polarity as the input clock MEMCLK.
-![timing unate](docs/IC/25-STA/attachments/STA/nonunate.JPG)
+![timing unate](attachments/STA/nonunate.JPG)
 
 ------
 
@@ -223,13 +223,13 @@ A Timing Path is a point-to-point path in a design which can propagate data from
 - Start point: Input ports or Clock pins of flip-flops
 - Endpoints: Output ports or Data input pins of flip-flops
 
-![timing paths, sta](docs/IC/25-STA/attachments/STA/timingpaths.JPG)
+![timing paths, sta](attachments/STA/timingpaths.JPG)
 
 ------
 
 ### Timing Path Groups
 
-![timing path groups, sta](docs/IC/25-STA/attachments/STA/timingpathgroups.JPG)
+![timing path groups, sta](attachments/STA/timingpathgroups.JPG)
 
 Timing paths are grouped into path groups by the clocks controlling their endpoints
 
@@ -254,7 +254,7 @@ Timing paths are grouped into path groups by the clocks controlling their endpoi
 	- ***Source latency*** is the time between clock sources to clock definition ports
 	- ***Network latency*** is the time between clock definition ports to clock leaf cells in the design
 
-![jitter](docs/IC/25-STA/attachments/STA/clock.JPG)
+![jitter](attachments/STA/clock.JPG)
 ### Insertion Delay (ID)
 
 - ID is the clock latency, but after Clock Tree is synthesized. ![clock latency](820_IC/25-STA/attachments/STA/clocklatency1.JPG)
@@ -334,7 +334,7 @@ Timing paths are grouped into path groups by the clocks controlling their endpoi
 
 - One that takes the shortest time; this is also called the best path or early path or a min path
 
-![timing analysis](docs/IC/25-STA/attachments/STA/critical.JPG)
+![timing analysis](attachments/STA/critical.JPG)
 
 ------
 
@@ -343,7 +343,7 @@ Timing paths are grouped into path groups by the clocks controlling their endpoi
 - Path passed through a “gated element” to achieve additional advantages
 - Clock Gating transformation does not change the state of the flops and register
 
-![clock gating path](docs/IC/25-STA/attachments/STA/cgp.JPG)
+![clock gating path](attachments/STA/cgp.JPG)
 
 ------
 
@@ -370,7 +370,7 @@ Timing paths are grouped into path groups by the clocks controlling their endpoi
 - But a path can have either as a Maximum delay or a Minimum delay (or anything in between) but never both delays at the same time
 - STA tools will have techniques to remove artificially introduced pessimism between the Launch Clock Path and the Capture Clock Path
 
-![crpr, clock reconvergence pessimism removal](docs/IC/25-STA/attachments/STA/crpr.JPG)
+![crpr, clock reconvergence pessimism removal](attachments/STA/crpr.JPG)
 
 ------
 
@@ -398,7 +398,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
 - If hold time, THOLD for a flip flop and if the data is not stable after THOLD time from the active edge of clock, then there is a hold violation at that flip-flop
 - For a single cycle circuit the signal has to propagate through Data path in one clock cycle
 
-![sta, setup hold](docs/IC/25-STA/attachments/STA/sethold.JPG)
+![sta, setup hold](attachments/STA/sethold.JPG)
 
 ------
 
@@ -416,7 +416,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
 - If that violates, then Recovery Time and Removal Time Violations
 - Although a flip-flop is asynchronously SET or CLEAR, the negation from its RESET state is synchronous
 
-![recovery and removal timing](docs/IC/25-STA/attachments/STA/removal.JPG)
+![recovery and removal timing](attachments/STA/removal.JPG)
 
 ------
 
@@ -426,7 +426,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
 - Start point and endpoint are flops clocked by the same clock
 - By default tool will consider all timing paths as single cycle paths
 
-![single cycle path](docs/IC/25-STA/attachments/STA/scp.JPG)
+![single cycle path](attachments/STA/scp.JPG)
 
 ------
 
@@ -436,7 +436,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
 - Start point and endpoint are flops clocked by the same clock
 - Need to specify the Launch edge and Capturing edge in SDC
 
-![multi cycle path](docs/IC/25-STA/attachments/STA/mcp.JPG)
+![multi cycle path](attachments/STA/mcp.JPG)
 
 ------
 
@@ -446,7 +446,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
 - Start point and endpoint are flops clocked by the same clock
 - No need to specify the Launch edge and Capturing edge in SDC, since the tool can identify it from the netlist
 
-![half cycle path](docs/IC/25-STA/attachments/STA/hcp.JPG)
+![half cycle path](attachments/STA/hcp.JPG)
 
 ------
 
@@ -457,7 +457,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
 - The goal in STA is to do timing analysis on all “true” timing paths, so these paths are excluded from timing analysis
 - Similarly timing can be disable for a pin or port or cell where the delay will be computed but won’t report it
 
-![false path](docs/IC/25-STA/attachments/STA/fp.JPG)
+![false path](attachments/STA/fp.JPG)
 
 ------
 
@@ -468,7 +468,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
 - Those clocks has to be balanced together else, due to difference in the latency that may lead to timing violations
 - Max. Delay Constraint is used to make CDC paths to get synchronized
 
-![clock domain crossing](docs/IC/25-STA/attachments/STA/cdc.JPG)
+![clock domain crossing](attachments/STA/cdc.JPG)
 
 ------
 
@@ -481,7 +481,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
   - The data updated by the transmit domain cannot be captured by the immediately following receive clock edge
   - Ensures that the captured data will not be metastable in the receive domain
 
-![metastability](docs/IC/25-STA/attachments/STA/cdcscheme.JPG)
+![metastability](attachments/STA/cdcscheme.JPG)
 
 ------
 
@@ -490,7 +490,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
 - Lists the cells causing the timing violations on multiple paths
 - By identifying and fixing the violation caused by a Bottleneck Cell improved timing can be achieved
 
-![bottleneck analysis](docs/IC/25-STA/attachments/STA/bottleneck.JPG)
+![bottleneck analysis](attachments/STA/bottleneck.JPG)
 
 ------
 
@@ -528,7 +528,7 @@ Hold time is the minimum amount of time the data signal should be held steady af
 - Edge-triggered flip-flops change states at the clock edges, whereas latches change states as long as the clock pin is enabled
 - In latch based design longer combinational path can be compensated by shorter path delays in the subsequent logic stages
 - The technique of Borrowing Time from the shorter paths of the subsequent logic stages to the longer path is called Time Borrowing or Cycle Stealing
-  ![time borrowing](docs/IC/25-STA/attachments/STA/timeborrowing.JPG)
+  ![time borrowing](attachments/STA/timeborrowing.JPG)
 - Time Borrowing typically only affects setup slack calculation since time borrowing slows data arrival times
 - When the clocks of the Launching and Capturing Latches are out of phase, time borrowing is not to happen
 - Timing borrowing can be multistage
@@ -558,16 +558,16 @@ Hold time is the minimum amount of time the data signal should be held steady af
 	- Required Arrival Times RAT (propagated from outputs)
 	- Slack is calculated on every design element: Slack = RT – AT
 
-![graph based sta](docs/IC/25-STA/attachments/STA/graph.JPG)
+![graph based sta](attachments/STA/graph.JPG)
 
 ------
 
 #### Difference between Path Based STA(PBA) and Graphh Based STA(GBA)
 
-![pba gba](docs/IC/25-STA/attachments/STA/gbapba.JPG)
+![pba gba](attachments/STA/gbapba.JPG)
 
 ------
 
 #### Block-based STA vs. Path-based STA (example)
 
-![timing analysis, static timming analysis ](docs/IC/25-STA/attachments/STA/bps.JPG)
+![timing analysis, static timming analysis ](attachments/STA/bps.JPG)

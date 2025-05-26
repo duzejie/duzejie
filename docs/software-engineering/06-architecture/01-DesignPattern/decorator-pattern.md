@@ -20,7 +20,7 @@
 
 在装饰模式中，为了让系统具有更好的灵活性和可扩展性，通常会定义一个抽象装饰类，而将具体的装饰类作为它的子类，装饰模式结构图如下所示：
 
-![装饰模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/decorator-pattern/e72d34e880f1f3951262660864c2f931_MD5.png)
+![装饰模式结构图](attachments/decorator-pattern/e72d34e880f1f3951262660864c2f931_MD5.png)
 
 在装饰模式结构图中包含如下几个角色：
 

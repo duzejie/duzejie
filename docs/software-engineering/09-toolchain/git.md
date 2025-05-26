@@ -49,7 +49,7 @@ git remote update origin --prune 刷新获取远程分支
 ls –a 查看代码
 ```
 
-![](docs/software-engineering/09-tool/img/git04.png)
+![](../09-tool/img/git04.png)
 
 ### 基本信息操作
 
@@ -110,7 +110,7 @@ $ ssh-keygen -t rsa -C 'xxx@qq.com' 配置密钥对 公钥在 git 上配置
 
 ```
 
-![](docs/software-engineering/09-tool/img/git03.png)
+![](../09-tool/img/git03.png)
 
 ### 查看 log
 
@@ -198,7 +198,7 @@ git stash drop stash{0} 删除暂存区
 git cherry-pick 调减需合并的代码
 ```
 
-![](docs/software-engineering/09-tool/img/git02.png)
+![](../09-tool/img/git02.png)
 
 
 

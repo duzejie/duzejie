@@ -8,11 +8,11 @@
 
 未引入中介者，对象之间(这些对象称为`同事对象`，它们之间通过彼此的相互作用实现系统的行为)的关系图如下所示：
 
-![对象之间存在复杂关系的网状结构](docs/software-engineering/06-architecture/01-DesignPattern/attachments/mediator-pattern/ad0e1ead1d9a7fcba3235a2ed7727dc1_MD5.png)
+![对象之间存在复杂关系的网状结构](attachments/mediator-pattern/ad0e1ead1d9a7fcba3235a2ed7727dc1_MD5.png)
 
 引入中介者可以使对象之间的关系数量急剧减少。在这个星形结构中，对象不再直接与另一个对象联系，它通过中介者对象与另一个对象发生相互作用。
 
-![引入中介者对象的星型结构](docs/software-engineering/06-architecture/01-DesignPattern/attachments/mediator-pattern/48fd19401eecd0d50ad4ac477012f8f8_MD5.png)
+![引入中介者对象的星型结构](attachments/mediator-pattern/48fd19401eecd0d50ad4ac477012f8f8_MD5.png)
 
 ### 模式定义
 
@@ -24,7 +24,7 @@
 
 在中介者模式中，引入了用于协调其他对象/类之间相互调用的中介者类，为了让系统具有更好的灵活性和可扩展性，通常还提供了抽象中介者，其结构图如下图所示：
 
-![中介者模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/mediator-pattern/786444c23f682b963b6572161b46e9a7_MD5.png)
+![中介者模式结构图](attachments/mediator-pattern/786444c23f682b963b6572161b46e9a7_MD5.png)
 
 在中介者模式结构图中包含如下几个角色：
 

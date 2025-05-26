@@ -6,7 +6,7 @@
 
 生活中，在购买开关时，我们并不知道它将来到底用于控制什么电器，也就是说，开关与电灯、排气扇并无直接关系，一个开关在安装之后可能用来控制电灯，也可能用来控制排气扇或者其他电器设备。开关与电器之间通过电线建立连接，如果开关打开，则电线通电，电器工作；反之，开关关闭，电线断电，电器停止工作。相同的开关可以通过不同的电线来控制不同的电器，如下图所示：
 
-![](docs/software-engineering/06-architecture/01-DesignPattern/attachments/command-pattern/b26735172c2a98c2626fcdd9d5dbd1f4_MD5.png)
+![](attachments/command-pattern/b26735172c2a98c2626fcdd9d5dbd1f4_MD5.png)
 
 图中，我们可以将开关理解成一个请求的发送者，用户通过它来发送一个“开灯”请求，而电灯是“开灯”请求的最终接收者和处理者，在图中，开关和电灯之间并不存在直接耦合关系，它们通过电线连接在一起，使用不同的电线可以连接不同的请求接收者，只需更换一根电线，相同的发送者（开关）即可对应不同的接收者（电器）。
 
@@ -22,7 +22,7 @@
 
 命令模式的核心在于引入了命令类，通过命令类来降低发送者和接收者的耦合度，请求发送者只需指定一个命令对象，再通过命令对象来调用请求接收者的处理方法，其结构如下图所示：
 
-![](docs/software-engineering/06-architecture/01-DesignPattern/attachments/command-pattern/1976cdb283cec219558229dad0561c21_MD5.png)
+![](attachments/command-pattern/1976cdb283cec219558229dad0561c21_MD5.png)
 
 ### 模式伪代码
 

@@ -14,9 +14,9 @@
 
 #### Discontinuity: Classification
 
-![discontinuity classification in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/classification.JPG)
+![discontinuity classification in physical design](attachments/DFM-DFY/classification.JPG)
 
-![discontinuity classification in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/classification1.JPG)
+![discontinuity classification in physical design](attachments/DFM-DFY/classification1.JPG)
 
 
 
@@ -36,7 +36,7 @@
 
 #### Yield Classification
 
-![yield classification in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/yield.JPG)
+![yield classification in physical design](attachments/DFM-DFY/yield.JPG)
 
 
 
@@ -48,7 +48,7 @@
 - Higher design complexity and shrinking device geometries
 - More devices per unit area on a chip (device density)
 
-![dfy dfm in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/dfm.JPG)
+![dfy dfm in physical design](attachments/DFM-DFY/dfm.JPG)
 
 
 **Importance of DFM/DFY**
@@ -69,7 +69,7 @@
 - The wire distribution spreads wires that are on the same metal layer as well as across different metal layers
 - The benefits gained from lower routing density are in improved manufacturing yield, reduced crosstalk noise, crosstalk delay and random particle defects
 
-![wire spreading in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/solution.JPG)
+![wire spreading in physical design](attachments/DFM-DFY/solution.JPG)
 **Metal Fill**
 
 - Dummy metal fill
@@ -82,7 +82,7 @@
 - Hot Spot/ Critical Area is the region at the center of a random defect which will cause circuit failure (yield loss)
 - By analyzing the critical areas, defect-limited yield can be estimated based on the probability of the failures of vias and point defects on routing
 - The larger the defect size, the larger the Critical Area
-- Critical area reduction improves yield ![hotspot in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/hotspot.JPG)
+- Critical area reduction improves yield ![hotspot in physical design](attachments/DFM-DFY/hotspot.JPG)
 
 - Chemical-Mechanical Polishing (CMP) is a technique for surface smoothing and material removal process to get globally planar wafer surface
 
@@ -117,7 +117,7 @@
 - In advanced nodes minimal material removal with atomically flat and clean surface finish has to be achieved
 - CMP is influenced by line width and pattern density
 - The dishing and erosion increase slowly as a function of increasing density and go into saturation when the density is more than 0.7
-- Oxide erosion and copper dishing can be controlled by area filling and metal slotting ![CMP Aware design in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/cmp.JPG)
+- Oxide erosion and copper dishing can be controlled by area filling and metal slotting ![CMP Aware design in physical design](attachments/DFM-DFY/cmp.JPG)
 
 
 
@@ -128,7 +128,7 @@
 - Replacing single Vias with redundant (or double) Vias on signal nets improves reliability and reduce yield loss, due to via failures
 - Critical Area Analysis (CAA) identifies the requirement of Redundant Vias
 
-![redundant vias in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/dfm1.JPG)
+![redundant vias in physical design](attachments/DFM-DFY/dfm1.JPG)
 **Resolution Enhancement Techniques (RET)**
 
 - RET are methods used to modify photo-masks to compensate for limitations in the lithographic processes used to manufacture the chips
@@ -159,7 +159,7 @@
 - Double Patterning (DP) or Multiple Patterning
 - Phase Shift Masking (PSM)
 - Off-axis Illumination (OAI)
-  ![resolution engancement in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/ret.JPG)
+  ![resolution engancement in physical design](attachments/DFM-DFY/ret.JPG)
 
 
 
@@ -175,12 +175,12 @@
 
 - Second, you have an exponential increase in volume of the data representing the chip's layout, along with a huge increase in the time it takes to process this data and prepare it for photo-mask generation
 
-  ​      ![optical proximity correction](docs/IC/50-数字EDA/attachments/DFM-DFY/opc.JPG)
+  ​      ![optical proximity correction](attachments/DFM-DFY/opc.JPG)
 
 #### Scattering Bars (SB)
 
 - Sub resolution assist features that improves the depth of focus of isolated features
-- Scattering Bars are added only for the most outer line of the dense pattern     ![scattering bars in physical design](docs/IC/50-数字EDA/attachments/DFM-DFY/scattering.JPG)
+- Scattering Bars are added only for the most outer line of the dense pattern     ![scattering bars in physical design](attachments/DFM-DFY/scattering.JPG)
 
 #### Multiple Patterning
 
@@ -202,7 +202,7 @@
 - Etching quartz from certain areas of the mask (alt-PSM) or replacing Chrome with phase shifting Molybdenum Silicide layer (attenuated embedded PSM) to improve CD control and increase resolution
 - There exist alternating and attenuated phase shift masks
 - Types of masks
-  - Conventional (binary) mask, Alternating phase-shift mask, Attenuated phase-shift mask ![phase shift masking psm](docs/IC/50-数字EDA/attachments/DFM-DFY/psk.JPG)
+  - Conventional (binary) mask, Alternating phase-shift mask, Attenuated phase-shift mask ![phase shift masking psm](attachments/DFM-DFY/psk.JPG)
 
 #### Off-Axis Illumination (OAI) (not considered in PD)
 
@@ -212,5 +212,5 @@
 - This technique basically has no on-axis illumination component as oppose to partial coherence
 - The shape and size of the source plays an important role when different conditions of mask features such as density and orientation are considered
 - To obtain the highest resolution, illumination of the photo-mask is not performed by a discshaped source
-- The angular distribution of the illumination beam may have a complex structure, such as an annulus, a set of off-axis circles, or even a continuously varying profile ![Off-Axis Illumination (OAI](docs/IC/50-数字EDA/attachments/DFM-DFY/axis.JPG)
+- The angular distribution of the illumination beam may have a complex structure, such as an annulus, a set of off-axis circles, or even a continuously varying profile ![Off-Axis Illumination (OAI](attachments/DFM-DFY/axis.JPG)
 

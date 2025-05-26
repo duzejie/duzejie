@@ -17,7 +17,7 @@
 
 在适配器模式中，我们通过增加一个新的适配器类来解决接口不兼容的问题，使得原本没有任何关系的类可以协同工作。根据适配器类与适配者类的关系不同，适配器模式可分为`对象适配器`和`类适配器`两种，在`对象适配器`模式中，适配器与适配者之间是`关联关系`；在`类适配器`模式中，适配器与适配者之间是`继承`关系。在实际开发中，对象适配器的使用频率更高，对象适配器模式结构如图所示
 
-![对象适配器结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/adapter-pattern/a24d70f3811f6c86fbd064cfc0760993_MD5.png)
+![对象适配器结构图](attachments/adapter-pattern/a24d70f3811f6c86fbd064cfc0760993_MD5.png)
 
 在对象适配器模式结构图中包含如下几个角色：
 - `Target（目标抽象类）`：目标抽象类定义客户所需接口，可以是一个抽象类或接口，也可以是具体类。
@@ -50,7 +50,7 @@ public class Adapter implements Target {
 #### 类适配器
 `类适配器`模式和`对象适配器`模式最大的区别在于适配器和适配者之间的关系不同，对象适配器模式中适配器和适配者之间是`关联关系`，而类适配器模式中适配器和适配者是`继承关系`
 
-![类适配器结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/adapter-pattern/8edc4862a4a081ae814867cfd56b1646_MD5.png)
+![类适配器结构图](attachments/adapter-pattern/8edc4862a4a081ae814867cfd56b1646_MD5.png)
 
 适配器类实现了抽象目标类接口`Target`，并继承了适配者类，在适配器类的`request()`方法中调用所继承的适配者类的`specificRequest()`方法，实现了适配。  
 典型代码实现如下：
@@ -68,7 +68,7 @@ public class Adapter extends Adaptee implements Target {
 
 `双向适配器`: 在`对象适配器`的使用过程中，如果在适配器中同时包含对目标类和适配者类的引用，适配者可以通过它调用目标类中的方法，目标类也可以通过它调用适配者类中的方法，那么该适配器就是一个双向适配器。
 
-![双向适配器结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/adapter-pattern/db41c6256b119dd74d651223c756a170_MD5.png)
+![双向适配器结构图](attachments/adapter-pattern/db41c6256b119dd74d651223c756a170_MD5.png)
 
 典型代码实现如下：
 ```java
@@ -103,7 +103,7 @@ public class Adapter implements Target, Adaptee {
 `缺省适配器`模式是适配器模式的一种变体，其应用也较为广泛。
 > `缺省适配器模式(Default Adapter Pattern)`：当不需要实现一个接口所提供的所有方法时，可先设计一个抽象类实现该接口，并为接口中每个方法提供一个默认实现（空方法），那么该抽象类的子类可以选择性地覆盖父类的某些方法来实现需求，它适用于不想使用一个接口中的所有方法的情况，又称为`单接口适配器模式`。
 
-![缺省适配器结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/adapter-pattern/4fc0f93d493189b9d3ef522243c09d34_MD5.png)
+![缺省适配器结构图](attachments/adapter-pattern/4fc0f93d493189b9d3ef522243c09d34_MD5.png)
 
 典型代码实现如下：
 ```java

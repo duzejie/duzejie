@@ -415,13 +415,13 @@ $$
 
 效果：
 
-![image-20200611115020866](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/LaTex%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/fec7d6005a73fe0a23011f99f7ac9995_MD5.png)
+![image-20200611115020866](attachments/LaTex使用指南/fec7d6005a73fe0a23011f99f7ac9995_MD5.png)
 
 ### 5.3 公式中的间距
 
 前文提到过，绝大部分时候，数学公式中各元素的间距是根据符号类型自动生成的，需要我们手动调整的情况极少。我们已经认识了两个生成间距的命令 `\quad` 和 `\qquad`。在公式中我们还可能用到的间距包括 `\,`、`\:`、`\;` 以及负间距 `\!`，其中 `\quad`、`\qquad` 和 `\,` 在文本和数学环境中可用，后三个命令只用于数学环境。文本中的 `\␣` 也能使用在数学公式中。
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/LaTex%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/2e7e9ced91e1bd7bc1ea0694f05b368f_MD5.png)
+![](attachments/LaTex使用指南/2e7e9ced91e1bd7bc1ea0694f05b368f_MD5.png)
 
 一个常见的用途是修正积分的被积函数 f(x) 和微元 dx 之间的距离。
 
@@ -670,7 +670,7 @@ $$
 
 ### 9.3 二元运算符
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/LaTex%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/98e92f8d29ae9a3f443c1872a771e460_MD5.png)
+![](attachments/LaTex使用指南/98e92f8d29ae9a3f443c1872a771e460_MD5.png)
 
 ### 9.4 希腊字母
 
@@ -707,7 +707,7 @@ latex 希腊字母符号代码就是 `斜杠+其英文名称`，如 αα:αα,β
 
 ### 9.5 巨算符
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/LaTex%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/c2890e633e290ba2da81c2a1a4e3fba4_MD5.png)
+![](attachments/LaTex使用指南/c2890e633e290ba2da81c2a1a4e3fba4_MD5.png)
 
 ### 9.6 箭头
 
@@ -727,17 +727,17 @@ $$c\xrightarrow[x<y]{a*b*c}d $$
 
 **箭头详细表：**
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/LaTex%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/c9e8b15676a9dd07e4b75d4d95eb17e3_MD5.png)
+![](attachments/LaTex使用指南/c9e8b15676a9dd07e4b75d4d95eb17e3_MD5.png)
 
 ## 10 括号与定界符
 
 ### 10.1 作为重音的箭头符号
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/LaTex%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/1b62769e8ae8245b64bb1564ab8d3e4f_MD5.png)
+![](attachments/LaTex使用指南/1b62769e8ae8245b64bb1564ab8d3e4f_MD5.png)
 
 ### 10.2 定界符
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/LaTex%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/831581e44fb8d9aea56a6145720a1d99_MD5.png)
+![](attachments/LaTex使用指南/831581e44fb8d9aea56a6145720a1d99_MD5.png)
 
 
 

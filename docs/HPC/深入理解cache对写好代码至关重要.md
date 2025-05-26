@@ -11,17 +11,17 @@ Cache的一致性有这么几个层面
 
 3.     CPU与设备（其实也可能是个异构处理器，不过在Linux运行的CPU眼里，都是设备，都是DMA）的cache同步问题
 
-![Image](docs/HPC/attachments/深入理解cache对写好代码至关重要/581272f699ff2eeb5244e19870454d31_MD5.png)
+![Image](attachments/深入理解cache对写好代码至关重要/581272f699ff2eeb5244e19870454d31_MD5.png)
 
 先看一下ICACHE和DCACHE同步问题。由于程序的运行而言，指令流的都流过icache，而指令中涉及到的数据流经过dcache。所以对于自修改的代码（Self-Modifying Code）而言，比如我们修改了内存p这个位置的代码（典型多见于JIT compiler），这个时候我们是通过store的方式去写的p，所以新的指令会进入dcache。但是我们接下来去执行p位置的指令的时候，icache里面可能命中的是修改之前的指令。
 
-![Image](docs/HPC/attachments/深入理解cache对写好代码至关重要/b534b662b3b95eba2b7b5c73b9f76e73_MD5.png)
+![Image](attachments/深入理解cache对写好代码至关重要/b534b662b3b95eba2b7b5c73b9f76e73_MD5.png)
 
 所以这个时候软件需要把dcache的东西clean出去，然后让icache invalidate，这个开销显然还是比较大的。
 
 但是，比如ARM64的N1处理器，它支持硬件的icache同步，详见文档：The Arm Neoverse N1 Platform: Building Blocks for the Next-Gen Cloud-to-Edge Infrastructure SoC
 
-![Image](docs/HPC/attachments/深入理解cache对写好代码至关重要/032123f9d01ee02d50a3278907aa0db3_MD5.png)
+![Image](attachments/深入理解cache对写好代码至关重要/032123f9d01ee02d50a3278907aa0db3_MD5.png)
 
 特别注意画红色的几行。软件维护的成本实际很高，还涉及到icache的invalidation向所有核广播的动作。
 

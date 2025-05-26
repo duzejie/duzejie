@@ -16,7 +16,7 @@
 
 - As technology shrinks, variations increases since smaller geometries have had a higher variability
 
-- As a result the number of Corners and Derates also grows ![corners in physical design](docs/IC/50-数字EDA/attachments/MCMM-OCV/para.JPG)
+- As a result the number of Corners and Derates also grows ![corners in physical design](attachments/MCMM-OCV/para.JPG)
 
 - It is important to find minimum number of Corners, because run-time and Turn Around Time increases with increased number of Corners
 
@@ -24,7 +24,7 @@
 
 - Also each Corner need its own OCV timing margins
 
-- The more Corners are used, the more pessimistic the timing signoff ![corners in physical design](docs/IC/50-数字EDA/attachments/MCMM-OCV/dv.JPG)
+- The more Corners are used, the more pessimistic the timing signoff ![corners in physical design](attachments/MCMM-OCV/dv.JPG)
 
 - At each global Corner the Die experiences
 
@@ -63,22 +63,22 @@
 
 #### **Need for Corner Analysis**
 
-![corner analysis](docs/IC/50-数字EDA/attachments/MCMM-OCV/corner.JPG)
+![corner analysis](attachments/MCMM-OCV/corner.JPG)
 
 ------
 
-![corner analysis](docs/IC/50-数字EDA/attachments/MCMM-OCV/corner1.JPG)
+![corner analysis](attachments/MCMM-OCV/corner1.JPG)
 
 
 
 #### **PVT Variations**
 
-![PVT Variation](docs/IC/50-数字EDA/attachments/MCMM-OCV/pvt.JPG)
+![PVT Variation](attachments/MCMM-OCV/pvt.JPG)
 
 #### **Corner Analysis**
 
 **PVT/RC Corners**
-![corner analysis](docs/IC/50-数字EDA/attachments/MCMM-OCV/ana.JPG)
+![corner analysis](attachments/MCMM-OCV/ana.JPG)
 
 #### **RC Corners**
 
@@ -181,7 +181,7 @@
 - MCMM helps to avoid switching between different Corners/Modes to fix Setup/Hold violation
 - Avoids over fixing/ under fixing a Hold violation in a particular Corner
 - Reduces Hold buffer count
-           ![multi corner](docs/IC/50-数字EDA/attachments/MCMM-OCV/mcmm.JPG)
+           ![multi corner](attachments/MCMM-OCV/mcmm.JPG)
 - Reduce number of manual timing ECOs
 - Faster design closure
 - Helps in reducing the pessimistic margins and so is also called as Design-for-Variability (DFV)
@@ -214,7 +214,7 @@
 - Early and late derates applied to launch paths and capture paths depending upon Setup/Hold Analysis
 - Maximum and minimum derating means to multiply the original timing library delay values by the derate value
 - Derating decreases as process matures
-      E.g. For 65nm designs at earlier days 15% derates added but now a days only 5% derates need to be added ![OCV derate](docs/IC/50-数字EDA/attachments/MCMM-OCV/ocv.JPG)
+      E.g. For 65nm designs at earlier days 15% derates added but now a days only 5% derates need to be added ![OCV derate](attachments/MCMM-OCV/ocv.JPG)
 
 
 
@@ -262,7 +262,7 @@
 - AOCV tables have derate values for each cell for different depths (path length)
 - AOCV Derates are defined by analyzing the ratio of delay at the global corner with local variance to a fixed corner
 - AOCV defines 8 derate values for each cell at each depth
-  ![AOCV](docs/IC/50-数字EDA/attachments/MCMM-OCV/aocv.JPG)
+  ![AOCV](attachments/MCMM-OCV/aocv.JPG)
 
 **Statistical OCV (SSTA modeling)**
 

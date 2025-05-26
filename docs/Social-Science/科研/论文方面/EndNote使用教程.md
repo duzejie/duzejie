@@ -22,7 +22,7 @@
 
 
 
-![微信公众号](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/EndNote%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/5933d107838cde5346844a509d8bc33d_MD5.png)
+![微信公众号](attachments/EndNote使用教程/5933d107838cde5346844a509d8bc33d_MD5.png)
 
 
 

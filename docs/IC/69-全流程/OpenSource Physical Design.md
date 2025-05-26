@@ -89,7 +89,7 @@
   - Core: It is the actual area of the IC where the logic resides.
   - Pads: These are the interfaces between the internal signals of a chip and the external pins
  
-  ![[docs/IC/69-全流程/images/d1_ic_terms.JPG]]
+  ![[images/d1_ic_terms.JPG]]
  
  ## Introduction To RISC-V
    RISC-V is a new ISA that's available under open, free and non-restrictive licences. RISC-V ISA delivers a new level of free, extensible software and hardware freedom on architecture.
@@ -103,13 +103,13 @@
  ### Open-Source PDK Directory Structure
    All the Process Design Kit(PDK) are listed under the `pdks/` directory. Along with the `Sky130A` we are using some other open-source PDKs and other related files are also available in the directory. The location of the PDK directory is given of `$PDK_ROOT` variable. 
     
-   ![[docs/IC/69-全流程/images/d1_pdk_directory_structure.JPG]]
+   ![[images/d1_pdk_directory_structure.JPG]]
   
  ### What is OpenLANE
    [OpenLANE](https://github.com/efabless/openlane) is an automated RTL to GDSII flow which includes various open-source components such as OpenROAD, Yosys, Magic, Fault, Netgen, SPEF-Extractor. It also facilitates to add custom design exploration and optimization scripts.
    The detailed diagram of the OpenLANE architecture is shown below:
    
-   ![[docs/IC/69-全流程/images/openlane_flow.png]]
+   ![[images/openlane_flow.png]]
    
    OpenLANE flow consists of several stages. By default all flow steps are run in sequence. Each stage may consist of multiple sub-stages. OpenLANE can also be run interactively as shown here.
 
@@ -151,7 +151,7 @@
    - OpenLANE supports two modes of operation: interactive and autonomous.
    - To use interactive mode use `-interactive` flag with `./flow.tcl`
    
-   ![[docs/IC/69-全流程/images/d1_openlane_invoke.JPG]] 
+   ![[images/d1_openlane_invoke.JPG]] 
    
  ### Design Preparation
    The first step after invoking OpenLANE is to import the openlane package of required version. This is done using following command. Here 0.9 is the required version of OpenLANE.
@@ -166,7 +166,7 @@
      <br />`-tag <name-for-current-run>` - All the files generated during the flow will be stored in a directory named `<name-for-current-run>`
      <br />`-overwrite` - If a directory name mentioned in `-tag` already exists, it will be overwritten.
    
-   ![[docs/IC/69-全流程/images/d1_openlane_design_prep.JPG]] 
+   ![[images/d1_openlane_design_prep.JPG]] 
    
    During the design preparation the technology LEF and cell LEF files are merged together to obtain a `merged.lef` file. The LEF file contains information like the layer information, set of design rules, information about each standard cell which is required for place and route. 
     
@@ -175,7 +175,7 @@
    
     run_synthesis
    
-   ![[docs/IC/69-全流程/images/d1_openlane_synthesis.JPG]]
+   ![[images/d1_openlane_synthesis.JPG]]
    
 # Day 2 - Good floorplan vs bad floorplan and introduction to library cells
  ## Chip Floorplanning
@@ -197,7 +197,7 @@
    
    Successful floorplanning gives a `def` file as output. This file contains the die area and placement of standard cells.
    
-   ![[docs/IC/69-全流程/images/d2_floorplan_def.JPG]]
+   ![[images/d2_floorplan_def.JPG]]
  
  ### Review Floorplan Layout in Magic
    Magic Layout Tool is used for visualizing the layout after floorplan. In order to view floorplan in Magic, following three files are required:
@@ -205,9 +205,9 @@
     2. Merged LEF file (`merged.lef`)
     3. DEF File
     
-   ![[docs/IC/69-全流程/images/d2_floorplan_invoke_magic_cmd.JPG]]
-   ![[docs/IC/69-全流程/images/d2_floorplan_magic.JPG]]
-   ![[docs/IC/69-全流程/images/d2_floorplan_magic_expand.JPG]]
+   ![[images/d2_floorplan_invoke_magic_cmd.JPG]]
+   ![[images/d2_floorplan_magic.JPG]]
+   ![[images/d2_floorplan_magic_expand.JPG]]
  
  ## Placement
  ### Placement and Optimization
@@ -224,8 +224,8 @@
    
    Placement is carried out as an iterative process till the value of overflow converges to 0.
    
-   ![[docs/IC/69-全流程/images/d2_placement_invoke_magic_cmd.JPG]]
-   ![[docs/IC/69-全流程/images/d2_placement_magic.JPG]]
+   ![[images/d2_placement_invoke_magic_cmd.JPG]]
+   ![[images/d2_placement_magic.JPG]]
    <table><tr><td>![[images/d2_placement_magic_expand.JPG]] </td><td> ![[images/d2_placement_magic_expand_2.JPG]] </td></tr></table>
    
  ## Cell Design and Characterization Flows
@@ -376,7 +376,7 @@
    
     gen_pdn
     
-   ![[docs/IC/69-全流程/images/d5_pdn.JPG]]
+   ![[images/d5_pdn.JPG]]
    
  ## Routing using TritonRoute
    OpenLANE uses TritonRoute, an open source router for modern industrial designs. The router consists of several main building blocks, including pin access analysis, track assignment, initial detailed routing, search and repair, and a DRC engine.

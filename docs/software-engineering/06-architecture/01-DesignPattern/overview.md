@@ -50,36 +50,36 @@
 
 | 模式名称                                                                                                                 | 学习难度  | 使用频率  |
 | -------------------------------------------------------------------------------------------------------------------- | ----- | ----- |
-| [单例模式(Singleton Pattern)——确保对象的唯一性](docs/software-engineering/06-architecture/01-DesignPattern/singleton-pattern.md) | ★☆☆☆☆ | ★★★★☆ |
+| [单例模式(Singleton Pattern)——确保对象的唯一性](singleton-pattern.md) | ★☆☆☆☆ | ★★★★☆ |
 | [简单工厂模式(Simple Factory Pattern)](docs/software-engineering/06-architecture/01-DesignPattern/factory-pattern.md?id=简单工厂模式)                                         | ★★☆☆☆ | ★★★☆☆ |
 | [工厂方法模式(Factory Method Pattern)](docs/software-engineering/06-architecture/01-DesignPattern/factory-pattern.md?id=工厂方法模式)                                         | ★★☆☆☆ | ★★★★★ |
 | [抽象工厂模式(Abstract  Factory Pattern)](docs/software-engineering/06-architecture/01-DesignPattern/factory-pattern.md?id=抽象工厂模式)                                      | ★★★★☆ | ★★★★★ |
-| [原型模式(Prototype Pattern)——对象的克隆](docs/software-engineering/06-architecture/01-DesignPattern/prototype-pattern.md)    | ★★★☆☆ | ★★★☆☆ |
-| [建造者模式(Builder Pattern)——复杂对象的组装与创建](docs/software-engineering/06-architecture/01-DesignPattern/builder-pattern.md)  | ★★★★☆ | ★★☆☆☆ |
+| [原型模式(Prototype Pattern)——对象的克隆](prototype-pattern.md)    | ★★★☆☆ | ★★★☆☆ |
+| [建造者模式(Builder Pattern)——复杂对象的组装与创建](builder-pattern.md)  | ★★★★☆ | ★★☆☆☆ |
 
 
 ### 结构型模式
 
 | 模式名称                                                     | 学习难度 | 使用频率 |
 | ------------------------------------------------------------ | -------- | -------- |
-| [适配器模式(Adapter Pattern)——不兼容结构的协调](docs/software-engineering/06-architecture/01-DesignPattern/adapter-pattern.md) | ★★☆☆☆    | ★★★★☆    |
-| [桥接模式(Bridge Pattern)——处理多维度变化](docs/software-engineering/06-architecture/01-DesignPattern/bridge-pattern.md) | ★★★☆☆    | ★★★☆☆    |
-| [组合模式(Composite Pattern)——树形结构的处理](docs/software-engineering/06-architecture/01-DesignPattern/composite-pattern.md) | ★★★☆☆    | ★★★★☆    |
-| [装饰模式(Decorator Pattern)——扩展系统功能](docs/software-engineering/06-architecture/01-DesignPattern/decorator-pattern.md) | ★★★☆☆    | ★★★☆☆    |
-| [外观模式(Facade Pattern)——提供统一的入口](docs/software-engineering/06-architecture/01-DesignPattern/facade-pattern.md) | ★☆☆☆☆    | ★★★★★    |
-| [享元模式(Flyweight Pattern)——实现对象的复用](docs/software-engineering/06-architecture/01-DesignPattern/flyweight-pattern.md) | ★★★★☆    | ★☆☆☆☆    |
-| [代理模式(Proxy Pattern)——对象的间接访问](docs/software-engineering/06-architecture/01-DesignPattern/proxy-pattern.md) | ★★★☆☆    | ★★★★☆    |
+| [适配器模式(Adapter Pattern)——不兼容结构的协调](adapter-pattern.md) | ★★☆☆☆    | ★★★★☆    |
+| [桥接模式(Bridge Pattern)——处理多维度变化](bridge-pattern.md) | ★★★☆☆    | ★★★☆☆    |
+| [组合模式(Composite Pattern)——树形结构的处理](composite-pattern.md) | ★★★☆☆    | ★★★★☆    |
+| [装饰模式(Decorator Pattern)——扩展系统功能](decorator-pattern.md) | ★★★☆☆    | ★★★☆☆    |
+| [外观模式(Facade Pattern)——提供统一的入口](facade-pattern.md) | ★☆☆☆☆    | ★★★★★    |
+| [享元模式(Flyweight Pattern)——实现对象的复用](flyweight-pattern.md) | ★★★★☆    | ★☆☆☆☆    |
+| [代理模式(Proxy Pattern)——对象的间接访问](proxy-pattern.md) | ★★★☆☆    | ★★★★☆    |
 
 
 ### 行为型模式
 
 | 模式名称                                                     | 学习难度 | 使用频率 |
 | ------------------------------------------------------------ | -------- | -------- |
-| [职责链模式(Chain of Responsibility Pattern)——请求的链式处理](docs/software-engineering/06-architecture/01-DesignPattern/chain-of-responsibility-pattern.md) | ★★★☆☆    | ★★☆☆☆    |
-| [命令模式(Command Pattern)——请求发送者与接收者解耦](docs/software-engineering/06-architecture/01-DesignPattern/command-pattern.md) | ★★★☆☆    | ★★★★☆    |
-| [解释器模式(Interpreter Pattern)——自定义语言的实现](docs/software-engineering/06-architecture/01-DesignPattern/interpreter-pattern.md) | ★★★★★    | ★☆☆☆☆    |
-| [迭代器模式(Iterator Pattern)——遍历聚合对象中的元素](docs/software-engineering/06-architecture/01-DesignPattern/iterator-pattern.md) | ★★★☆☆    | ★★★★★    |
-| [中介者模式(Mediator Pattern)——协调多个对象之间的交互](docs/software-engineering/06-architecture/01-DesignPattern/mediator-pattern.md) | ★★★☆☆    | ★★☆☆☆    |
+| [职责链模式(Chain of Responsibility Pattern)——请求的链式处理](chain-of-responsibility-pattern.md) | ★★★☆☆    | ★★☆☆☆    |
+| [命令模式(Command Pattern)——请求发送者与接收者解耦](command-pattern.md) | ★★★☆☆    | ★★★★☆    |
+| [解释器模式(Interpreter Pattern)——自定义语言的实现](interpreter-pattern.md) | ★★★★★    | ★☆☆☆☆    |
+| [迭代器模式(Iterator Pattern)——遍历聚合对象中的元素](iterator-pattern.md) | ★★★☆☆    | ★★★★★    |
+| [中介者模式(Mediator Pattern)——协调多个对象之间的交互](mediator-pattern.md) | ★★★☆☆    | ★★☆☆☆    |
 | [备忘录模式(Memento Pattern)——撤销功能的实现](docs/software-engineering/06-architecture/01-DesignPattern/memento-pattern.md) | ★★☆☆☆    | ★★☆☆☆    |
 | [观察者模式(Observer Pattern)——对象间的联动](docs/software-engineering/06-architecture/01-DesignPattern/observer-pattern.md) | ★★★☆☆    | ★★★★★    |
 | [状态模式(State Pattern)——处理对象的多种状态及其相互转换](docs/software-engineering/06-architecture/01-DesignPattern/state-pattern.md) | ★★★☆☆    | ★★★☆☆    |

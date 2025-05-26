@@ -18,7 +18,7 @@
 
 建造者模式结构图如下所示：
 
-![建造者模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/builder-pattern/efd1ff67c1f85374e2f4f78313c3f3f3_MD5.png)
+![建造者模式结构图](attachments/builder-pattern/efd1ff67c1f85374e2f4f78313c3f3f3_MD5.png)
 
 建造者模式结构图中包含如下几个角色:
 - `Builder（抽象建造者）`：它为创建一个产品Product对象的各个部件指定抽象接口，在该接口中一般声明两类方法，一类方法是buildPartX()，它们用于创建复杂对象的各个部件；另一类方法是getResult()，它们用于返回复杂对象。Builder既可以是抽象类，也可以是接口。

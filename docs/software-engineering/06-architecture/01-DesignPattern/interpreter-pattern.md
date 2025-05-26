@@ -18,7 +18,7 @@
 
 由于表达式可分为终结符表达式和非终结符表达式，因此解释器模式的结构与组合模式的结构有些类似，但在解释器模式中包含更多的组成元素，它的结构如下图所示：
 
-![](docs/software-engineering/06-architecture/01-DesignPattern/attachments/interpreter-pattern/1d256f7c7b005b6168853be46ced09fa_MD5.png)
+![](attachments/interpreter-pattern/1d256f7c7b005b6168853be46ced09fa_MD5.png)
 
 在解释器模式结构图中包含如下几个角色：
 
@@ -119,7 +119,7 @@ value ::= an integer //一个整数值
 
 除了使用文法规则来定义一个语言，在解释器模式中还可以通过一种称之为抽象语法树(`Abstract Syntax Tree, AST`)的图形方式来直观地表示语言的构成，每一棵抽象语法树对应一个语言实例，如加法/减法表达式语言中的语句“1+2+3–4+1”，可以通过如下图所示抽象语法树来表示：
 
-![](docs/software-engineering/06-architecture/01-DesignPattern/attachments/interpreter-pattern/f2ed7851fb2a9fa6fef288625103d085_MD5.png)
+![](attachments/interpreter-pattern/f2ed7851fb2a9fa6fef288625103d085_MD5.png)
 
 在该抽象语法树中，可以通过终结符表达式`value`和非终结符表达式`operation`组成复杂的语句，每个文法规则的语言实例都可以表示为一个抽象语法树，即每一条具体的语句都可以用类似上图所示的抽象语法树来表示。
 

@@ -374,7 +374,7 @@ c++中的类具有成员保护功能，并且具有继承，多态这类特点�
 
 函数是指功能。每一个函数用来实现一个特定的功能，函数的名字反映其代表的功能。如下图是一个程序中函数调用的示意图。
 
-![image-20200514170356789](docs/software-engineering/10-interview/attachments/C语言面试题/bcdf34451edc4f2452d01ba893ae1296_MD5.png)
+![image-20200514170356789](attachments/C语言面试题/bcdf34451edc4f2452d01ba893ae1296_MD5.png)
 
 ### 函数的分类
 

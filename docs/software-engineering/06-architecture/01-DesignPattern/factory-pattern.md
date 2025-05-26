@@ -17,7 +17,7 @@
 
 简单工厂模式结构图如下所示：
 
-![简单工厂模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/factory-pattern/d65bc98f836b7e7adceeecdaf87be5aa_MD5.png)
+![简单工厂模式结构图](attachments/factory-pattern/d65bc98f836b7e7adceeecdaf87be5aa_MD5.png)
 
 ### 模式伪代码
 
@@ -78,7 +78,7 @@ public class Client {
 ### 模式简化
 有时候，为了简化简单工厂模式，我们可以将`抽象产品类`和`工厂类`合并，将静态工厂方法移至抽象产品类中，如下图所示。
 
-![简化的简单工厂模式](docs/software-engineering/06-architecture/01-DesignPattern/attachments/factory-pattern/4b345801241069b233caab0a17e2a4ed_MD5.png)
+![简化的简单工厂模式](attachments/factory-pattern/4b345801241069b233caab0a17e2a4ed_MD5.png)
 
 客户端可以通过产品父类的静态工厂方法，根据参数的不同创建不同类型的产品子类对象，这种做法在JDK等类库和框架中也广泛存在。  
 比如：`java.nio.charset.Charset`
@@ -117,7 +117,7 @@ public abstract class Charset {
 ### 模式结构图
 工厂方法模式提供一个抽象工厂接口来声明抽象工厂方法，而由其子类来具体实现工厂方法，创建具体的产品对象。工厂方法模式结构如图所示:
 
-![工厂方法模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/factory-pattern/d62c0526afee490c7153ebf91a66e2df_MD5.png)
+![工厂方法模式结构图](attachments/factory-pattern/d62c0526afee490c7153ebf91a66e2df_MD5.png)
 
 在工厂方法模式结构图中包含如下几个角色：
 - Product（抽象产品）：它是定义产品的接口，是工厂方法模式所创建对象的超类型，也就是产品对象的公共父类。
@@ -192,7 +192,7 @@ public class AbstractFactory {
 ### 模式结构图
 在抽象工厂模式中，每一个具体工厂都提供了多个工厂方法用于产生多种不同类型的产品，这些产品构成了一个产品族，抽象工厂模式结构如图所示：
 
-![抽象工厂模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/factory-pattern/ac74585fd5019326e80ceb3b72fcdceb_MD5.png)
+![抽象工厂模式结构图](attachments/factory-pattern/ac74585fd5019326e80ceb3b72fcdceb_MD5.png)
 
 在抽象工厂模式结构图中包含如下几个角色：
 - AbstractFactory（抽象工厂）：它声明了一组用于创建一族产品的方法，每一个方法对应一种产品。

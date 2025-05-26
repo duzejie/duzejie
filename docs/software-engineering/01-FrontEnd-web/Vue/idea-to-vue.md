@@ -18,13 +18,13 @@
 
 > 全局安装 vue-cli，在命令行中执行：npm install -g vue-cli
 
-![image-20200322231314767](docs/software-engineering/01-FrontEnd-web/Vue/attachments/idea-to-vue/72cb84503ed8d09d392126701ff055ba_MD5.png)
+![image-20200322231314767](attachments/idea-to-vue/72cb84503ed8d09d392126701ff055ba_MD5.png)
 
 ### 安装 vue.js
 
 * 打开 IDEA，File --> Settings --> Plugins 中搜索 vue.js 进行安装
 
-![image-20200322232201106](docs/software-engineering/01-FrontEnd-web/Vue/attachments/idea-to-vue/426315cedd3765e59e3ac10b771d9124_MD5.png)
+![image-20200322232201106](attachments/idea-to-vue/426315cedd3765e59e3ac10b771d9124_MD5.png)
 
 ## 配置 IDEA
 
@@ -32,7 +32,7 @@
 
 * File --> Settings --> Editor --> File Types --> HTML 选中  点下方的 + 添加 *.vue 后缀
 
-![image-20200322232834486](docs/software-engineering/01-FrontEnd-web/Vue/attachments/idea-to-vue/99a02717b4170b85d2911968143b6c57_MD5.png)
+![image-20200322232834486](attachments/idea-to-vue/99a02717b4170b85d2911968143b6c57_MD5.png)
 
 ### 设置 js
 
@@ -43,7 +43,7 @@
 * 可添可不添
 * File --> Settings --> Editor --> File and Code Templates --> +
 
-![image-20200322234253479](docs/software-engineering/01-FrontEnd-web/Vue/attachments/idea-to-vue/8de640e24189a7ccfc1d144deb9b9ba0_MD5.png)
+![image-20200322234253479](attachments/idea-to-vue/8de640e24189a7ccfc1d144deb9b9ba0_MD5.png)
 
 Vue File：
 
@@ -69,7 +69,7 @@ export default{
 
 * 选择一个想要创建 vue 项目的文件夹，打开 Terminal 可以看到当前的目录
 
-![image-20200322235309190](docs/software-engineering/01-FrontEnd-web/Vue/attachments/idea-to-vue/a11ad283b6166bbe36912bcc82bdbefb_MD5.png)
+![image-20200322235309190](attachments/idea-to-vue/a11ad283b6166bbe36912bcc82bdbefb_MD5.png)
 
 * 输入 vue init webpack project-name，回车 （ project-name 为项目名 ）
 
@@ -105,17 +105,17 @@ export default{
 
   * Result：初始化成功
 
-![image-20200323000917328](docs/software-engineering/01-FrontEnd-web/Vue/attachments/idea-to-vue/46fb56538229a404c9ce32b16dd0fedf_MD5.png)
+![image-20200323000917328](attachments/idea-to-vue/46fb56538229a404c9ce32b16dd0fedf_MD5.png)
 
 !> 这样构建出来的项目，可以直接运行。进入项目所在目录，执行 npm run dev，执行完看到以下提示：
 
-![image-20200323001135181](docs/software-engineering/01-FrontEnd-web/Vue/attachments/idea-to-vue/e9d0107d194192146e233d7260d3f846_MD5.png)
+![image-20200323001135181](attachments/idea-to-vue/e9d0107d194192146e233d7260d3f846_MD5.png)
 
 
 
 输入 [http://localhost:8080](http://localhost:8080/)  就可以看到这个页面了：
 
-![image-20200323001310986](docs/software-engineering/01-FrontEnd-web/Vue/attachments/idea-to-vue/765c4a2574cbeabd094218cbacdeef8c_MD5.png)
+![image-20200323001310986](attachments/idea-to-vue/765c4a2574cbeabd094218cbacdeef8c_MD5.png)
 
 
 

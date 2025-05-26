@@ -25,7 +25,7 @@ https://zhuanlan.zhihu.com/p/69305837
 
 # Tweaker
 
-![img](docs/IC/32-ECO/eco/20171222210053_73831.jpg)
+![img](eco/20171222210053_73831.jpg)
 
 
 **关键技术 ** 
@@ -44,7 +44,7 @@ https://zhuanlan.zhihu.com/p/69305837
   作为业界主流的ECO自动优化工具，Tweaker已为众多客户所采用。其采用了独特的ECO 技术架构，并基于设计的静态时序分析和布局布线等sign-off数据，对设计进行ECO domain的划分，对设计进行局部的、增量的且安全的MMMC优化。Tweaker在优化的过程中充分考虑Physical Aware及Power Aware特性, 显著地降低迭代时间和减少额外错误被引入的机会。作为业界领先的ECO优化设计自动化技术的领导厂商，Dorado一直致力于ECO优化技术的探索和创新。在ECO优化方面提供全面的解决方案。产品包括有: Tweaker-F1, Tweaker-T1, Tweaker-M1, Tweaker-P1, Tweaker-P2和Tweaker-C1. 肯
 
 
-![img](docs/IC/32-ECO/eco/20171222210204_68162.jpg)
+![img](eco/20171222210204_68162.jpg)
 
 **图1-Tweaker产品系列**
 
@@ -67,7 +67,7 @@ https://zhuanlan.zhihu.com/p/69305837
 
 Dorado公司的Metal ECO工具---Tweaker-M1利用设计中的spare cells和gate array cells等多重资源进行ECO综合，并生成最优的Netlist结果，同时自动化程度高，操作方便。它的示意图如下图所示。肯
 
-![img](docs/IC/32-ECO/eco/20171222205147_86070.png)  Tweaker-M1能帮助设计师快速实现如下功能：思**●  可回收****floating cells****
+![img](eco/20171222205147_86070.png)  Tweaker-M1能帮助设计师快速实现如下功能：思**●  可回收****floating cells****
 ****●  Spare cells****和****gate array cells****组合利用****
 ****●  小单元组合成大单元****
 ****●  Timing aware****和自动****timing/drv****违例修复****

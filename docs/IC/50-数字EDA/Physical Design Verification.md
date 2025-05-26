@@ -15,7 +15,7 @@
 	- Complexity of Routing Rules is increasing
 	- Increasing the number of objects involved
 	- More Design Rules depending on Width, Halo, Parallel Length
- ![[docs/IC/50-数字EDA/attachments/Pasted image 20230925153331.png]]
+ ![[attachments/Pasted image 20230925153331.png]]
 
 - Violating a design rule might result in a non-functional circuit or low Yield.
   ![img](820_IC/50-数字EDA/attachments/Physical%20Design%20Verification/metal.JPG)
@@ -31,7 +31,7 @@
 - Minimum Width: The min width rule specifies the minimum width of individual shapes on a single layer
 - Minimum Enclosure/ Overlap: Implies that the second layer is fully enclosed by the first one
 - Notch: The rule specifies the minimum spacing rule for objects on the same net, including defining the minimum notch on a single-layer, merged object
-- Minimum Cut: the minimum number of cuts a via must have when it is on a wide wire ![design rule verification](docs/IC/50-数字EDA/attachments/Physical%20Design%20Verification/violation.JPG)
+- Minimum Cut: the minimum number of cuts a via must have when it is on a wide wire ![design rule verification](attachments/Physical%20Design%20Verification/violation.JPG)
 
 ### DRC have 2 categories – Base Layer DRC's and Metal DRC's 
 
@@ -63,7 +63,7 @@ Metal DRC means from contact to all the routing layers. Basic metal DRC's are:
 
 DRC only verifies that the given layout satisfies the design rules provided by the fabrication unit. It does not ensure the functionality of layout. Because of this, idea of LVS is originated.
 
-![physical verification, layout vs schematic, lvs](docs/IC/50-数字EDA/attachments/Physical%20Design%20Verification/lvsflow.JPG)
+![physical verification, layout vs schematic, lvs](attachments/Physical%20Design%20Verification/lvsflow.JPG)
 **LVS Flow**
 
 - Layout Versus Schematic (LVS) verifies the connectivity of a Verilog Netlist and Layout Netlist (Extracted Netlist from GDS)
@@ -114,23 +114,23 @@ DRC only verifies that the given layout satisfies the design rules provided by t
 #### LVS checks examples : Short Net Error, Open Net Error, Extract errors, Compare errors
 
 - **Open Net Error**
-  ![img](docs/IC/50-数字EDA/attachments/Physical%20Design%20Verification/one.JPG)
+  ![img](attachments/Physical%20Design%20Verification/one.JPG)
 
 - **Short Net Error**
-  ![img](docs/IC/50-数字EDA/attachments/Physical%20Design%20Verification/sne.JPG)
+  ![img](attachments/Physical%20Design%20Verification/sne.JPG)
 
 - Extract Errors
 
 	- Parameter Mismatch
 	- Device parameters on schematic and layout are compared
-	- Example: Let us consider a transistor here, LVS checks are necessary parameters like width, length, multiplication factor etc. ![lvs, physical verification](docs/IC/50-数字EDA/attachments/Physical%20Design%20Verification/ee.JPG)
+	- Example: Let us consider a transistor here, LVS checks are necessary parameters like width, length, multiplication factor etc. ![lvs, physical verification](attachments/Physical%20Design%20Verification/ee.JPG)
 
 - Compare Errors
 	- Malformed Devices
 	- Pin Errors
 	- Device Mismatch
 	- Net Mismatch
-		![[docs/IC/50-数字EDA/attachments/Pasted image 20230925153726.png]]
+		![[attachments/Pasted image 20230925153726.png]]
 
 
 ### Electrical Rule Check (ERC) 
@@ -141,10 +141,10 @@ DRC only verifies that the given layout satisfies the design rules provided by t
   - To locate floating Devices, Substrates and Wells
   - To locate devices which are shorted
   - To locate devices with missing connections
-- Well Tap connection error: The Well Taps should bias the Wells as specified in the schematics ![physical verification, erc, electrical rule check](docs/IC/50-数字EDA/attachments/Physical%20Design%20Verification/erc.JPG)
+- Well Tap connection error: The Well Taps should bias the Wells as specified in the schematics ![physical verification, erc, electrical rule check](attachments/Physical%20Design%20Verification/erc.JPG)
 - Well Tap Density Error: If there is no enough Taps for a given area then this error is flagged
 - Taps need to be placed regularly which biases the Well to prevent Latch-up
-- Tools: Mentor Graphics Calibre, Synopsys Hercules, Cadence Assura, Magma Quartz ![physical verification, erc, electrical rule check](docs/IC/50-数字EDA/attachments/Physical%20Design%20Verification/erc1.JPG)
+- Tools: Mentor Graphics Calibre, Synopsys Hercules, Cadence Assura, Magma Quartz ![physical verification, erc, electrical rule check](attachments/Physical%20Design%20Verification/erc1.JPG)
 
 ------
 
@@ -173,7 +173,7 @@ With the increasingly restrictive design rules for new process nodes, the SMO da
 
 Because the demand for LPC software licenses is sporadic and the (full chip) computational resources are substantial, EDA vendors commonly provide LPC physical verification as a separate services business rather than lease on-premises software licenses. Thus, the EDA vendor chosen for stand-alone LPC verification could be separate from the provider of DRC, LVS, and ERC tools. The selection would likely be based on contracted services cost, availability of computational resources (that align with the SoC tapeout schedule), and verification turnaround time.
 
-With the increasingly restrictive design rules for new process nodes, the SMO data preparation risk is likely to be adequately addressed by the rule-based, pattern-matching method, obviating the need for the model-based analysis. The layout regularity associated with FinFET fins, device gates, and wiring track multipatterning color pre-assignment reduces the custom layout variability, as depicted in Figure ![finfet](docs/IC/50-数字EDA/attachments/Physical%20Design%20Verification/finfet.JPG)
+With the increasingly restrictive design rules for new process nodes, the SMO data preparation risk is likely to be adequately addressed by the rule-based, pattern-matching method, obviating the need for the model-based analysis. The layout regularity associated with FinFET fins, device gates, and wiring track multipatterning color pre-assignment reduces the custom layout variability, as depicted in Figure ![finfet](attachments/Physical%20Design%20Verification/finfet.JPG)
 LPC flow execution as a tapeout prerequisite may be achievable solely by applying pattern-matching features, using (existing) DRC software licenses.
 
 ------

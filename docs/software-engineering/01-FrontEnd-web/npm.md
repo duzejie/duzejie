@@ -265,7 +265,7 @@ nvm reinstall-packages ## //在当前版本node环境下，重新全局安装指
 
 [n](https://github.com/tj/n) 是一个可以让你在同一台机器上安装和切换不同版本 node 的工具
 
-![](docs/software-engineering/09-tool/img/n.gif)
+![](../09-tool/img/n.gif)
 
 ```bash
 npm install -g n

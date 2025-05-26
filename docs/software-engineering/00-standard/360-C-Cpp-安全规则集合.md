@@ -1,6 +1,6 @@
 <img src="logo.png" align="right"/>
 
-# C/C++ 安全规则集合 ![Version](docs/software-engineering/00-standard/attachments/360-C-Cpp-安全规则集合/d95349c65cefac7c356575612f4d3b24_MD5.svg)
+# C/C++ 安全规则集合 ![Version](attachments/360-C-Cpp-安全规则集合/d95349c65cefac7c356575612f4d3b24_MD5.svg)
 
 > Bjarne Stroustrup: “*C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.*”
 
@@ -18563,8 +18563,8 @@ namespace N {
 
 
 ## 附录
-&emsp;&emsp;[`c-ub-list.md`](docs/software-engineering/04-cpp/2_cpp工程/c-ub-list.md)：C 未定义行为成因列表  
-&emsp;&emsp;[`cpp-ub-list.md`](docs/software-engineering/04-cpp/2_cpp工程/cpp-ub-list.md)：C++ 未定义行为成因列表与标准解读  
+&emsp;&emsp;[`c-ub-list.md`](../04-cpp/2_cpp工程/c-ub-list.md)：C 未定义行为成因列表  
+&emsp;&emsp;[`cpp-ub-list.md`](../04-cpp/2_cpp工程/cpp-ub-list.md)：C++ 未定义行为成因列表与标准解读  
 
 <br/>
 <br/>

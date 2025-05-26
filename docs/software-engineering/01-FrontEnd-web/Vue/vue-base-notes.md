@@ -19,7 +19,7 @@
 * 开发工具
   * [IDEA 2019.3.4](ToolBox/IDEA使用指南?id=idea-201934)
 * 准备
-  * [使用 IDEA 搭建 Vue 项目 Demo](docs/software-engineering/01-FrontEnd-web/Vue/idea-to-vue.md)
+  * [使用 IDEA 搭建 Vue 项目 Demo](idea-to-vue.md)
 * 学习文档
   * [Vue.js 官网：https://cn.vuejs.org](https://cn.vuejs.org)
 * 代码案例
@@ -82,7 +82,7 @@
 
 * 在浏览器中打开 index.html 看效果
 
-![image-20200323191307873](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/2eb8e1f3c55187585ffb531898122a97_MD5.png)
+![image-20200323191307873](attachments/vue-base-notes/2eb8e1f3c55187585ffb531898122a97_MD5.png)
 
 #### 总结归纳
 
@@ -200,7 +200,7 @@
 
 效果：[网页浏览](https://wugenqiang.gitee.io/vue-learning/vue-demo/HelloVue.html)
 
-![image-20200323205919447](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/e8c85d32358a542ee527aaf1b8c12ede_MD5.png)
+![image-20200323205919447](attachments/vue-base-notes/e8c85d32358a542ee527aaf1b8c12ede_MD5.png)
 
 #### 总结归纳
 
@@ -256,7 +256,7 @@
 
 * 效果如下：
 
-![image-20200324174354517](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/96c7a176cc0d60e0717ebcafdeec916c_MD5.png)
+![image-20200324174354517](attachments/vue-base-notes/96c7a176cc0d60e0717ebcafdeec916c_MD5.png)
 
 * 替换指定内容的推荐表达：
 
@@ -333,7 +333,7 @@
 
 * 效果如下：
 
-![image-20200324181450925](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/1ded1ba977e081b60023903c1a7096a8_MD5.png)
+![image-20200324181450925](attachments/vue-base-notes/1ded1ba977e081b60023903c1a7096a8_MD5.png)
 
 !> 总结归纳一下：
 
@@ -346,7 +346,7 @@
 
 * 作用一：为元素绑定事件
 
-![image-20200324183554482](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/f6cb614f8e445b3e6e977101db7d35a3_MD5.png)
+![image-20200324183554482](attachments/vue-base-notes/f6cb614f8e445b3e6e977101db7d35a3_MD5.png)
 
 * 演示代码：
 
@@ -387,11 +387,11 @@
 
 * 效果如下：
 
-![image-20200324185416113](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/1bc597d36749d213a1d305f28e919965_MD5.png)
+![image-20200324185416113](attachments/vue-base-notes/1bc597d36749d213a1d305f28e919965_MD5.png)
 
 * 作用二：传递自定义参数，事件修饰符
 
-![image-20200326111956910](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/a5fa1673b1045930691a290ab352c995_MD5.png)
+![image-20200326111956910](attachments/vue-base-notes/a5fa1673b1045930691a290ab352c995_MD5.png)
 
 * 演示代码：
 
@@ -451,7 +451,7 @@
 * 值为 true 元素显示，值为 false 元素隐藏
 * 数据改变之后，对应元素的显示状态会同步更新
 
-![image-20200325134258654](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/98c350148dbeed6d17dd1e4178810b32_MD5.png)
+![image-20200325134258654](attachments/vue-base-notes/98c350148dbeed6d17dd1e4178810b32_MD5.png)
 
 * 演示代码：
 
@@ -499,13 +499,13 @@
 
 > 想要小猴子的可以复制我：
 
-![点我查看原图](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/361956b73dfdd9c9e6d98e0df4a361c6_MD5.gif)
+![点我查看原图](attachments/vue-base-notes/361956b73dfdd9c9e6d98e0df4a361c6_MD5.gif)
 
 
 
 * 效果如下：[网页操作](https://wugenqiang.gitee.io/vue-learning/vue-demo/v-show.html)
 
-![image-20200325140938672](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/07a5a779528972a60325463db2471e33_MD5.png)
+![image-20200325140938672](attachments/vue-base-notes/07a5a779528972a60325463db2471e33_MD5.png)
 
 
 
@@ -515,7 +515,7 @@
 * 原理：操纵 dom 元素来切换显示状态
 * 表达式的值为 true，元素存在于 dom 树中，为 false，则从 dom 树中移除
 
-![image-20200325143146150](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/2f39a09246cce8b0530219bb3fade160_MD5.png)
+![image-20200325143146150](attachments/vue-base-notes/2f39a09246cce8b0530219bb3fade160_MD5.png)
 
 * 演示代码：
 
@@ -553,7 +553,7 @@
 
 * 效果如下：[网页操作](https://wugenqiang.gitee.io/vue-learning/vue-demo/v-if.html)
 
-![image-20200325144645128](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/c0f3d89fe0267ce54d407edd5c11a6d5_MD5.png)
+![image-20200325144645128](attachments/vue-base-notes/c0f3d89fe0267ce54d407edd5c11a6d5_MD5.png)
 
 
 
@@ -564,11 +564,11 @@
 * 简写的话可以直接省略 v-bind，只保留 : 属性名
 * 需要动态的增删 class 时建议使用对象的方式，不推荐三元表达式形式
 
-![image-20200325145658901](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/ea94cf714d1ff70ffbcfcd833b8a6aca_MD5.png)
+![image-20200325145658901](attachments/vue-base-notes/ea94cf714d1ff70ffbcfcd833b8a6aca_MD5.png)
 
 或者下面的语法，都可以：
 
-![image-20200325145757743](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/e274c37d21cdb13f937fc86c634bc39e_MD5.png)
+![image-20200325145757743](attachments/vue-base-notes/e274c37d21cdb13f937fc86c634bc39e_MD5.png)
 
 * 演示代码：
 
@@ -621,7 +621,7 @@
 
 * 效果如下：
 
-![image-20200325152054529](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/1f6ce5899059449feae0a9e6fbd659ec_MD5.png)
+![image-20200325152054529](attachments/vue-base-notes/1f6ce5899059449feae0a9e6fbd659ec_MD5.png)
 
 #### v-for
 
@@ -631,7 +631,7 @@
 * item 和 index 可以结合其他指令一起使用
 * 数组长度的更新会同步到页面上，是响应式的
 
-![image-20200326104022190](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/ef9906842d7c3d161d5451dc514d22ba_MD5.png)
+![image-20200326104022190](attachments/vue-base-notes/ef9906842d7c3d161d5451dc514d22ba_MD5.png)
 
 * 演示代码：
 
@@ -689,7 +689,7 @@
 * 绑定的数据会和表单元素值相关联
 * 绑定的数据 <-----> 表单元素的值（同步更新）
 
-![image-20200326115424116](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/fa5b1a5e302bad6068dadaf1fabf08b7_MD5.png)
+![image-20200326115424116](attachments/vue-base-notes/fa5b1a5e302bad6068dadaf1fabf08b7_MD5.png)
 
 * 演示代码：
 
@@ -733,13 +733,13 @@
 
 > demo 样式 [网页预览](https://wugenqiang.gitee.io/vue-learning/vue-demo/计数器小Demo.html)
 
-![image-20200324190512752](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/5e18d258eea7b40a6da28153d7db0aaf_MD5.png)
+![image-20200324190512752](attachments/vue-base-notes/5e18d258eea7b40a6da28153d7db0aaf_MD5.png)
 
 * 运用知识点：v-text, v-on
 
 * 开发逻辑：
 
-![image-20200324192953154](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/a883e8f8d804b8528974b069e6b986f8_MD5.png)
+![image-20200324192953154](attachments/vue-base-notes/a883e8f8d804b8528974b069e6b986f8_MD5.png)
 
 * 代码实现：
 
@@ -848,7 +848,7 @@ body{
 
 > demo 样式 [网页预览](https://wugenqiang.gitee.io/vue-learning/vue-demo/togglePicture.html)
 
-![图片切换 demo](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/345f820a87272da676ce474b874df583_MD5.gif)
+![图片切换 demo](attachments/vue-base-notes/345f820a87272da676ce474b874df583_MD5.gif)
 
 
 
@@ -856,7 +856,7 @@ body{
 
 * 开发逻辑：
 
-![image-20200325154320044](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/74ab306bcbba13acf4a3113274c84f72_MD5.png)
+![image-20200325154320044](attachments/vue-base-notes/74ab306bcbba13acf4a3113274c84f72_MD5.png)
 
 * 代码实现：
 
@@ -1109,7 +1109,7 @@ index.html
 
 * 效果图：[网页浏览](https://wugenqiang.gitee.io/vue-learning/vue-demo/NotePad/index.html)
 
-![image-20200326152346369](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/7393a70c32ec89d1966a17438d27f668_MD5.png)
+![image-20200326152346369](attachments/vue-base-notes/7393a70c32ec89d1966a17438d27f668_MD5.png)
 
 ## 网络应用
 
@@ -1189,7 +1189,7 @@ axios.post(地址,{key:value&key2:value2}).then(function(response){},function(er
 
 * 效果：
 
-![image-20200326160155563](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/affc63c4c0dbcec576ae19e8ca21e0bc_MD5.png)
+![image-20200326160155563](attachments/vue-base-notes/affc63c4c0dbcec576ae19e8ca21e0bc_MD5.png)
 
 ### axios + vue
 
@@ -1249,7 +1249,7 @@ axios.post(地址,{key:value&key2:value2}).then(function(response){},function(er
 
 * 效果：
 
-![image-20200326161041453](docs/software-engineering/01-FrontEnd-web/Vue/attachments/vue-base-notes/e36a331be384e67cf3a4456c02846114_MD5.png)
+![image-20200326161041453](attachments/vue-base-notes/e36a331be384e67cf3a4456c02846114_MD5.png)
 
 ### 网络应用：天知道
 

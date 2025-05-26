@@ -14,7 +14,7 @@
 
 组合模式结构图如下所示：
 
-![组合模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/composite-pattern/50c87bcfed7a6145db00f09e26ffc0ce_MD5.png)
+![组合模式结构图](attachments/composite-pattern/50c87bcfed7a6145db00f09e26ffc0ce_MD5.png)
 
 在组合模式结构图中包含如下几个角色：
 
@@ -123,7 +123,7 @@ public class Client {
 
 透明组合模式的完整结构图如下：
 
-![透明组合模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/composite-pattern/2958e6f65998df7a759d43727f40c9ea_MD5.png)
+![透明组合模式结构图](attachments/composite-pattern/2958e6f65998df7a759d43727f40c9ea_MD5.png)
 
 也可以将叶子构件的`add()`、`remove()`等方法的实现代码移至`Component`中，由`Component`提供统一的默认实现，这样子类就不必强制去实现管理子Component。代码如下所示：
 ```java
@@ -153,7 +153,7 @@ public abstract class Component {
 
 安全组合模式的完整结构图如下：
 
-![安全组合模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/composite-pattern/ce22a6da4e6d4cbdfae96267c0007fa1_MD5.png)
+![安全组合模式结构图](attachments/composite-pattern/ce22a6da4e6d4cbdfae96267c0007fa1_MD5.png)
 
 此时`Component`就应该这样定义了
 ```java
@@ -171,7 +171,7 @@ public abstract class Component {
 
 `Java SE`中的`AWT`和`Swing`包的设计就基于组合模式，在这些界面包中为用户提供了大量的容器构件（如`Container`）和成员构件（如`Checkbox`、`Button`和`TextComponent`等），其结构如下图所示
 
-![AWT组合模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/composite-pattern/06f3d3a7cb49d6fc12ce9dbb3c0c81a3_MD5.png)
+![AWT组合模式结构图](attachments/composite-pattern/06f3d3a7cb49d6fc12ce9dbb3c0c81a3_MD5.png)
 
 `Component`类是抽象构件，`Checkbox`、`Button`和`TextComponent`是叶子构件，而`Container`是容器构件，在`AWT`中包含的叶子构件还有很多。在一个容器构件中可以包含叶子构件，也可以继续包含容器构件，这些叶子构件和容器构件一起组成了复杂的`GUI`界面。除此以外，在`XML解析`、`组织结构树处理`、`文件系统设计`等领域，组合模式都得到了广泛应用。
 

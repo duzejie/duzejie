@@ -18,7 +18,7 @@
 
 代理模式的结构比较简单，其核心是代理类，为了让客户端能够一致性地对待真实对象和代理对象，在代理模式中引入了抽象层，代理模式结构如下图所示：
 
-![代理模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/proxy-pattern/d8c6027ea87af49013557ec32ebc42f0_MD5.png)
+![代理模式结构图](attachments/proxy-pattern/d8c6027ea87af49013557ec32ebc42f0_MD5.png)
 
 代理模式包含如下三个角色：
 

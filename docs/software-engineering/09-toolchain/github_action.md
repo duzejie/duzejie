@@ -39,7 +39,7 @@
 
 * 排查过程：
     * 官方说明：
-    ![](docs/software-engineering/09-toolchain/attachments/github_action/6d9da743925aea6ecfb28511716171fd_MD5.png){width="60%"}
+    ![](attachments/github_action/6d9da743925aea6ecfb28511716171fd_MD5.png){width="60%"}
     * 官方主要是出于防止循环依赖导致资源浪费考虑所以这样设计。(`请确保不要创建递归或意外的工作流程`)
 
 

@@ -19,7 +19,7 @@
 ### Standard Cells
 
 
-![standard cell in physical design](docs/IC/50-数字EDA/attachments/Cells%20in%20ASIC%20Physical%20Design/std.JPG)
+![standard cell in physical design](attachments/Cells%20in%20ASIC%20Physical%20Design/std.JPG)
 
 - A Standard Cell is a group of transistor and its interconnect structures that provides a Boolean logic function (e.g., AND, OR, XOR, XNOR, Inverters) or a storage function (Flip-flop or Latch)
 - Std. Cell methodology has helped designers to scale ASICs from comparatively simple single-function ICs, to complex multi-million gate SoCs
@@ -51,7 +51,7 @@
 - Automated Insertion of ICG –
 	- Some power aware tools insert the ICG’s through automated software algorithms
 
-**Types of Clock Gating Cells** ![clock gating cells](docs/IC/50-数字EDA/attachments/Cells%20in%20ASIC%20Physical%20Design/gate.JPG)
+**Types of Clock Gating Cells** ![clock gating cells](attachments/Cells%20in%20ASIC%20Physical%20Design/gate.JPG)
 
 - Latch Based Clock Gating Buffer for Neg-edge
 	- The circuit employs a latch and OR gate with one input inverted
@@ -70,7 +70,7 @@
 
 ### Well Taps
 
-![well tap cells](docs/IC/50-数字EDA/attachments/Cells%20in%20ASIC%20Physical%20Design/welltaps.JPG)
+![well tap cells](attachments/Cells%20in%20ASIC%20Physical%20Design/welltaps.JPG)
 
 - Physical only cell which helps to tie MOS Substrate and N-Wells to VDD and GND levels, and thus avoid latch-up possibilities
 - Switching circuits dump current into Well/ Substrate and if there is a high resistance between Well/ Substrate and the VDD/ GND grids the Substrate can be at different potential than VDD/ GND which causes latch-up
@@ -86,7 +86,7 @@
 
 ### End Caps 
 
-![end cap cell in physical design](docs/IC/50-数字EDA/attachments/Cells%20in%20ASIC%20Physical%20Design/endcap.JPG)
+![end cap cell in physical design](attachments/Cells%20in%20ASIC%20Physical%20Design/endcap.JPG)
 
 - End-cap cells are preplaced physical-only cells required to meet certaindesign rules and placed at the ends of the site rows by satisfying well tie-off requirements for the core rows
 - These library cells do not have any signal connectivity
@@ -117,7 +117,7 @@
 
 ### Decap Cells 
 
-![decap cell in physical design](docs/IC/50-数字EDA/attachments/Cells%20in%20ASIC%20Physical%20Design/decap.JPG)
+![decap cell in physical design](attachments/Cells%20in%20ASIC%20Physical%20Design/decap.JPG)
 
 - Decaps are on-chip decoupling capacitors (Extrinsic Capacitances) that are attached to the power mesh to decrease noise effects (dynamic I.R. Drop)
 - Supply voltage variations caused by Instantaneous Voltage Drop (IVD) lead to problems related to spurious transitions and delay variations
@@ -133,7 +133,7 @@
 
 ### ESD Clamp 
 
-![esd clamp cell in physical design](docs/IC/50-数字EDA/attachments/Cells%20in%20ASIC%20Physical%20Design/clamp.JPG)
+![esd clamp cell in physical design](attachments/Cells%20in%20ASIC%20Physical%20Design/clamp.JPG)
 
 - ESD Clamp/ ESD Diode is the primary protection device that protects against ESD surges at the I/O pad by clamping the voltage and allowing the high ESD current to be discharged safely to the ground terminal
 - The main function of ESD Clamp is to protect the Gate oxide
@@ -145,7 +145,7 @@
 
 ### Spare Cells 
 
-![spare cell in physical design](docs/IC/50-数字EDA/attachments/Cells%20in%20ASIC%20Physical%20Design/spare.JPG)
+![spare cell in physical design](attachments/Cells%20in%20ASIC%20Physical%20Design/spare.JPG)
 
 - Pre-placed inactive (with inputs tied off) gates in the empty areas of a design (or even in the crowded areas) before tape-out (Mostly NAND Gates)
 
@@ -163,7 +163,7 @@
 
 ### Tie Cells 
 
-![tie cell in physical design](docs/IC/50-数字EDA/attachments/Cells%20in%20ASIC%20Physical%20Design/tie.JPG)
+![tie cell in physical design](attachments/Cells%20in%20ASIC%20Physical%20Design/tie.JPG)
 
 - Tie-high and Tie-Low cells are used to connect the Gate of the transistor to either Power or Ground
 - In deep sub micron process, if the Gate is connected to Power/ Ground, the transistor might be turned ON/ OFF due to Power or Ground Bounce

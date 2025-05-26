@@ -329,7 +329,7 @@ jest --coverage
 
 [jest-stare](https://dkelosky.github.io/jest-stare/): jest 测试结果生成 html 或者 json 格式测试报告
 
-![](docs/software-engineering/09-toolchain/img/jest02.png)
+![](../09-toolchain/img/jest02.png)
 
 在 package.json 文件，添加配置：
 

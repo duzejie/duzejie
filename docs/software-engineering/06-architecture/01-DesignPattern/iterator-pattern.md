@@ -18,7 +18,7 @@
 ### 模式结构图
 在迭代器模式结构中包含聚合和迭代器两个层次结构，考虑到系统的灵活性和可扩展性，在迭代器模式中应用了`工厂方法`模式，其模式结构如图所示。
 
-![迭代器模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/iterator-pattern/05ed7d9f0d59f091a1f8f9a0643d6e82_MD5.png)
+![迭代器模式结构图](attachments/iterator-pattern/05ed7d9f0d59f091a1f8f9a0643d6e82_MD5.png)
 
 在迭代器模式结构图中包含如下几个角色：
 - `Iterator`（`抽象迭代器`）：它定义了访问和遍历元素的接口，声明了用于遍历数据元素的方法，例如：用于获取第一个元素的`first()`方法，用于访问下一个元素的`next()`方法，用于判断是否还有下一个元素的`hasNext()`方法，用于获取当前元素的`currentItem()`方法等，在具体迭代器中将实现这些方法。
@@ -121,7 +121,7 @@ public abstract class AbstractList<E> extends AbstractCollection<E> implements L
 ### 模式在JDK中的应用
 在JDK中，`Collection`接口和`Iterator`接口充当了迭代器模式的抽象层，分别对应于`抽象聚合类`和`抽象迭代器`，而`Collection`接口的子类充当了`具体聚合类`，如图列出了JDK中部分与List有关的类及它们之间的关系。
 
-![Java集合框架中部分类结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/iterator-pattern/fd57c8e40192ee9f4a53834b793693f6_MD5.png)
+![Java集合框架中部分类结构图](attachments/iterator-pattern/fd57c8e40192ee9f4a53834b793693f6_MD5.png)
 
 在JDK中，实际情况比上图要复杂很多，`List`接口除了继承`Collection`接口的`iterator()`方法外，还增加了新的工厂方法`listIterator()`，专门用于创建`ListIterator`类型的迭代器，在`List`的子类`LinkedList`中实现了该方法，可用于创建具体的`ListIterator`子类`ListItr`的对象。
 

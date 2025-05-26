@@ -1038,4 +1038,4 @@ Shane Liebling
 
 
 
-[[docs/software-engineering/00-standard/shell代码风格指南]]
+[[shell代码风格指南]]

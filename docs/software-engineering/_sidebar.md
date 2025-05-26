@@ -1,1 +1,1 @@
--   [博客链接](/docs/about/blog.md)
+-   [博客链接](../about/blog.md)

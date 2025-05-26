@@ -1,5 +1,5 @@
 
-[[docs/software-engineering/04-cpp/3_调试/AddressSanitizer]]
+[[AddressSanitizer]]
 
 
 

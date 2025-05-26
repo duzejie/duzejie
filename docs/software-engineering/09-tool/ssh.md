@@ -15,37 +15,37 @@ ssh-keygen -t rsa -C "test@email.com"
 
 1.  第一步生成密钥对 'ssh-keygen -t rsa -C "test@email.com"'
 
-![](docs/software-engineering/09-tool/img/ssh01.png)
+![](img/ssh01.png)
 
 2.  回车！回车！！回车！！！
 
-![](docs/software-engineering/09-tool/img/ssh02.png)
+![](img/ssh02.png)
 
 3.  在用户下有一个 .ssh 的隐藏文件夹会出现 id_rsa ,id_rsa.pub 两个文件
 
-![](docs/software-engineering/09-tool/img/ssh03.png)
+![](img/ssh03.png)
 
 ## github 配置
 
 1.  登录 github 打开个人中心 点击 "Settings"
 
-![](docs/software-engineering/09-tool/img/ssh07.png)
+![](img/ssh07.png)
 
 2.左侧有一个 "SSH and GPG Keys" 选项 “点击进入“
 
-![](docs/software-engineering/09-tool/img/ssh08.png)
+![](img/ssh08.png)
 
 3.  点击右上角 "New SSH key"
 
-![](docs/software-engineering/09-tool/img/ssh09.png)
+![](img/ssh09.png)
 
 4.  打开本地生成的 ”id_rsa.pub“文件 复制
 
-![](docs/software-engineering/09-tool/img/ssh06.png)
+![](img/ssh06.png)
 
 5.  把 ”id_rsa.pub“ 文件的代码拷贝到 Key 中 然后添加一个标题“Title” ，点击 “Add SSH key”
 
-![](docs/software-engineering/09-tool/img/ssh10.png)
+![](img/ssh10.png)
 
 ## 测试密钥
 
@@ -56,8 +56,8 @@ ssh  -T  git@github.com. debue
 
 1.  输入 ‘ssh -T git@github.com. ’ 测试 ssh 是否生效，第一次 ssh 会有提示 输入 ‘yes’就可以了
 
-![](docs/software-engineering/09-tool/img/ssh11.png)
+![](img/ssh11.png)
 
 2.  看到 提示 “Hi XXXX ...” 说明配置成功！
 
-![](docs/software-engineering/09-tool/img/ssh12.png)
+![](img/ssh12.png)

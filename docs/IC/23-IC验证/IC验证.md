@@ -8,4 +8,4 @@
 
 从验证的途径可以分为：模拟（simulation），仿真和形式验证（formality check）。
 
-![[docs/IC/attachments/64351975fd76b5bc39df0e6446fd17f1_MD5.jpg]]
+![[../attachments/64351975fd76b5bc39df0e6446fd17f1_MD5.jpg]]

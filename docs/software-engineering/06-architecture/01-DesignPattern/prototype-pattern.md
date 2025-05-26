@@ -17,7 +17,7 @@
 
 原型模式结构图如下所示：
 
-![原型模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/prototype-pattern/5b3a9a287115422af13703cdf9443941_MD5.png)
+![原型模式结构图](attachments/prototype-pattern/5b3a9a287115422af13703cdf9443941_MD5.png)
 
 原型模式结构图中包含如下几个角色:
 - `Prototype（抽象原型类）`：它是声明克隆方法的接口，是所有具体原型类的公共父类，可以是抽象类也可以是接口，甚至还可以是具体实现类。

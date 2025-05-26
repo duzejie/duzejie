@@ -44,7 +44,7 @@ L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
 [L[0],L[1],L[2]]
 ```
 
-![image-20200712160938388](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/e980541a8c322ee3ac7f3ec3f81af2f3_MD5.png)
+![image-20200712160938388](attachments/CH3-高级特性/e980541a8c322ee3ac7f3ec3f81af2f3_MD5.png)
 
 但是，如果是取前 N 个元素就没辙了。
 
@@ -58,7 +58,7 @@ for i in range(n):
 r
 ```
 
-![image-20200712214348838](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/4d82c2f68a477ca8666b9d026cdabd37_MD5.png)
+![image-20200712214348838](attachments/CH3-高级特性/4d82c2f68a477ca8666b9d026cdabd37_MD5.png)
 
 对这种经常取指定索引范围的操作，用循环十分繁琐，因此，Python 提供了切片（Slice）操作符，能大大简化这种操作。
 
@@ -68,7 +68,7 @@ r
 L[0:3]
 ```
 
-![image-20200712214632198](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/1d482c718e7be26f77124566845e9390_MD5.png)
+![image-20200712214632198](attachments/CH3-高级特性/1d482c718e7be26f77124566845e9390_MD5.png)
 
  `L[0:3]`表示，从索引`0`开始取，直到索引`3`为止，但不包括索引`3`。即索引`0`，`1`，`2`，正好是 3 个元素。
 
@@ -90,7 +90,7 @@ L[1:3]
  L[-2:]
 ```
 
-![image-20200712220306806](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/19cf9ddefb08d19093510607fefca21d_MD5.png)
+![image-20200712220306806](attachments/CH3-高级特性/19cf9ddefb08d19093510607fefca21d_MD5.png)
 
 记住倒数第一个元素的索引是`-1`。
 
@@ -119,7 +119,7 @@ L
 L[:10]
 ```
 
-![image-20200712220546937](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/b2c7dfe5b8ada896abced325a645d8f0_MD5.png)
+![image-20200712220546937](attachments/CH3-高级特性/b2c7dfe5b8ada896abced325a645d8f0_MD5.png)
 
 后 10 个数：
 
@@ -159,7 +159,7 @@ L[::5]
 (0, 1, 2, 3, 4, 5)[:3]
 ```
 
-![image-20200712222247480](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/c66d622ae67dbcedc47ab2bb45766bdd_MD5.png)
+![image-20200712222247480](attachments/CH3-高级特性/c66d622ae67dbcedc47ab2bb45766bdd_MD5.png)
 
 ### 3.1.3 str 切片
 
@@ -169,13 +169,13 @@ L[::5]
 'ABCDEFG'[:3]
 ```
 
-![image-20200712222833885](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/7a9bc1a69cc20c9f27368e153717824e_MD5.png)
+![image-20200712222833885](attachments/CH3-高级特性/7a9bc1a69cc20c9f27368e153717824e_MD5.png)
 
 ```python
 'ABCDEFG'[::2]
 ```
 
-![image-20200712223059989](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/5732b18cdc9c38f94305bf166b2020f2_MD5.png)
+![image-20200712223059989](attachments/CH3-高级特性/5732b18cdc9c38f94305bf166b2020f2_MD5.png)
 
 在很多编程语言中，针对字符串提供了很多各种截取函数（例如，substring），其实目的就是对字符串切片。Python 没有针对字符串的截取函数，只需要切片一个操作就可以完成，非常简单。
 
@@ -289,7 +289,7 @@ else:
 
 结果图：
 
-![结果图](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/e8f3a4d6bc06ca5a6228901ea7d12a09_MD5.png)
+![结果图](attachments/CH3-高级特性/e8f3a4d6bc06ca5a6228901ea7d12a09_MD5.png)
 
 > ✏️ 小结：
 
@@ -301,7 +301,7 @@ else:
 
 举个例子，要生成 list `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`可以用`list(range(1, 11))`：
 
-![image-20200716110005465](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/1b2d3f416a06a8f98d8a194e3c8b5449_MD5.png)
+![image-20200716110005465](attachments/CH3-高级特性/1b2d3f416a06a8f98d8a194e3c8b5449_MD5.png)
 
 但如果要生成`[1x1, 2x2, 3x3, ..., 10x10]`怎么做？
 
@@ -314,7 +314,7 @@ for x in range(1, 11):
 L
 ```
 
-![image-20200716110241249](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/585cec0be5ccf6c34f5e248b17d74213_MD5.png)
+![image-20200716110241249](attachments/CH3-高级特性/585cec0be5ccf6c34f5e248b17d74213_MD5.png)
 
 但是循环太繁琐，而列表生成式则可以用一行语句代替循环生成上面的 list：
 
@@ -324,7 +324,7 @@ L
 [x * x for x in range(1, 11)]
 ```
 
-![image-20200716110448050](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/1dc87ccf49fb22a96fc8dd1b69c0a1f2_MD5.png)
+![image-20200716110448050](attachments/CH3-高级特性/1dc87ccf49fb22a96fc8dd1b69c0a1f2_MD5.png)
 
 👒 写列表生成式时，把要生成的元素`x * x`放到前面，后面跟`for`循环，就可以把 list 创建出来，十分有用，多写几次，很快就可以熟悉这种语法。
 
@@ -334,7 +334,7 @@ for 循环后面还可以加上 if 判断，这样我们就可以筛选出仅偶
 [x * x for x in range(1, 11) if x % 2 == 0]
 ```
 
-![image-20200716110714610](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/488d75c30b018ef59691f0c4285f26a6_MD5.png)
+![image-20200716110714610](attachments/CH3-高级特性/488d75c30b018ef59691f0c4285f26a6_MD5.png)
 
 还可以使用两层循环，可以生成全排列：
 
@@ -342,7 +342,7 @@ for 循环后面还可以加上 if 判断，这样我们就可以筛选出仅偶
 [m + n for m in 'ABC' for n in 'XYZ']
 ```
 
-![image-20200716110813806](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/2953a5f0424b0a278e938f26a41276e0_MD5.png)
+![image-20200716110813806](attachments/CH3-高级特性/2953a5f0424b0a278e938f26a41276e0_MD5.png)
 
 三层和三层以上的循环就很少用到了。
 
@@ -353,7 +353,7 @@ import os # 导入os模块，模块的概念后面讲到
 [d for d in os.listdir('.')] # os.listdir可以列出文件和目录
 ```
 
-![image-20200716111017314](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/d34cfd19355bd366d73525ffbe6fdb43_MD5.png)
+![image-20200716111017314](attachments/CH3-高级特性/d34cfd19355bd366d73525ffbe6fdb43_MD5.png)
 
 `for`循环其实可以同时使用两个甚至多个变量，比如`dict`的`items()`可以同时迭代 key 和 value：
 
@@ -363,7 +363,7 @@ for k, v in d.items():
     print(k, '=', v)
 ```
 
-![image-20200716111306467](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/33b0080da3e9dd45ac85179c66bc1fc9_MD5.png)
+![image-20200716111306467](attachments/CH3-高级特性/33b0080da3e9dd45ac85179c66bc1fc9_MD5.png)
 
 因此，列表生成式也可以使用两个变量来生成 list：
 
@@ -372,7 +372,7 @@ d = {'x': 'A', 'y': 'B', 'z': 'C' }
 [k + '=' + v for k, v in d.items()]
 ```
 
-![image-20200716111534526](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/b7420aa7afa3757c7996979897ba91de_MD5.png)
+![image-20200716111534526](attachments/CH3-高级特性/b7420aa7afa3757c7996979897ba91de_MD5.png)
 
 最后把一个 list 中所有的字符串变成小写：
 
@@ -381,7 +381,7 @@ L = ['Hello', 'World', 'IBM', 'Apple']
 [s.lower() for s in L]
 ```
 
-![image-20200716111755472](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/a0e48cfaa28cc94a9dbabd7e179805ff_MD5.png)
+![image-20200716111755472](attachments/CH3-高级特性/a0e48cfaa28cc94a9dbabd7e179805ff_MD5.png)
 
 ### 3.3.1 if ... else
 
@@ -399,13 +399,13 @@ L = ['Hello', 'World', 'IBM', 'Apple']
 [x for x in range(1, 11) if x % 2 == 0 else 0]
 ```
 
-![image-20200716112208908](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/f66bbbf6a30b4fa4ee31d2a4ecbe586b_MD5.png)
+![image-20200716112208908](attachments/CH3-高级特性/f66bbbf6a30b4fa4ee31d2a4ecbe586b_MD5.png)
 
 这是因为跟在`for`后面的`if`是一个筛选条件，不能带`else`，否则如何筛选？
 
 另一些童鞋发现把`if`写在`for`前面必须加`else`，否则报错：
 
-![image-20200716112356893](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/5f69f2bc84bb732596a04a69e5c4608a_MD5.png)
+![image-20200716112356893](attachments/CH3-高级特性/5f69f2bc84bb732596a04a69e5c4608a_MD5.png)
 
 这是因为`for`前面的部分是一个表达式，它必须根据`x`计算出一个结果。因此，考察表达式：`x if x % 2 == 0`，它无法根据`x`计算出结果，因为缺少`else`，必须加上`else`：
 
@@ -413,7 +413,7 @@ L = ['Hello', 'World', 'IBM', 'Apple']
 [x if x % 2 == 0 else -x for x in range(1, 11)]
 ```
 
-![image-20200716112506596](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/da8449f53fcb36c59c5a1a70324b3e57_MD5.png)
+![image-20200716112506596](attachments/CH3-高级特性/da8449f53fcb36c59c5a1a70324b3e57_MD5.png)
 
 上述`for`前面的表达式`x if x % 2 == 0 else -x`才能根据`x`计算出确定的结果。
 
@@ -423,11 +423,11 @@ L = ['Hello', 'World', 'IBM', 'Apple']
 
 如果list中既包含字符串，又包含整数，由于非字符串类型没有`lower()`方法，所以列表生成式会报错：
 
-![image-20200716112807607](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/5447bb43bc5f93ec8cb8eb07e8604b07_MD5.png)
+![image-20200716112807607](attachments/CH3-高级特性/5447bb43bc5f93ec8cb8eb07e8604b07_MD5.png)
 
 使用内建的`isinstance`函数可以判断一个变量是不是字符串：
 
-![image-20200716113013011](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/4e5f6d74fa4e1fd60f9f18b860804d36_MD5.png)
+![image-20200716113013011](attachments/CH3-高级特性/4e5f6d74fa4e1fd60f9f18b860804d36_MD5.png)
 
 请修改列表生成式，通过添加`if`语句保证列表生成式能正确地执行：
 
@@ -442,7 +442,7 @@ else:
     print('测试失败!')
 ```
 
-![image-20200716113244975](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/1b7acc514945b82f277e4d45a968ce93_MD5.png)
+![image-20200716113244975](attachments/CH3-高级特性/1b7acc514945b82f277e4d45a968ce93_MD5.png)
 
 > ✏️ 小结：
 
@@ -456,7 +456,7 @@ else:
 
 🎉 要创建一个 generator，有很多种方法。第一种方法很简单，只要把一个列表生成式的`[]`改成`()`，就创建了一个 generator：
 
-![image-20200716114555027](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/4fd6a55ac1ebf5335fd2f26fd8eed724_MD5.png)
+![image-20200716114555027](attachments/CH3-高级特性/4fd6a55ac1ebf5335fd2f26fd8eed724_MD5.png)
 
 创建`L`和`g`的区别仅在于最外层的`[]`和`()`，`L`是一个list，而`g`是一个 generator。
 
@@ -464,7 +464,7 @@ else:
 
 如果要一个一个打印出来，可以通过`next()`函数获得 generator 的下一个返回值：
 
-![image-20200716115124114](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/21e4f32117cf6d2c76a51b91136a584c_MD5.png)
+![image-20200716115124114](attachments/CH3-高级特性/21e4f32117cf6d2c76a51b91136a584c_MD5.png)
 
 我们讲过，generator 保存的是算法，每次调用`next(g)`，就计算出`g`的下一个元素的值，直到计算到最后一个元素，没有更多的元素时，抛出`StopIteration`的错误。
 
@@ -512,7 +512,7 @@ b = t[1]
 
 上面的函数可以输出斐波那契数列的前 N 个数：
 
-![image-20200716124358250](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/892333af6d746b9e04d22574a444da0b_MD5.png)
+![image-20200716124358250](attachments/CH3-高级特性/892333af6d746b9e04d22574a444da0b_MD5.png)
 
 仔细观察，可以看出，`fib`函数实际上是定义了斐波拉契数列的推算规则，可以从第一个元素开始，推算出后续任意的元素，这种逻辑其实非常类似 generator。
 
@@ -528,7 +528,7 @@ def fib(max):
     return 'done'
 ```
 
-![image-20200716124517165](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/c195e4682881c8f7f7610c78298d0913_MD5.png)
+![image-20200716124517165](attachments/CH3-高级特性/c195e4682881c8f7f7610c78298d0913_MD5.png)
 
 这就是定义 generator 的另一种方法。如果一个函数定义中包含`yield`关键字，那么这个函数就不再是一个普通函数，而是一个 generator：
 
@@ -548,7 +548,7 @@ def odd():
 
 调用该 generator 时，首先要生成一个 generator 对象，然后用`next()`函数不断获得下一个返回值：
 
-![image-20200716124859127](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/22ee2e6c5cb521b069c022fcaa7a3604_MD5.png)
+![image-20200716124859127](attachments/CH3-高级特性/22ee2e6c5cb521b069c022fcaa7a3604_MD5.png)
 
 可以看到，`odd`不是普通函数，而是 generator，在执行过程中，遇到`yield`就中断，下次又继续执行。执行 3 次`yield`后，已经没有`yield`可以执行了，所以，第 4 次调用`next(o)`就报错。
 
@@ -574,7 +574,7 @@ while True:
         break
 ```
 
-![image-20200716125328414](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH3-高级特性/7d90acc3fac41a7729c53f84f1f5c53f_MD5.png)
+![image-20200716125328414](attachments/CH3-高级特性/7d90acc3fac41a7729c53f84f1f5c53f_MD5.png)
 
 关于如何捕获错误，后面的错误处理还会详细讲解。
 

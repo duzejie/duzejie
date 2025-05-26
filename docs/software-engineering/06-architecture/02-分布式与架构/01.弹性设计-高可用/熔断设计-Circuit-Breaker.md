@@ -25,7 +25,7 @@
 
     如果这一定数量的请求有调用失败的情况，则认为导致之前调用失败的问题仍然存在，熔断器切回到断开状态，然后重置计时器来给系统一定的时间来修正错误。半断开状态能够有效防止正在恢复中的服务被突然而来的大量请求再次拖垮。
 
-![图片](docs/software-engineering/06-architecture/02-分布式与架构/01.弹性设计-高可用/attachments/熔断设计-Circuit-Breaker/8e20e28c6b8152fb41f2d4d33d6bbb5c_MD5.png)
+![图片](attachments/熔断设计-Circuit-Breaker/8e20e28c6b8152fb41f2d4d33d6bbb5c_MD5.png)
 
 
 最佳实践：hystrix  地址：[https://github.com/Netflix/Hystrix](https://github.com/Netflix/Hystrix)

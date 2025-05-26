@@ -421,7 +421,7 @@ Categories (2, object): [a, b]
 
 表12-1列出了可用的分类方法。
 
-![表12-1 pandas的Series的分类方法](docs/software-engineering/04-python/Python数据分析/attachments/CH12-pandas高级应用/f59984c40642a924abcdb70ff2f3e5c3_MD5.png)
+![表12-1 pandas的Series的分类方法](attachments/CH12-pandas高级应用/f59984c40642a924abcdb70ff2f3e5c3_MD5.png)
 
 
 ### 12.1.6 为建模创建虚拟变量

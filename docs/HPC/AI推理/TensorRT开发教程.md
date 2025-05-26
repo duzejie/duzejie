@@ -96,7 +96,7 @@ During the second phase, the data scientists and developers will start with the 
 
    > There are a number of ways to do this depending on the training framework used and the network architecture. Generally, this means you need to take the saved neural network and parse it from its saved format into TensorRT using the ONNX parser (see Figure 3), Caffe parser, or TensorFlow/UFF parser.
 
-![img](docs/HPC/AI推理/attachments/TensorRT开发教程/fit1.png)
+![img](attachments/TensorRT开发教程/fit1.png)
 
 Figure 3. ONNX Workflow V1
 
@@ -104,7 +104,7 @@ Figure 3. ONNX Workflow V1
 
 3. After the network is being parsed, you’ll need to consider optimization options -- batch size, workspace size and mixed precision. These options are chosen and specified as part of the TensorRT build step where you actually build an optimized inference engine based on your network. Subsequent sections of this guide provide detailed instructions and numerous examples on this part of the workflow, parsing your model into TensorRT and choosing the optimization parameters (see Figure 4 ).
 
- ![img](docs/HPC/AI推理/attachments/TensorRT开发教程/fit.png)
+ ![img](attachments/TensorRT开发教程/fit.png)
 
 Figure 4. TensorRT optimizes trained neural network models to produce a deployment-ready runtime inference engine.
 

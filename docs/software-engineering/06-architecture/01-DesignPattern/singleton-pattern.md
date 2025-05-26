@@ -20,7 +20,7 @@
 
 单例模式是结构最简单的设计模式一，在它的核心结构中只包含一个被称为单例类的特殊类。单例模式结构图如下所示：
 
-![单例模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/singleton-pattern/72fba396ac39ebb75837419221f87bf6_MD5.png)
+![单例模式结构图](attachments/singleton-pattern/72fba396ac39ebb75837419221f87bf6_MD5.png)
 
 单例模式结构图中只包含一个单例角色：
 - `Singleton（单例）`：在单例类的内部实现只生成一个实例，同时它提供一个静态的getInstance()工厂方法，让客户可以访问它的唯一实例；为了防止在外部对其实例化，将其构造函数设计为私有；在单例类内部定义了一个Singleton类型的静态对象，作为外部共享的唯一实例。

@@ -11,7 +11,7 @@ EDA 或电子设计自动化是指使用计算机程序和软件工具来设计�
 
 市场上有许多开源工具。这些工具可供所有人使用。人们可以自由分发软件副本。开发人员可以自由修改、改进并向公众发布改进内容。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/9396889e2a039dab064ce8f25c56b2ed_MD5.png)
+![图片](attachments/开源EDA工具终极指南/9396889e2a039dab064ce8f25c56b2ed_MD5.png)
 
 # 《开源 EDA 工具列表》
 
@@ -21,19 +21,19 @@ EDA 或电子设计自动化是指使用计算机程序和软件工具来设计�
 
 CppSim：自 2002 年以来一直被广泛使用。它用于商业和学术目的。它执行混合信号电路的系统级仿真。它根据您制作的原理图设计自动生成、编译和执行 C++ 代码。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/289b8a642f759e76f197b5695547b965_MD5.png)
+![图片](attachments/开源EDA工具终极指南/289b8a642f759e76f197b5695547b965_MD5.png)
 
 CppSim 原理图和波形查看器
 
 Electric：功能强大的 CAD 系统之一，可以处理不同类型的电路设计任务，包括 MOS、双极、原理图、印刷电路、硬件描述语言等。它可以分析设计规则检查、模拟和网络比较。它还可以执行综合，例如布线、压缩、硅编译、PLA 生成和补偿。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/fd3226c77fba6015b46e94e3ff2248a3_MD5.png)
+![图片](attachments/开源EDA工具终极指南/fd3226c77fba6015b46e94e3ff2248a3_MD5.png)
 
 电气布局设计
 
 eSim：由 KiCad、Ngspice、Verilator、Makerchip、GHDL、OpenModelica 等开源软件构建的集成工具，用于电路设计、仿真和分析的 EDA 工具。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/a32e6a9c97f543928ce9590aade44282_MD5.png)
+![图片](attachments/开源EDA工具终极指南/a32e6a9c97f543928ce9590aade44282_MD5.png)
 
 使用 eSim 捕获原理图
 
@@ -41,13 +41,13 @@ IRSIM：一种用于模拟数字电路的工具。它是一个开关级模拟器
 
 Electric 有一个内置模拟器，即斯坦福的 IRSIM。它使用 RC 仿真模型（默认）以及线性仿真模型来模拟门级数字电路。Electric 的内置 IRSIM 模拟器如下图所示。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/efd2f52ffa9bad5062f0e8805a55d0e7_MD5.png)
+![图片](attachments/开源EDA工具终极指南/efd2f52ffa9bad5062f0e8805a55d0e7_MD5.png)
 
 IRSIM 模拟器（Electric 中的对话框）
 
 Mosaic：使用 Mosaic 工具可以创建和模拟模拟集成电路设计。它强调尖端、用户友好的界面、即时设计反馈、设计重用、验证和自动化。无论您的互联网连接如何，Mosaic 都将保持快速和可访问性，并在您重新连接时同步您的修改。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/066ddd2051b28ab3965bf20fa34df72b_MD5.png)
+![图片](attachments/开源EDA工具终极指南/066ddd2051b28ab3965bf20fa34df72b_MD5.png)
 
 Mosaic 中的用户界面
 
@@ -60,19 +60,19 @@ Ngspice：一种开源混合信号 SPICE 模拟器。ngspice 具有命令行输�
 - Cider1b1 将电路级模拟器与设备模拟器耦合，以提供增强的模拟精度（但增加了模拟时间）。 
     
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/cccc7f579b608ace7890e40863e42add_MD5.png)
+![图片](attachments/开源EDA工具终极指南/cccc7f579b608ace7890e40863e42add_MD5.png)
 
 Ngspice 命令行界面、spice 网表和波形查看器
 
 QUCS（相当通用的电路模拟器）：一种先进的电路模拟器，支持各种模拟，如直流、交流、s 参数、噪声、瞬态分析等。它还允许导入现有的 SPICE 模型。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/96f99c0e945a2b287e0b8423cfc468b1_MD5.png)
+![图片](attachments/开源EDA工具终极指南/96f99c0e945a2b287e0b8423cfc468b1_MD5.png)
 
 QUCS 中的示意图视图 
 
 X 电路：从原理图捕获程序绘制的原理图不会产生适合发布的图像。工程师必须借助通用绘图工具来绘制原理图。它是一种专用于电路的绘图工具。它可以生成适合发布目的的高质量原理图和其他图形。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/1c667267a730bd0482c04e0fdf4c4f4b_MD5.png)
+![图片](attachments/开源EDA工具终极指南/1c667267a730bd0482c04e0fdf4c4f4b_MD5.png)
 
 XCircuit 中的原理图 
 
@@ -85,13 +85,13 @@ Xschem：用于 VLSI 和 ASIC 设计的原理图捕获程序。
 - VERILOG 网表
 - tEDAx PCB 编辑软件网表
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/a34d398866dfce8b880fb0140a7dbdd3_MD5.png)
+![图片](attachments/开源EDA工具终极指南/a34d398866dfce8b880fb0140a7dbdd3_MD5.png)
 
 Xschem 上的模拟数据
 
 XYCE：一款 SPICE 兼容软件，用 C++ 编写并使用 MPI（消息传递实现）。它还包括 Trilinos（Sandra 的开源库），其中包含 KLU 直接求解器和更多电路专用求解器。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/eae1d0d8885adba1ca7a1f7f769a39ad_MD5.png)
+![图片](attachments/开源EDA工具终极指南/eae1d0d8885adba1ca7a1f7f769a39ad_MD5.png)
 
 XYCE 用户界面
 
@@ -99,33 +99,33 @@ XYCE 用户界面
 
 ChipVault：HDL 的组织工具。它允许分层文件导航、排序和编辑。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/f8338a78e35941936fc11b2446cc7455_MD5.png)
+![图片](attachments/开源EDA工具终极指南/f8338a78e35941936fc11b2446cc7455_MD5.png)
 
 EDA Playground：一款免费的网络应用程序，用于 HDL（包括 Verilog、系统 Verilog、VHDL 和其他 HDL）仿真和综合。成功仿真后，它会生成基于浏览器的波形查看器。它易于使用，因为无需下载，并且代码共享也很容易。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/1c6ea21c98a81846e853bd1487bfa9dc_MD5.png)
+![图片](attachments/开源EDA工具终极指南/1c6ea21c98a81846e853bd1487bfa9dc_MD5.png)
 
 浏览器中的 EDA Playground 
 
 GHDL：将 VHDL 文件直接转换为机器代码，因此比任何其他解释型模拟器更快地编译和分析代码。 
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/9d0867f454e47151c8501d73acb7bb89_MD5.png)
+![图片](attachments/开源EDA工具终极指南/9d0867f454e47151c8501d73acb7bb89_MD5.png)
 
 波形查看器
 
 Icarus Verilog：IEEE-1364 标准中描述的 Verilog HDL 编译器。借助编写的 Verilog 代码，它将代码编译为某种目标格式。此工具支持名为 GTKWave 的波形查看器。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/777f4ad80f2981820b88234d73e1a9bf_MD5.jpg)
+![图片](attachments/开源EDA工具终极指南/777f4ad80f2981820b88234d73e1a9bf_MD5.jpg)
 
 使用 Icarus Verilog 模拟示例代码 
 
 Migen：一款基于 Python 的工具，在 VLSI 设计流程和构建复杂数字硬件的过程中应用 OOP 和元编程等高级软件概念。它是一种基于 FHDL 的全新编程语言
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/d825eea82d0160f8c23d46bebe19296e_MD5.jpg)
+![图片](attachments/开源EDA工具终极指南/d825eea82d0160f8c23d46bebe19296e_MD5.jpg)
 
 Yosys：一种可以处理 Verilog 代码并可以综合复杂项目的综合工具。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/0b281151092f3e7beeaf4b7d131d1cc6_MD5.png)
+![图片](attachments/开源EDA工具终极指南/0b281151092f3e7beeaf4b7d131d1cc6_MD5.png)
 
 使用 Yosys 进行合成
 
@@ -135,19 +135,19 @@ Fairly Good Router：基于拉格朗日乘数的路由软件。它是一种学�
 
 KLayout：KLayout 是一款帮助布局的编辑器。它还有助于更改和创建 GDS 和 OASIS 文件。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/fcc7615483d0c15276bc2b12768adc02_MD5.png)
+![图片](attachments/开源EDA工具终极指南/fcc7615483d0c15276bc2b12768adc02_MD5.png)
 
 样品横截面
 
 Magic：被认为是最简单的电路布局工具之一。该工具还支持 LVS 和 DRC。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/0d1395d1f2fd204e2298c620bfb8feea_MD5.png)
+![图片](attachments/开源EDA工具终极指南/0d1395d1f2fd204e2298c620bfb8feea_MD5.png)
 
 使用 Magic 进行布局 
 
 QRouter：基于标准 Lee 迷宫路由算法的路由工具。它支持 LEF 和 DEF 格式作为输入和输出。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/75301272402ca0c5986eb1c10ace27bb_MD5.png)
+![图片](attachments/开源EDA工具终极指南/75301272402ca0c5986eb1c10ace27bb_MD5.png)
 
 QRouter 生成的布局
 
@@ -179,13 +179,13 @@ EDA 工具有很多，它们是帮助设计数字系统的独立应用程序。�
 
 Alliance/Coriolis VLSI CAD 工具：Alliance/Coriolis 是用于 VLSI 设计的免费软件工具链。输入是 HDL（Verilog 或 VHDL），输出是 GDSII，全部为 ASIC 制造而设置。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/12f98dd88d8e412ecde58d64f25be028_MD5.png)
+![图片](attachments/开源EDA工具终极指南/12f98dd88d8e412ecde58d64f25be028_MD5.png)
 
 使用 Alliance 进行布局
 
 Qflow：提供一套工具和方法，将 HDL 代码（以 Verilog 或 VHDL 编写）转换为物理电路。它能够处理主机到设备通信、信号处理、算术逻辑单元等子系统。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/98aab7f9e3ea4c9ecd0c668ee0d415ad_MD5.png)
+![图片](attachments/开源EDA工具终极指南/98aab7f9e3ea4c9ecd0c668ee0d415ad_MD5.png)
 
 波形查看器 Qflow 1.3
 
@@ -204,13 +204,13 @@ OpenLane 流程由几个阶段组成，例如：
 - GDSII代
 - 检查 
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/742eb25a50a21cd9462fdaf832e44a20_MD5.png)
+![图片](attachments/开源EDA工具终极指南/742eb25a50a21cd9462fdaf832e44a20_MD5.png)
 
 OpenLane 命令行界面
 
 OpenROAD：是用于 ASIC 设计的开源工具流程。整个流程自动化，用于数字 SoC 布局生成，专注于片上系统设计的 RTL 到 GDSII 阶段。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/11cd74a21ce762c0c561cdb4723ca4e8_MD5.png)
+![图片](attachments/开源EDA工具终极指南/11cd74a21ce762c0c561cdb4723ca4e8_MD5.png)
 
 OpenROAD 图形用户界面
 
@@ -222,7 +222,7 @@ Silicon Compiler：自动将源代码翻译成硬件设计。有三个步骤。
 - 使用标准单元库将逻辑门放置在 IC 上。
 - 布线，连接标准单元以形成所需的逻辑。
 
-![图片](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/1291d274b37065b757e8f0d59d02cb84_MD5.png)
+![图片](attachments/开源EDA工具终极指南/1291d274b37065b757e8f0d59d02cb84_MD5.png)
 
 使用 SiliconCompiler 进行布局 
 
@@ -236,7 +236,7 @@ Silicon Compiler：自动将源代码翻译成硬件设计。有三个步骤。
 
 开源的理念意味着要让众多用户参与进来（因此也包括开发人员，他们随时准备修复错误并提供改进）。因此，无论是以增强功能还是开发流程的形式，都有更大的社区支持。在这种情况下也是如此。非营利组织在开源 EDA 工具和服务的可持续发展中发挥着至关重要的作用。世界各地的工程师提出了新的想法和灵感。几年前，这个芯片设计行业只被大公司统治，他们的受众也仅限于企业。这种免费提供的软件可以帮助任何人，无论是学生、年轻工程师还是业余爱好者，对他们的概念行为进行建模，建模和分析设计的复杂性，EDA 同时有助于消除问题。所有这些步骤在制造过程之前都是必需的。因为先构建它然后再修复它是徒劳的。
 
-![](docs/EDA/EDA江湖/attachments/开源EDA工具终极指南/b30cad292d0a1c7c3b711840e3db4a56_MD5.png)
+![](attachments/开源EDA工具终极指南/b30cad292d0a1c7c3b711840e3db4a56_MD5.png)
 
 **工业软件产业圈**
 

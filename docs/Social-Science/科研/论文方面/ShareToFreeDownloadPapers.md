@@ -10,7 +10,7 @@
 
 [http://ac.scmor.com/](http://ac.scmor.com/)
 
-![](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/602c758bac031e67fbcb502e5059db6e_MD5.jpg)
+![](attachments/ShareToFreeDownloadPapers/602c758bac031e67fbcb502e5059db6e_MD5.jpg)
 
 谷歌学术虽然好用，但无法正常登陆。不如试试谷歌学术镜像网站吧！单个链接容易失效，所以它丧心病狂地提供了多达 20 个的入口。只要显示【现在访问】的，就表明该镜像可用。
 
@@ -18,7 +18,7 @@
 
 [http://xueshu.baidu.com/](http://xueshu.baidu.com/)
 
-![](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/a97a1721c361cf8f460895fb3e356e66_MD5.jpg)
+![](attachments/ShareToFreeDownloadPapers/a97a1721c361cf8f460895fb3e356e66_MD5.jpg)
 
 一个综合的学术资源检索网站，每篇论文会给出多种获取渠道，除了知网、万方、维普，还有道客巴巴、豆丁网、爱学术等。网站提供【求助全文】功能，可以向网友求助，作为应急使用还是不错的~
 
@@ -26,7 +26,7 @@
 
 [http://lib.sstir.cn/](http://lib.sstir.cn/)
 
-![](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/cc6c393e59c44add2f9182eeb147bc5a_MD5.jpg)
+![](attachments/ShareToFreeDownloadPapers/cc6c393e59c44add2f9182eeb147bc5a_MD5.jpg)
 
 注册成功，就送 600 元知网充值金额！400 元万方充值金额！还送 2000 积分！ 每 1000 积分又可以送 200 元知网或万方的充值金额。一下子就拥有了 1400 元的论文下载基金。
 
@@ -34,13 +34,13 @@
 
 [http://www.sstir.cn/](http://www.sstir.cn/)
 
-![image-20200611213437201](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/b8bd91582c9d0c0916ee5c5aa8ff97bd_MD5.png)
+![image-20200611213437201](attachments/ShareToFreeDownloadPapers/b8bd91582c9d0c0916ee5c5aa8ff97bd_MD5.png)
 
 ## 4. 贵州数字图书馆
 
 [http://www.gzlib.org/](http://www.gzlib.org/)
 
-![](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/ce9a55bcb5ced6d9daac5187adafd46c_MD5.jpg)
+![](attachments/ShareToFreeDownloadPapers/ce9a55bcb5ced6d9daac5187adafd46c_MD5.jpg)
 
 注册成功后，会给用户自动分配一个账号和密码。在线搜索论文，点击【电子全文】或【邮箱接收全文】，即可免费获取论文。类似网站：广西壮族自治区图书馆。
 
@@ -48,7 +48,7 @@
 
 [http://tool.yovisun.com/scihub](http://tool.yovisun.com/scihub)
 
-![](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/331609d51b27f3b3ed9041560aa9ceb1_MD5.jpg)
+![](attachments/ShareToFreeDownloadPapers/331609d51b27f3b3ed9041560aa9ceb1_MD5.jpg)
 
 谷歌学术上的论文能搜到不一定能下载，用这个来自俄罗斯的学术网站吧，你可以称它为学术界的罗宾汉，专门“劫富济贫”，复制论文的链接/ DOI / Pubmed ID，即可免费获取 PDF 格式的论文。
 
@@ -56,7 +56,7 @@
 
 [http://www.oalib.com/](http://www.oalib.com/)
 
-![](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/5cc7fd4ad0b34a39b813db4b75d0ab71_MD5.jpg)
+![](attachments/ShareToFreeDownloadPapers/5cc7fd4ad0b34a39b813db4b75d0ab71_MD5.jpg)
 
 OALib 是一个开放存取资源图书馆，意味着可以免费下载学术论文。所有的文章都来自顶级的出版商和数据库，可以满足各个领域学者的需求。
 
@@ -64,7 +64,7 @@ OALib 是一个开放存取资源图书馆，意味着可以免费下载学术�
 
 [http://libgen.io](http://libgen.io)
 
-![](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/6d822e18ecee2f44581323cf4818a52a_MD5.jpg)
+![](attachments/ShareToFreeDownloadPapers/6d822e18ecee2f44581323cf4818a52a_MD5.jpg)
 
 Library Genesis 是一个下载电子书的神奇网站，同时也提供学术论文的下载。指定搜索内容为【Scientific articles】，在【Links】里找到合适的链接，即可下载。
 
@@ -72,7 +72,7 @@ Library Genesis 是一个下载电子书的神奇网站，同时也提供学术�
 
 [https://lunwen.im/](https://lunwen.im/)
 
-![](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/5addb21af3d3450e4c36aa2dbee1c2f4_MD5.jpg)
+![](attachments/ShareToFreeDownloadPapers/5addb21af3d3450e4c36aa2dbee1c2f4_MD5.jpg)
 
 由于受不了学校论文检索的繁琐，有人做出了这个聚合的开放论文数据库网站。目前可检索的论文总量超过 6000W+，覆盖了 Elsevier、Springer Nature、Wiley-Blackwell 等重点出版机构，均可免费下载哦。
 
@@ -80,7 +80,7 @@ Library Genesis 是一个下载电子书的神奇网站，同时也提供学术�
 
 [https://scholar.chongbuluo.com/](https://scholar.chongbuluo.com/)
 
-![image-20200526120501397](docs/Social-Science/%E7%A7%91%E7%A0%94/%E8%AE%BA%E6%96%87%E6%96%B9%E9%9D%A2/attachments/ShareToFreeDownloadPapers/9c56699b6bd0cc0e3653b2b002d960dd_MD5.png)
+![image-20200526120501397](attachments/ShareToFreeDownloadPapers/9c56699b6bd0cc0e3653b2b002d960dd_MD5.png)
 
 真的是特别方便，重点推荐（写于 2020 - 05 - 25）
 

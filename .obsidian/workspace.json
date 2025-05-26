@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/HPC/深入理解cache对写好代码至关重要.md",
-                "mode": "preview",
+                "file": "docs/EDA/EDA概览.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "深入理解cache对写好代码至关重要"
+              "title": "EDA概览"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/HPC/深入理解cache对写好代码至关重要.md",
+                "file": "docs/EDA/EDA概览.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "深入理解cache对写好代码至关重要 的反向链接列表"
+              "title": "EDA概览 的反向链接列表"
             }
           },
           {
@@ -170,7 +170,12 @@
   },
   "active": "ed7f0623adcac6ca",
   "lastOpenFiles": [
+    "docs/IC/22-RTL设计/行为级和RTL级的区别.md",
+    "docs/IC/22-RTL设计/RTL 设计.md",
+    "docs/IC/22-RTL设计/可测性设计.md",
     "docs/EDA/EDA概览.md",
+    "docs/EDA/EDA江湖/attachments/鸿芯微纳发展史",
+    "docs/HPC/深入理解cache对写好代码至关重要.md",
     "docs/software-engineering/02-system/_sidebar.md",
     "docs/EDA/EDA江湖/attachments/鸿芯微纳发展史",
     "docs/tmp",
@@ -195,13 +200,9 @@
     "docs/IC/02-微电子手册/电感.md",
     "docs/gen_sidbar.py",
     "docs/IC/02-微电子手册/电容 1.md",
-    "13-TCL/tcl与c语音混合编程.md",
     "13-TCL",
-    "03-学习资源/数字IC后端资源汇总.md",
     "03-学习资源",
     "docs/IC/gen_sidbar.py",
-    "docs/IC/23-IC验证/功能验证.md",
-    "docs/IC/23-IC验证/等价性验证.md",
     "docs/HPC/AI推理/attachments/pytorch部署/1e3f9bf195b43defa8e6223ad6fe7327_MD5.png",
     "docs/HPC/AI推理/attachments/pytorch部署/7f42d09cfddd38071d8dcd4f0a9257af_MD5.png",
     "docs/HPC/AI推理/attachments/pytorch部署/8ed05eafa7003285f321207273332285_MD5.png",
@@ -214,7 +215,6 @@
     "docs/HPC/AI推理/attachments/pytorch部署/daa0d11a7c954e34367077e94e54997b_MD5.png",
     "docs/HPC/attachments/深入理解cache对写好代码至关重要",
     "docs/HPC/AI推理/attachments/常见推理框架",
-    "docs/HPC/AI推理/attachments/pytorch部署",
-    "docs/HPC/异构计算 1/attachments/如何成为一名异构并行计算工程师"
+    "docs/HPC/AI推理/attachments/pytorch部署"
   ]
 }

@@ -133,7 +133,7 @@ docsify 扩展了一些 Markdown 语法，可以让文档更易读。
 ![logo](docs/software-engineering/09-tool/attachments/docsify/9631f2bd18c54ddd6dbe631ea48d722c_MD5.svg ':size=100')
 ```
 
-![logo](docs/software-engineering/09-tool/attachments/docsify/9631f2bd18c54ddd6dbe631ea48d722c_MD5.svg ':size=50x100')
+![logo](attachments/docsify/9631f2bd18c54ddd6dbe631ea48d722c_MD5.svg ':size=50x100')
 c
 
 ### 设置标题的 id 属性
@@ -165,7 +165,7 @@ GitHub Pages 支持从三个地方读取文件
 
 我们推荐直接将文档放在 `docs/` 目录下，在设置页面开启 **GitHub Pages** 功能并选择 `master branch /docs folder` 选项。
 
-![github pages](docs/software-engineering/09-tool/img/docsify/gitpage.png)
+![github pages](img/docsify/gitpage.png)
 
 !> 可以将文档放在根目录下，然后选择 **master 分支** 作为文档目录。
 

@@ -53,7 +53,7 @@ OK。
 >
 > https://www.jianshu.com/p/92305d949c0e
 
-![](docs/software-engineering/09-toolchain/attachments/git_use_method/d92da79c601f3ab206a49bc00fd6a6bc_MD5.png)
+![](attachments/git_use_method/d92da79c601f3ab206a49bc00fd6a6bc_MD5.png)
 
 ## 1.创建分支
 

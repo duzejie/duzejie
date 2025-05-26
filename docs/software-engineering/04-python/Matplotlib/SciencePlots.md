@@ -45,7 +45,7 @@ with plt.style.context(['ieee','grid']):
 
 绘制效果图如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/39d166b17d1f7f686d510e113bcfa325_MD5.jpg)
+![](attachments/SciencePlots/39d166b17d1f7f686d510e113bcfa325_MD5.jpg)
 
 不使用SciencePlots的时候，执行下列案例代码：
 
@@ -67,7 +67,7 @@ plt.show()
 
 效果图如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/7197549dd8bd085b817a959ace657fe0_MD5.jpg)
+![](attachments/SciencePlots/7197549dd8bd085b817a959ace657fe0_MD5.jpg)
 
 如果查看该工具支持的风格呢？执行下列代码：
 
@@ -79,7 +79,7 @@ print(matplotlib.get_configdir())
 
 执行这段代码，会获取到风格样式配置文件所在的地址，会看到里面会包含很多风格文件，如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/17e78ef50ff6f221b309c98e6e1bee06_MD5.png)
+![](attachments/SciencePlots/17e78ef50ff6f221b309c98e6e1bee06_MD5.png)
 
 > 🎁 这些配置文件可以根据自己的需求进行修改，可以尝试尝试自己定制绘图样式喔！
 
@@ -105,7 +105,7 @@ with plt.style.context(['ieee', 'bright']):
 
 效果图如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/0fbd3281b4c9abc1d1df39bad502243f_MD5.jpg)
+![](attachments/SciencePlots/0fbd3281b4c9abc1d1df39bad502243f_MD5.jpg)
 
 样式二：
 
@@ -127,7 +127,7 @@ with plt.style.context(['ieee', 'notebook']):
 
 效果图如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/f879af9aaa00e54733ef6056e9fba079_MD5.jpg)
+![](attachments/SciencePlots/f879af9aaa00e54733ef6056e9fba079_MD5.jpg)
 
 样式三：
 
@@ -149,7 +149,7 @@ with plt.style.context(['ieee', 'light']):
 
 效果图如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/dcd8f2e057a40bc99613f20b488bfe8d_MD5.jpg)
+![](attachments/SciencePlots/dcd8f2e057a40bc99613f20b488bfe8d_MD5.jpg)
 
 样式四：
 
@@ -171,7 +171,7 @@ with plt.style.context(['ieee']):
 
 效果图如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/cf5c27ac3c17a24bd91175e8fd7caf6a_MD5.jpg)
+![](attachments/SciencePlots/cf5c27ac3c17a24bd91175e8fd7caf6a_MD5.jpg)
 
 样式五：
 
@@ -193,7 +193,7 @@ with plt.style.context(['ieee', 'scatter']):
 
 效果图如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/f55a74a137ade771162ae1e2020109bd_MD5.jpg)
+![](attachments/SciencePlots/f55a74a137ade771162ae1e2020109bd_MD5.jpg)
 
 样式六：
 
@@ -215,7 +215,7 @@ with plt.style.context(['ieee', 'scatter', 'grid']):
 
 效果图如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/7845e518a961744888b8f013a141fc44_MD5.jpg)
+![](attachments/SciencePlots/7845e518a961744888b8f013a141fc44_MD5.jpg)
 
 样式七：
 
@@ -237,7 +237,7 @@ with plt.style.context(['ieee', 'grid', 'vibrant']):
 
 效果图如下：
 
-![](docs/software-engineering/04-python/Matplotlib/attachments/SciencePlots/bd4819d2cd52589d6040eca418e17ac0_MD5.jpg)
+![](attachments/SciencePlots/bd4819d2cd52589d6040eca418e17ac0_MD5.jpg)
 
 > 🦜 当然风格样式还有很多，不同组合方式会有不同的效果，如果感兴趣的话，可以自己尝试尝试复现一下！
 

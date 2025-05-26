@@ -38,7 +38,7 @@
 
 在此，型号可认为是毛笔的抽象部分，而颜色是毛笔的实现部分，结构示意图如下图所示：
 
-![](docs/software-engineering/06-architecture/01-DesignPattern/attachments/bridge-pattern/a3b12d3efdf474b5ec967c438524f750_MD5.png)
+![](attachments/bridge-pattern/a3b12d3efdf474b5ec967c438524f750_MD5.png)
 
 
 ## 模式总结

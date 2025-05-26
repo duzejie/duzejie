@@ -2,9 +2,9 @@
 
 话不多说，先看效果： [https://bytesfly.github.io/blog](https://bytesfly.github.io/blog)
 
-![](docs/software-engineering/09-tool/attachments/github-page-docsify/2749183c7109d75883ce29fa33b84fa0_MD5.png)
+![](attachments/github-page-docsify/2749183c7109d75883ce29fa33b84fa0_MD5.png)
 
-![](docs/software-engineering/09-tool/attachments/github-page-docsify/54ebbf3b80b894133e76297399f502af_MD5.png)
+![](attachments/github-page-docsify/54ebbf3b80b894133e76297399f502af_MD5.png)
 
 ## 为什么需要一个站点
 
@@ -32,11 +32,11 @@
 
 - 第一步：`Fork`我的当前博客仓库，即 [https://github.com/bytesfly/blog](https://github.com/bytesfly/blog)
 
-![](docs/software-engineering/09-tool/attachments/github-page-docsify/385fc68cf470e2ff7e024cf02b1b0ba4_MD5.png)
+![](attachments/github-page-docsify/385fc68cf470e2ff7e024cf02b1b0ba4_MD5.png)
 
 - 第二步：在刚`Fork`的仓库设置(`Settings`)页面开启`GitHub Pages`功能
 
-![](docs/software-engineering/09-tool/attachments/github-page-docsify/5735d9433a27c97dbdd24eadf6e76c1a_MD5.png)
+![](attachments/github-page-docsify/5735d9433a27c97dbdd24eadf6e76c1a_MD5.png)
 
 然后，你就可以打开`https://<yourname>.github.io/blog`看看效果了。接下来，不用我说了吧，`clone`自己的`blog`仓库，在本地修改你的相关信息，添加你的博客文章，`push`到`GitHub`，刷新页面(浏览器可能有缓存)，即可更新到最新的提交。  
 

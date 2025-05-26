@@ -235,7 +235,7 @@ ZeroDivisionError: integer division or modulo by zero
 
 !> 出错的时候，一定要分析错误的调用栈信息，才能定位错误的位置。
 
-![异常栈](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH8-错误、调试和测试/9c1adbeb793c5d4510e1208976f3b762_MD5.png)
+![异常栈](attachments/CH8-错误、调试和测试/9c1adbeb793c5d4510e1208976f3b762_MD5.png)
 
 ### 8.1.3 记录错误
 

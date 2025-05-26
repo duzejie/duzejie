@@ -4,7 +4,7 @@
 
 在我们的日常学习中，能够编写和运行 Python 文件的程序很多，比如 Python 安装自带的 IDE、程序员喜爱的Pycharm、数据科学全家桶 Anaconda，还有 Spyder、Thonny 等。就我个人使用而言，如果进行大型项目推荐使用 Pycharm，如果进行数据处理和分析，最好选用 Jupyter notebook。可以说，**Jupyter notebook 是用Python 进行数据科学、机器学习的必备工具。**
 
-![image-20200713115134320](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/6340cf400d9a930c5179f7e9e5c366ec_MD5.png)
+![image-20200713115134320](attachments/Jupyter-notebook使用指南/6340cf400d9a930c5179f7e9e5c366ec_MD5.png)
 
 
 
@@ -46,7 +46,7 @@ Ipython 是更高级的 Python 解释器，而 Jupyter notebook 是基于 Ipytho
 
 如果你安装了 Python 数据科学全家桶 Anaconda，那么其中自带了 Jupyter notebook。
 
-![image-20200713171916125](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/432d9901d7df35136af357cfce2bcb74_MD5.png)
+![image-20200713171916125](attachments/Jupyter-notebook使用指南/432d9901d7df35136af357cfce2bcb74_MD5.png)
 
 如果你没安装 Anaconda，可以直接在命令行里运行这行命令
 
@@ -60,11 +60,11 @@ pip install jupyter -i //pypi.tuna.tsinghua.edu.cn/simple
 
 打开命令行，输入 `jupyter notebook`，回车。稍等片刻即可跳出浏览器网页。
 
-![image-20200713172808869](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/41b0c89e0261a632dc05d8bd4f65ac6f_MD5.png)
+![image-20200713172808869](attachments/Jupyter-notebook使用指南/41b0c89e0261a632dc05d8bd4f65ac6f_MD5.png)
 
 🎉 看右上角：
 
-![image-20200713173007336](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/e5324945dc905dfb6660bf11378e721c_MD5.png)
+![image-20200713173007336](attachments/Jupyter-notebook使用指南/e5324945dc905dfb6660bf11378e721c_MD5.png)
 
 * 点击 New --> Python3 即可创建 Python 文档。
 
@@ -82,15 +82,15 @@ pip install jupyter -i //pypi.tuna.tsinghua.edu.cn/simple
 
 点击左上角`Untitled`给新建的 Python 文档文件重新命名。
 
-![image-20200713224350095](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/3332cdac141ada8116175b0f361c3414_MD5.png)
+![image-20200713224350095](attachments/Jupyter-notebook使用指南/3332cdac141ada8116175b0f361c3414_MD5.png)
 
 自古第一行代码，总是会写 Hello World，故名称设置为了 HelloWorld
 
-![image-20200713224537278](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/2f1f88ed217499ac6f098cd98ff0e60a_MD5.png)
+![image-20200713224537278](attachments/Jupyter-notebook使用指南/2f1f88ed217499ac6f098cd98ff0e60a_MD5.png)
 
 在代码框中输入第一行 Python 代码，`shift + 回车`运行
 
-![image-20200713230012217](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/b5d27457640d942bece41e6666950cae_MD5.png)
+![image-20200713230012217](attachments/Jupyter-notebook使用指南/b5d27457640d942bece41e6666950cae_MD5.png)
 
 
 
@@ -128,13 +128,13 @@ Jupyter notebook 中，有两种单元格：代码单元格和 Markdown 单元�
 
 如下图：
 
-![image-20200713232002542](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/071eb22cb0e22c696322a70fc48c353c_MD5.png)
+![image-20200713232002542](attachments/Jupyter-notebook使用指南/071eb22cb0e22c696322a70fc48c353c_MD5.png)
 
 
 
 然后按`shift`+`Enter`运行该单元格。
 
-![image-20200713231750768](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/bef89d4b6bddd281fe11dd20629b688d_MD5.png)
+![image-20200713231750768](attachments/Jupyter-notebook使用指南/bef89d4b6bddd281fe11dd20629b688d_MD5.png)
 
 
 
@@ -169,9 +169,9 @@ Jupyter notebook 中，有两种单元格：代码单元格和 Markdown 单元�
 
 h 查看所有快捷键
 
-![命令行模式快捷键](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/8c57412d45cfdddb5ca7fc4464b1c68c_MD5.png)
+![命令行模式快捷键](attachments/Jupyter-notebook使用指南/8c57412d45cfdddb5ca7fc4464b1c68c_MD5.png)
 
-![编辑模式快捷键](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/1296ecad38c3ef3494ca99d9415a1e89_MD5.png)
+![编辑模式快捷键](attachments/Jupyter-notebook使用指南/1296ecad38c3ef3494ca99d9415a1e89_MD5.png)
 
 ## 在 Markdown 单元格中输入数学公式
 
@@ -187,9 +187,9 @@ $$x = \frac{-b\pm \sqrt{b^2-4ac}}{2a}$$
 初中数学内容
 ```
 
-![image-20200713233438637](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/686293db96625d4c3b3abd46552f3cd4_MD5.png)
+![image-20200713233438637](attachments/Jupyter-notebook使用指南/686293db96625d4c3b3abd46552f3cd4_MD5.png)
 
 按`shift`+`Enter`渲染运行：
 
-![image-20200713233502965](docs/software-engineering/04-python/Python/attachments/Jupyter-notebook使用指南/aa98654a11c9465dff9fac6ed8487810_MD5.png)
+![image-20200713233502965](attachments/Jupyter-notebook使用指南/aa98654a11c9465dff9fac6ed8487810_MD5.png)
 

@@ -1,7 +1,7 @@
 [深度解析芯片设计、制造、封装测试的全流程及各环节世界顶尖厂商技术说明 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/228757435)
 
 
-| ![[docs/IC/20-IC设计流程/attachments/Pasted image 20230322000437.png]] | ![[docs/IC/20-IC设计流程/attachments/Pasted image 20230322000543.png]]   |
+| ![[../20-IC设计流程/attachments/Pasted image 20230322000437.png]] | ![[../20-IC设计流程/attachments/Pasted image 20230322000543.png]]   |
 | ------------------------------------ | --- |
 |                                      |     |
 
@@ -15,18 +15,18 @@
 从集成开始，由脑力劳作进入体力劳作，对比盖房子，就是从设计师到泥瓦工。集成工程师，要把芯片所用的所有模块相互连接起来，指导思想是架构工程师确定的，各个 IP 如何连接是各 IP 的 owner 确定的，集成工程师只要保证不多连、不少连、不乱连即可，据说当前也没有什么有效的集成工具，常用到的是 emac。
 
 验证在数字芯片设计中占很大比例，近些年在设计复杂度的推动下验证方法学跟验证手段在不断更新，从 OVM 到 UVM, 从 Dynamic verification 到 Static verification, 从 FPGA 到 Emulator, 所有革新目的可概括为：快速、完备、易调试。验证涉及到许多方面，验证工程师一方面要对相关协议算法有足够了解，根据架构、算法工程师设定的目标设计仿真向量；另一方面要对设计本身足够了解，以提高验证效率，缩短验证时间。**验证工程师需要掌握许多技术，需要使用许多工具**
-语言：各种脚本语言之外，C/C++, SystemVerilog, [[docs/IC/12-Verilog/Verilog]]；
+语言：各种脚本语言之外，C/C++, SystemVerilog, [[../12-Verilog/Verilog]]；
 协议：各种接口协议，各种通信协议，各种总线协议；
 工具：动态仿真工具，静态仿真工具，FPGA, Emulator；
 
-  ![[docs/IC/20-IC设计流程/attachments/Pasted image 20230322000759.png]]
+  ![[../20-IC设计流程/attachments/Pasted image 20230322000759.png]]
   
 
 
 ## 1、IC 设计分类
 首先对 IC 设计的分类做个介绍，如图  所示。
 
-![[docs/IC/20-IC设计流程/attachments/Pasted image 20230321235121.png]]
+![[../20-IC设计流程/attachments/Pasted image 20230321235121.png]]
 
 如图 所示，IC 设计可以粗分为数字 IC 设计和射频/模拟 IC 设计；数字 IC 设计又可分为 ASIC 设计和 FPGA/CPLD 设计；此外还有一部分 IC 设计采用数模混合设计，如：SOC 设计和数模混合信号 IC 设计。
 

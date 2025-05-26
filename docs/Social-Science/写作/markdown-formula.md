@@ -30,15 +30,15 @@ $$
 
 1. 在博客园用Markdown写博客需要启用数学公式支持，如下：
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/markdown-formula/11897ea7510f9954279e16889c9db31a_MD5.png)
+![](attachments/markdown-formula/11897ea7510f9954279e16889c9db31a_MD5.png)
 
 2. 在博客园可以在公式上右键查看详情：
 
-   ![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/markdown-formula/1eb749fe3cb64323fcda2484af4f287e_MD5.png)
+   ![](attachments/markdown-formula/1eb749fe3cb64323fcda2484af4f287e_MD5.png)
 
 3. 如果使用Typora编写Markdown，解析行内公式需要手动设置一下， 文件 -> 偏好设置 -> Markdown -> Markdown扩展语法 -> 勾选 “内联公式”，重启软件，Typora才会解析行内公式。
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/markdown-formula/c6fd52ea5dd46d742c00c73618c968a3_MD5.png)
+![](attachments/markdown-formula/c6fd52ea5dd46d742c00c73618c968a3_MD5.png)
 
 ## 符号
 

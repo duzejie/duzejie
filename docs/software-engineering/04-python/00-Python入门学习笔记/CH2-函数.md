@@ -149,11 +149,11 @@ print(my_abs(-99))
 
 在 Python 交互环境中定义函数时，注意 Python 会出现`...`的提示。函数定义结束后需要按两次回车重新回到`>>>`提示符下：
 
-![image-20200628200630220](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH2-函数/54490971b7ae2af2a28926f7b8d10310_MD5.png)
+![image-20200628200630220](attachments/CH2-函数/54490971b7ae2af2a28926f7b8d10310_MD5.png)
 
 如果你已经把`my_abs()`的函数定义保存为`abstest.py`文件了，那么，可以在该文件的当前目录下启动 Python 解释器，用`from abstest import my_abs`来导入`my_abs()`函数，注意`abstest`是文件名（不含`.py`扩展名）：
 
-![image-20200628200735560](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH2-函数/cef6afd0f46ef0f4f27f48cfb0672ce5_MD5.png)
+![image-20200628200735560](attachments/CH2-函数/cef6afd0f46ef0f4f27f48cfb0672ce5_MD5.png)
 
 ### 2.2.2 空函数
 
@@ -778,7 +778,7 @@ def fact(n):
 
 如果我们计算`fact(5)`，可以根据函数定义看到计算过程如下：
 
-![image-20200703160050927](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH2-函数/db49b04965b7b9370fb26a403d0afaf4_MD5.png)
+![image-20200703160050927](attachments/CH2-函数/db49b04965b7b9370fb26a403d0afaf4_MD5.png)
 
 !> 递归函数的优点是定义简单，逻辑清晰。理论上，所有的递归函数都可以写成循环的方式，但循环的逻辑不如递归清晰。
 
@@ -814,7 +814,7 @@ def fact_iter(num, product):
 
 `fact(5)`对应的`fact_iter(5, 1)`的调用如下：
 
-![image-20200703160635854](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH2-函数/cb44374be719823d3aab98c2ce795eee_MD5.png)
+![image-20200703160635854](attachments/CH2-函数/cb44374be719823d3aab98c2ce795eee_MD5.png)
 
 尾递归调用时，如果做了优化，栈不会增长，因此，无论多少次调用也不会导致栈溢出。
 

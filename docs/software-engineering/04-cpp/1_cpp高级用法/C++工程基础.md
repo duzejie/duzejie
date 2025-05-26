@@ -21,7 +21,7 @@ keywords:
 
 ## 语言版本
 
-C++语言有不同的语法版本，包括 C++98 ， C++11 ， C++14 ， C++17 ， C++20 等，后面的数字表示草案通过的年份。权衡功能和兼容性，并参考 Google 目前（2019年1月）版本的编码规范 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)， [Google 开源项目风格指南 (中文版)](docs/software-engineering/00-standard/Google开源代码风格指南_cpp.md )，
+C++语言有不同的语法版本，包括 C++98 ， C++11 ， C++14 ， C++17 ， C++20 等，后面的数字表示草案通过的年份。权衡功能和兼容性，并参考 Google 目前（2019年1月）版本的编码规范 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)， [Google 开源项目风格指南 (中文版)](../../00-standard/Google开源代码风格指南_cpp.md )，
 我们**要求使用** C++11 版本的语言，并会在以后恰当的时间随之升级。
 
 「要求使用」的含义是：如果新的语法可以提升代码效率，应当立即使用新语法；如果在保证代码效率不降低的前提下，新语法可以增加代码的可读性、简洁性，也应当立即使用新语法。但不要为了使用新语法，而使用代码的效率、可读性、简洁性降低。每个学习使用现代 C++ 的程序员都应该阅读[《 Effective Modern C++ 》](https://book.douban.com/subject/30178902/)。

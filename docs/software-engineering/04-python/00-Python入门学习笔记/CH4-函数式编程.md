@@ -175,7 +175,7 @@ abs(-10) # 10
 
 但是，如果只写`abs`呢？
 
-![函数](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/8cc30d89269d735dc258cf29764a81d8_MD5.png)
+![函数](attachments/CH4-函数式编程/8cc30d89269d735dc258cf29764a81d8_MD5.png)
 
 可见，`abs(-10)`是函数调用，而`abs`是函数本身。
 
@@ -188,7 +188,7 @@ x # 10
 
 但是，如果把函数本身赋值给变量呢？
 
-![image-20200717102554966](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/2336bb04f24640686f190c3856785cd7_MD5.png)
+![image-20200717102554966](attachments/CH4-函数式编程/2336bb04f24640686f190c3856785cd7_MD5.png)
 
 结论：函数本身也可以赋值给变量，即：变量可以指向函数。
 
@@ -207,7 +207,7 @@ f(10) # 10
 
 如果把`abs`指向其他对象，会有什么情况发生？
 
-![报错](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/3ae5e7a57566d04972deb7e1653a9f5f_MD5.png)
+![报错](attachments/CH4-函数式编程/3ae5e7a57566d04972deb7e1653a9f5f_MD5.png)
 
 把`abs`指向`10`后，就无法通过`abs(-10)`调用该函数了！因为`abs`这个变量已经不指向求绝对值函数而是指向一个整数`10`！
 
@@ -238,7 +238,7 @@ return 11
 
 验证一下：
 
-![效果图](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/5517bbf8f2aeea33796bdec2b7baacdd_MD5.png)
+![效果图](attachments/CH4-函数式编程/5517bbf8f2aeea33796bdec2b7baacdd_MD5.png)
 
 👕 编写高阶函数，就是让函数的参数能够接收别的函数。
 
@@ -258,7 +258,7 @@ Python 内建了`map()`和`reduce()`函数。
 
 举例说明，比如我们有一个函数 $ f(x)=x^2$，要把这个函数作用在一个 list `[1, 2, 3, 4, 5, 6, 7, 8, 9]`上，就可以用`map()`实现如下：
 
-![image-20200717105308037](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/971266fc771961068d5d2de7bf301ac5_MD5.png)
+![image-20200717105308037](attachments/CH4-函数式编程/971266fc771961068d5d2de7bf301ac5_MD5.png)
 
 现在，我们用 Python 代码实现：
 
@@ -269,7 +269,7 @@ r = map(f, [1, 2, 3, 4, 5, 6, 7, 8, 9])
 list(r)
 ```
 
-![image-20200717105513962](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/2e7024ab708668885d09183c9ea0ced7_MD5.png)
+![image-20200717105513962](attachments/CH4-函数式编程/2e7024ab708668885d09183c9ea0ced7_MD5.png)
 
 `map()`传入的第一个参数是`f`，即函数对象本身。由于结果`r`是一个`Iterator`，`Iterator`是惰性序列，因此通过`list()`函数让它把整个序列都计算出来并返回一个list。
 
@@ -290,7 +290,7 @@ print(L)
 list(map(str, [1, 2, 3, 4, 5, 6, 7, 8, 9]))
 ```
 
-![image-20200717110350309](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/826feb4752145abcab922489597f9b5a_MD5.png)
+![image-20200717110350309](attachments/CH4-函数式编程/826feb4752145abcab922489597f9b5a_MD5.png)
 
 只需要一行代码。
 
@@ -605,7 +605,7 @@ Python 内置的`sorted()`函数就可以对 list 进行排序：
 sorted([36, 5, -12, 9, -21])
 ```
 
-![image-20200717175608860](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/35c0408ef1e382c421bb6b74580877cb_MD5.png)
+![image-20200717175608860](attachments/CH4-函数式编程/35c0408ef1e382c421bb6b74580877cb_MD5.png)
 
 此外，`sorted()`函数也是一个高阶函数，它还可以接收一个`key`函数来实现自定义的排序，例如按绝对值大小排序：
 
@@ -613,7 +613,7 @@ sorted([36, 5, -12, 9, -21])
 sorted([36, 5, -12, 9, -21], key=abs)
 ```
 
-![image-20200717175738112](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/804303ebc218d2be5277cda6e79d1617_MD5.png)
+![image-20200717175738112](attachments/CH4-函数式编程/804303ebc218d2be5277cda6e79d1617_MD5.png)
 
 key 指定的函数将作用于 list 的每一个元素上，并根据 key 函数返回的结果进行排序。对比原始的 list 和经过`key=abs`处理过的 list：
 
@@ -625,7 +625,7 @@ keys = [36, 5,  12, 9,  21]
 
 然后`sorted()`函数按照 keys 进行排序，并按照对应关系返回 list 相应的元素：
 
-![image-20200717180025283](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/9d715b5839744b5033cfd6bfce7c88dc_MD5.png)
+![image-20200717180025283](attachments/CH4-函数式编程/9d715b5839744b5033cfd6bfce7c88dc_MD5.png)
 
 我们再看一个字符串排序的例子：
 
@@ -633,7 +633,7 @@ keys = [36, 5,  12, 9,  21]
 sorted(['bob', 'about', 'Zoo', 'Credit'])
 ```
 
-![image-20200717180116413](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/4be49ce199bc6178bb54137fcfcb7576_MD5.png)
+![image-20200717180116413](attachments/CH4-函数式编程/4be49ce199bc6178bb54137fcfcb7576_MD5.png)
 
 默认情况下，对字符串排序，是按照 ASCII 的大小比较的，由于`'Z' < 'a'`，结果，大写字母`Z`会排在小写字母`a`的前面。
 
@@ -645,7 +645,7 @@ sorted(['bob', 'about', 'Zoo', 'Credit'])
 sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower)
 ```
 
-![image-20200717180305192](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/3fe60b050f1ee7306bb783765aa2729f_MD5.png)
+![image-20200717180305192](attachments/CH4-函数式编程/3fe60b050f1ee7306bb783765aa2729f_MD5.png)
 
 要进行反向排序，不必改动 key 函数，可以传入第三个参数`reverse=True`：
 
@@ -653,7 +653,7 @@ sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower)
  sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True)
 ```
 
-![image-20200717180420727](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/94d816a398ef1df98ed89dfc0ae67f28_MD5.png)
+![image-20200717180420727](attachments/CH4-函数式编程/94d816a398ef1df98ed89dfc0ae67f28_MD5.png)
 
 从上述例子可以看出，高阶函数的抽象能力是非常强大的，而且，核心代码可以保持得非常简洁。
 
@@ -681,7 +681,7 @@ L2 = sorted(L, key=by_name)
 print(L2)
 ```
 
-![image-20200717205002143](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/d045b486883d9984f55ccb9311b1e8a6_MD5.png)
+![image-20200717205002143](attachments/CH4-函数式编程/d045b486883d9984f55ccb9311b1e8a6_MD5.png)
 
 
 
@@ -695,7 +695,7 @@ L2 = sorted(L, key=by_name)
 print(L2)
 ```
 
-![image-20200717205111010](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/3ea90abbf48a815c69f3141860076999_MD5.png)
+![image-20200717205111010](attachments/CH4-函数式编程/3ea90abbf48a815c69f3141860076999_MD5.png)
 
 ## 4.3 返回函数
 
@@ -740,7 +740,7 @@ def lazy_sum(*args):
 25
 ```
 
-![image-20200718150942158](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/8f1b3d7ff115b0872a7d2c115d933e43_MD5.png)
+![image-20200718150942158](attachments/CH4-函数式编程/8f1b3d7ff115b0872a7d2c115d933e43_MD5.png)
 
 在这个例子中，我们在函数`lazy_sum`中又定义了函数`sum`，并且，内部函数`sum`可以引用外部函数`lazy_sum`的参数和局部变量，当`lazy_sum`返回函数`sum`时，相关参数和变量都保存在返回的函数中，这种称为“闭包（Closure）”的程序结构拥有极大的威力。
 
@@ -992,7 +992,7 @@ def now():
 
 调用`now()`函数，不仅会运行`now()`函数本身，还会在运行`now()`函数前打印一行日志：
 
-![image-20200719083104800](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/19f1d715e64269bfc3501567268b7984_MD5.png)
+![image-20200719083104800](attachments/CH4-函数式编程/19f1d715e64269bfc3501567268b7984_MD5.png)
 
 
 
@@ -1028,7 +1028,7 @@ def now():
 
 执行结果如下：
 
-![image-20200719084700178](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/57ee618b0c1858169e30c14f8805dff3_MD5.png)
+![image-20200719084700178](attachments/CH4-函数式编程/57ee618b0c1858169e30c14f8805dff3_MD5.png)
 
 和两层嵌套的 decorator 相比，3 层嵌套的效果是这样的：
 
@@ -1116,7 +1116,7 @@ elif s != 7986:
     print('测试失败!')
 ```
 
-![image-20200719091357306](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/6012075cb4b551c742f5abbd38418b61_MD5.png)
+![image-20200719091357306](attachments/CH4-函数式编程/6012075cb4b551c742f5abbd38418b61_MD5.png)
 
 
 
@@ -1260,7 +1260,7 @@ max(*args)
 
 结果为`10`。
 
-![image-20200719101140248](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH4-函数式编程/7656c38f315ea933630133d7f7684f2c_MD5.png)
+![image-20200719101140248](attachments/CH4-函数式编程/7656c38f315ea933630133d7f7684f2c_MD5.png)
 
 > 小结：
 

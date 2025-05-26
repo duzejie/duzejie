@@ -20,7 +20,7 @@
 
 外观模式没有一个一般化的类图描述，下图所示的类图也可以作为描述外观模式的结构图：
 
-![外观模式结构图](docs/software-engineering/06-architecture/01-DesignPattern/attachments/facade-pattern/0601bf597049eed4ce378ab264b87924_MD5.png)
+![外观模式结构图](attachments/facade-pattern/0601bf597049eed4ce378ab264b87924_MD5.png)
 
 外观模式包含如下两个角色：
 

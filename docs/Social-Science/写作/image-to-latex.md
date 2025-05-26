@@ -14,13 +14,13 @@
 
 > Convert images of LaTex math equations into LaTex code.
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/f96104174ccb6f5e3a88686a83e21788_MD5.gif)
+![](attachments/image-to-latex/f96104174ccb6f5e3a88686a83e21788_MD5.gif)
 
 该项目当前(2021年09月02日)star人数为631,Fork为81：
 
 
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/2c80ab26fc02c2a5181c9da725f65c68_MD5.png)
+![](attachments/image-to-latex/2c80ab26fc02c2a5181c9da725f65c68_MD5.png)
 
 
 
@@ -112,7 +112,7 @@ uvicorn api.app:app --host 0.0.0.0 --port 8000 --reload --reload-dir image-to-la
 
 浏览器打开 [http://localhost:8000/docs](http://localhost:8000/docs) ，看到接口文档如下：
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/93f1a53e7c9f4212328f6e63ad3282d0_MD5.png)
+![](attachments/image-to-latex/93f1a53e7c9f4212328f6e63ad3282d0_MD5.png)
 
 (2) 启动前端界面，执行命令`make streamlit`
 
@@ -124,7 +124,7 @@ streamlit run streamlit/app.py
 
 浏览器打开 [http://localhost:8501/](http://localhost:8501/) ，就是上传图片的界面：
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/0d1d9a70e67138ea727fcd92af93a9cb_MD5.png)
+![](attachments/image-to-latex/0d1d9a70e67138ea727fcd92af93a9cb_MD5.png)
 
 至此，`image-to-latex`就成功启动了，下面就期待转换公式的效果了！
 
@@ -138,31 +138,31 @@ streamlit run streamlit/app.py
 
 我从之前的博客中截图了10个公式，使用下来，感觉当前的效果并非太理想。注意，个别解析出来仅是缺少了右`}`，这种也可以算解析出来了。如下：
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/7a06dc5a7898f50be4c34c0fa337a94f_MD5.png)
+![](attachments/image-to-latex/7a06dc5a7898f50be4c34c0fa337a94f_MD5.png)
 
 
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/9969a7e76b59e1e4f0280df091e25c02_MD5.png)
+![](attachments/image-to-latex/9969a7e76b59e1e4f0280df091e25c02_MD5.png)
 
 
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/5d60e90d639a0776d7b41a18d34850e2_MD5.png)
+![](attachments/image-to-latex/5d60e90d639a0776d7b41a18d34850e2_MD5.png)
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/1ba7791359e72e47256a57356358c6cd_MD5.png)
+![](attachments/image-to-latex/1ba7791359e72e47256a57356358c6cd_MD5.png)
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/82e8d9180d492828b4cc5b4372ba3692_MD5.png)
+![](attachments/image-to-latex/82e8d9180d492828b4cc5b4372ba3692_MD5.png)
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/932c8fbced8a9418a9573343f5730e7e_MD5.png)
+![](attachments/image-to-latex/932c8fbced8a9418a9573343f5730e7e_MD5.png)
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/d9cefe9d1b16d56d13fb8ba757d13711_MD5.png)
+![](attachments/image-to-latex/d9cefe9d1b16d56d13fb8ba757d13711_MD5.png)
 
 
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/3029e166116a8c5962cb238025c97042_MD5.png)
+![](attachments/image-to-latex/3029e166116a8c5962cb238025c97042_MD5.png)
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/c9dfac0f8a67b79a1c93395ba1d5a0ca_MD5.png)
+![](attachments/image-to-latex/c9dfac0f8a67b79a1c93395ba1d5a0ca_MD5.png)
 
-![](docs/Social-Science/%E5%86%99%E4%BD%9C/attachments/image-to-latex/7cf0b4bfdf49ea40f72a1429190fe98e_MD5.png)
+![](attachments/image-to-latex/7cf0b4bfdf49ea40f72a1429190fe98e_MD5.png)
 
 测试来看，貌似对多行公式的解析不太好。当然了，有这样的免费工具来辅助我们把公式图片转成`Latex`代码已经让人挺惊喜了。相信以后随着更多的人参与算法的优化、模型的改善，解析的效果会更好。
 

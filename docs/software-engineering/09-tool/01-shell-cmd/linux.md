@@ -438,7 +438,7 @@ yum groupremove “Chinese Suport” 删除软件组
 
 ## shell 命令
 
-![](docs/software-engineering/09-toolchain/img/shell.png)
+![](../../09-toolchain/img/shell.png)
 
 1.  /bin/bash -x first_shell.sh //执行 shell 文件 调试错误
 2.  /bin/bnsh -n first_shell.sh //执行 shell 文件 调试错误

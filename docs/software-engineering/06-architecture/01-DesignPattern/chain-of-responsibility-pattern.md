@@ -30,7 +30,7 @@
 
 职责链模式结构的核心在于引入了一个抽象处理者。职责链模式结构如下图所示：
 
-![](docs/software-engineering/06-architecture/01-DesignPattern/attachments/chain-of-responsibility-pattern/595b582ddb4ff1419e12f9de9ae52963_MD5.png)
+![](attachments/chain-of-responsibility-pattern/595b582ddb4ff1419e12f9de9ae52963_MD5.png)
 
 在职责链模式结构图中包含如下几个角色：
 

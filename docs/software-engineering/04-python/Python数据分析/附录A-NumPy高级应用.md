@@ -15,7 +15,7 @@ ndarray如此强大的部分原因是所有数组对象都是数据块的一个�
 
 图A-1简单地说明了ndarray的内部结构。
 
-![图A-1 Numpy的ndarray对象](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/b7a4598ae13e59aa1b91248bc9f936bf_MD5.png)
+![图A-1 Numpy的ndarray对象](attachments/附录A-NumPy高级应用/b7a4598ae13e59aa1b91248bc9f936bf_MD5.png)
 
 
 例如，一个10×5的数组，其形状为(10,5)：
@@ -68,7 +68,7 @@ Out[17]: True
 
 大部分NumPy用户完全不需要了解这些知识，但是这些知识偶尔还是能派上用场的。图A-2说明了dtype体系以及父子类关系。
 
-![图A-2 NumPy的dtype体系](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/ab61de20753dbf545b8b29e0aa457132_MD5.png)
+![图A-2 NumPy的dtype体系](attachments/附录A-NumPy高级应用/ab61de20753dbf545b8b29e0aa457132_MD5.png)
 
 # A.2 高级数组操作
 
@@ -91,7 +91,7 @@ array([[0, 1],
        [6, 7]])
 ```
 
-![图A-3 按C顺序（按行）和按Fortran顺序（按列）进行重塑](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/0d680450c6c018de28091e6441a81cc3_MD5.png)
+![图A-3 按C顺序（按行）和按Fortran顺序（按列）进行重塑](attachments/附录A-NumPy高级应用/0d680450c6c018de28091e6441a81cc3_MD5.png)
 
 多维数组也能被重塑：
 ```python
@@ -161,7 +161,7 @@ In [34]: arr.ravel('F')
 Out[34]: array([ 0,  4,  8,  1,  5,  9,  2,  6, 10,  3,  7, 11])
 ```
 
-![图A-3 按C（行优先）或Fortran（列优先）顺序进行重塑](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/0d680450c6c018de28091e6441a81cc3_MD5.png)
+![图A-3 按C（行优先）或Fortran（列优先）顺序进行重塑](attachments/附录A-NumPy高级应用/0d680450c6c018de28091e6441a81cc3_MD5.png)
 
 二维或更高维数组的重塑过程比较令人费解（见图A-3）。C和Fortran顺序的关键区别就是维度的行进顺序：
 
@@ -237,7 +237,7 @@ array([[ 0.0929,  0.2817],
 
 表A-1中列出了所有关于数组连接和拆分的函数，其中有些是专门为了方便常见的连接运算而提供的。
                                                                     
-![表A-1 数组连接函数](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/c8641e9059a661a130bd4a26c6f786d0_MD5.png)
+![表A-1 数组连接函数](attachments/附录A-NumPy高级应用/c8641e9059a661a130bd4a26c6f786d0_MD5.png)
 
 ## 堆叠辅助类：r_和c_
 
@@ -456,12 +456,12 @@ Out[86]: array([-0.,  0., -0.])
 
 图A-4形象地展示了该过程。用广播的方式对行进行距平化处理会稍微麻烦一些。幸运的是，只要遵循一定的规则，低维度的值是可以被广播到数组的任意维度的（比如对二维数组各列减去行平均值）。
 
-![图A-4 一维数组在轴0上的广播](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/3eca118d30becc31e9113a17f057a611_MD5.png)
+![图A-4 一维数组在轴0上的广播](attachments/附录A-NumPy高级应用/3eca118d30becc31e9113a17f057a611_MD5.png)
 
 
 于是就得到了：
 
-![](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/5762f330e9640d961378756818093b8f_MD5.png)
+![](attachments/附录A-NumPy高级应用/5762f330e9640d961378756818093b8f_MD5.png)
 
 虽然我是一名经验丰富的NumPy老手，但经常还是得停下来画张图并想想广播的原则。再来看一下最后那个例子，假设你希望对各行减去那个平均值。由于arr.mean(0)的长度为3，所以它可以在0轴向上进行广播：因为arr的后缘维度是3，所以它们是兼容的。根据该原则，要在1轴向上做减法（即各行减去行平均值），较小的那个数组的形状必须是(4,1)：
 ```python
@@ -492,11 +492,11 @@ Out[92]: array([ 0., -0.,  0.,  0.])
 
 图A-5说明了该运算的过程。
 
-![图A-5 二维数组在轴1上的广播](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/d6aae7023a47aa5997f5fc517720db3f_MD5.png)
+![图A-5 二维数组在轴1上的广播](attachments/附录A-NumPy高级应用/d6aae7023a47aa5997f5fc517720db3f_MD5.png)
 
 图A-6展示了另外一种情况，这次是在一个三维数组上沿0轴向加上一个二维数组。
 
-![图A-6 三维数组在轴0上的广播](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/1a3dea4e882848d586afa0f6bc9be993_MD5.png)
+![图A-6 三维数组在轴0上的广播](attachments/附录A-NumPy高级应用/1a3dea4e882848d586afa0f6bc9be993_MD5.png)
 
 ## 沿其它轴向广播
 
@@ -522,7 +522,7 @@ array([[-0.2095,  1.1334, -0.9239],
 
 对于三维的情况，在三维中的任何一维上广播其实也就是将数据重塑为兼容的形状而已。图A-7说明了要在三维数组各维度上广播的形状需求。
 
-![图A-7：能在该三维数组上广播的二维数组的形状](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/3aadaf38d76e7bada832b591db4e2c25_MD5.png)
+![图A-7：能在该三维数组上广播的二维数组的形状](attachments/附录A-NumPy高级应用/3aadaf38d76e7bada832b591db4e2c25_MD5.png)
 
 于是就有了一个非常普遍的问题（尤其是在通用算法中），即专门为了广播而添加一个长度为1的新轴。虽然reshape是一个办法，但插入轴需要构造一个表示新形状的元组。这是一个很郁闷的过程。因此，NumPy数组提供了一种通过索引机制插入轴的特殊语法。下面这段代码通过特殊的np.newaxis属性以及“全”切片来插入新轴：
 ```python
@@ -726,7 +726,7 @@ array([[ 0,  0,  0],
 表A-2总结了部分的ufunc方法。
 
 
-![表A ufunc方法](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/46bc994bc446e7eab556460b95313fe4_MD5.png)
+![表A ufunc方法](attachments/附录A-NumPy高级应用/46bc994bc446e7eab556460b95313fe4_MD5.png)
 
 ## 编写新的ufunc
 
@@ -997,7 +997,7 @@ array(['1:first', '1:second', '1:third', '2:first', '2:second'],
 
 mergesort（合并排序）是唯一的稳定排序，它保证有O(n log n)的性能（空间复杂度），但是其平均性能比默认的quicksort（快速排序）要差。表A-3列出了可用的排序算法及其相关的性能指标。大部分用户完全不需要知道这些东西，但了解一下总是好的。
 
-![表A-3 数组排序算法](docs/software-engineering/04-python/Python数据分析/attachments/附录A-NumPy高级应用/ace3d5b621e1623d3e00683a40f09bb4_MD5.webp)
+![表A-3 数组排序算法](attachments/附录A-NumPy高级应用/ace3d5b621e1623d3e00683a40f09bb4_MD5.webp)
 
 ## 部分排序数组
 

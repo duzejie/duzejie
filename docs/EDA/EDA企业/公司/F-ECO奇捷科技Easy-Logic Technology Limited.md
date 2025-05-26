@@ -2,9 +2,9 @@
 
 [Functional ECO 工具簡介.mp4-教育-高清完整正版视频在线观看-优酷 (youku.com)](https://v.youku.com/v_show/id_XNDYwMTA4OTU0NA==.html?spm=a2hbt.13141534.app.5~5!2~5!2~5~5~5!2~5~5!2~5!2~5!2~5~5~A)
 
-![](docs/EDA/EDA企业/公司/attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/1738a27e7f5d3b2f4496600cc39512aa_MD5.png)
+![](attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/1738a27e7f5d3b2f4496600cc39512aa_MD5.png)
 
-![Product List](docs/EDA/EDA企业/公司/attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/ae70d008d7d3d26ae198d083834692fd_MD5.png)
+![Product List](attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/ae70d008d7d3d26ae198d083834692fd_MD5.png)
 
 众所周知，EDA是电子设计自动化（Electronic Design Automation）的简称，作为芯片设计的重要工具，也是整个电子产业最底层的核心支撑。
 
@@ -14,17 +14,17 @@
 
 在此背景下，一家专注于数字芯片设计领域逻辑操作层面的EDA公司——奇捷科技（Easy-Logic Technology Limited）脱颖而出，逐渐在市场上崭露头角。
 
-![图片](docs/EDA/EDA企业/公司/attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/a444ca76f634a68bf466d5c7e253a8a6_MD5.png)
+![图片](attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/a444ca76f634a68bf466d5c7e253a8a6_MD5.png)
 
 奇捷科技成立于2014年，公司总部位于香港，今年1月在深圳设立了全资子公司。创始人毕业于香港中文大学计算机科学与工程系。目前奇捷科技已经推出一款商业化产品——自动化逻辑功能变更工具EasyECO，在韩国、中国大陆、中国台湾已经有数家正式客户。相比起手动ECO或现有传统ECO工具，EasyECO生成的补丁尺寸更小，具备完整、稳定、高效、易用等特点，受到了来自全球知名IC设计公司的一致好评，并已用于最先进制程的产品中。
 
-![图片](docs/EDA/EDA企业/公司/attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/b6a099711388b2fcce1eb9b737aa9b4a_MD5.png)
+![图片](attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/b6a099711388b2fcce1eb9b737aa9b4a_MD5.png)
 
 从学术界出发
 
 近日，集微网有幸独家采访到奇捷科技联合创始人兼首席执行官魏星，其本科毕业于北京清华大学计算机科学与技术系，研究生阶段同样攻读于清华大学EDA实验室，毕业后加入香港中文大学EDA实验室并取得博士学位。
 
-![图片](docs/EDA/EDA企业/公司/attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/73f1b385b2c0a2f657456c7c78541933_MD5.png)
+![图片](attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/73f1b385b2c0a2f657456c7c78541933_MD5.png)
 
 集微网了解到，奇捷创始团队在研究生期间，参加了2012-2014年由IEEE/ACM国际计算机辅助设计会议（ICCAD）举办的CAD竞赛，并连续三年获得了世界冠军。
 
@@ -40,7 +40,7 @@ ICCAD举办的CAD竞赛，是集成电路芯片设计与计算机辅助工具研
 
 魏星表示，事实上，当时市面上已经有一些商业化的ECO工具可以解决这一问题，但是这些工具自动化程度有限，生成结果的质量也不够稳定，因此市场接受度不高；而我们研发的算法效果更好，平均可以比目前主流商业化ECO工具的补丁数量小30%。
 
-![图片](docs/EDA/EDA企业/公司/attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/b6a099711388b2fcce1eb9b737aa9b4a_MD5.png)
+![图片](attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/b6a099711388b2fcce1eb9b737aa9b4a_MD5.png)
 
 跨步产业界
 
@@ -62,7 +62,7 @@ ICCAD举办的CAD竞赛，是集成电路芯片设计与计算机辅助工具研
 
 魏星表示：“不管是哪类客户，做哪种逻辑功能方面的改动，我们都可以自如的去处理。”
 
-![图片](docs/EDA/EDA企业/公司/attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/b6a099711388b2fcce1eb9b737aa9b4a_MD5.png)
+![图片](attachments/F-ECO奇捷科技Easy-Logic%20Technology%20Limited/b6a099711388b2fcce1eb9b737aa9b4a_MD5.png)
 
 发力蓝海市场
 

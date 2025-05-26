@@ -65,7 +65,7 @@
 > 这个项目对数据库性能和内存性能要求比较高，所以我用到了Oracle调优技术和JVM内存优化技术，此外，我们还用到了大数据分析的工具对计费模式做了优化。
 
 大家看到，上述说辞不复杂，准备好以后，说起来估计也就2，3分钟 但就通过上述说辞，亮出了你的基本信息，而且能给面试官留下思路清晰，技术匹配的印象。
-![](docs/software-engineering/10-interview/attachments/Ready4Interview/a93b15b8305a95b9eb09972b0f0764ad_MD5.png)
+![](attachments/Ready4Interview/a93b15b8305a95b9eb09972b0f0764ad_MD5.png)
 
 这里请注意，如果大家在项目里的技术和要求的不匹配，不建议作假，但可以通过如下的方式来做到匹配。  
 

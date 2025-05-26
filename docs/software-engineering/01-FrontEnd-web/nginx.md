@@ -137,7 +137,7 @@ try_files $uri ? /index.html?$uri
 
 ## 动静分离
 
-![](docs/software-engineering/09-toolchain/img/nginx/nginx02.jpg)
+![](../09-toolchain/img/nginx/nginx02.jpg)
 
 ```bash
 location ～ .\.(jpg|png|jpeg) $ {
@@ -240,7 +240,7 @@ server {
 
 ## 配置负载均衡
 
-![](docs/software-engineering/09-toolchain/img/nginx/nginx01.jpg)
+![](../09-toolchain/img/nginx/nginx01.jpg)
 
 ```bash
 upstream web_mgrsys {
@@ -320,7 +320,7 @@ deny 192.168.1.1;
 
 ### 浏览器缓存
 
-![](docs/software-engineering/09-toolchain/img/nginx/nginx03.png)
+![](../09-toolchain/img/nginx/nginx03.png)
 
 优点
 
@@ -333,7 +333,7 @@ deny 192.168.1.1;
 
 ### nginx 缓存
 
-![](docs/software-engineering/09-toolchain/img/nginx/nginx04.jpg)
+![](../09-toolchain/img/nginx/nginx04.jpg)
 
 优点
 

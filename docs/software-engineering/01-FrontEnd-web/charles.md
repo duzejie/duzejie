@@ -17,7 +17,7 @@ Charles 是在 PC 端常用的网络封包截取工具，在做移动开发时�
 4.  支持网络请求的截获并动态修改。
 5.  支持模拟慢速网络。
 
-![](docs/software-engineering/09-tool/img/charles01.png)
+![](../09-tool/img/charles01.png)
 
 ?> Charles 的主菜单包括：File、Edit、View、Proxy、Tools、Window、Help。用的最多的主菜单分别是 Proxy 和 Tools。
 

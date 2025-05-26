@@ -406,7 +406,7 @@ Pickle的问题和所有其他编程语言特有的序列化问题一样，就�
 
 JSON表示的对象就是标准的JavaScript语言的对象，JSON和Python内置的数据类型对应如下：
 
-![image-20200821082756404](docs/software-engineering/04-python/00-Python入门学习笔记/attachments/CH9-IO编程/c32e1d42ea723b3f3231004232d1dc6d_MD5.png)
+![image-20200821082756404](attachments/CH9-IO编程/c32e1d42ea723b3f3231004232d1dc6d_MD5.png)
 
 Python内置的`json`模块提供了非常完善的Python对象到JSON格式的转换。我们先看看如何把Python对象变成一个JSON：
 

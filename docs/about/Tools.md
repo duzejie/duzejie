@@ -26,10 +26,10 @@
  ### 2.2 图标下载
 
 * [阿里矢量图标库 - 图标下载](https://www.iconfont.cn/)
-  ![](docs/about/attachments/Tools/de419f2510acf5fcdb4329d95e761707_MD5.png)
+  ![](attachments/Tools/de419f2510acf5fcdb4329d95e761707_MD5.png)
 
 * [icon8 图标](https://icons8.cn/)
-  ![](docs/about/attachments/Tools/aee05304e53432659b0a13df4ac06379_MD5.png)
+  ![](attachments/Tools/aee05304e53432659b0a13df4ac06379_MD5.png)
 
 * [视觉中国](https://www.vcg.com/)
 
@@ -42,22 +42,22 @@
 ### 2.4 免费抠图工具
 
 * [稿定设计](https://www.gaoding.com/koutu)
-  ![](docs/about/attachments/Tools/82f5f3449c2822e405f74d158af10c0c_MD5.png)
+  ![](attachments/Tools/82f5f3449c2822e405f74d158af10c0c_MD5.png)
 
 ### 2.5 压缩图片
 
 * [Picdiet](https://www.picdiet.com/zh-cn)
-  ![](docs/about/attachments/Tools/18f303aa6473e6058d92820da6f83647_MD5.png)
+  ![](attachments/Tools/18f303aa6473e6058d92820da6f83647_MD5.png)
 
 * [Squoosh](https://squoosh.app/)
   这是 Google 搞的一个免费开源在线压缩工具
-  ![](docs/about/attachments/Tools/ddbcba1501eb0c6ac59a797d360682dd_MD5.png)
+  ![](attachments/Tools/ddbcba1501eb0c6ac59a797d360682dd_MD5.png)
 
 ### 2.6 GIF 图处理
 
 * [SOOGIF](http://)
   网站不仅提供了 gif 图像处理, 还提供了许多 gif 资源
-  ![](docs/about/attachments/Tools/5f4179521af2d68df114c0ae7f025f5f_MD5.png)
+  ![](attachments/Tools/5f4179521af2d68df114c0ae7f025f5f_MD5.png)
 
 
 
@@ -71,20 +71,20 @@
 
 * [Office Converter](https://cn.office-converter.com/)
   支持视频、音频、图片、Office 文档等的文件转换工具
-  ![Office Converter](docs/about/attachments/Tools/324eb416ed732a9cc70f7eba19cf9a65_MD5.gif)
+  ![Office Converter](attachments/Tools/324eb416ed732a9cc70f7eba19cf9a65_MD5.gif)
 
 * [PickFrom](https://zh.pickfrom.net/)
   不仅仅可以转换文件，而且可以截图、下载视频呢
-  ![](docs/about/attachments/Tools/5e50ba2feabe27161ad2f52d030ffaaf_MD5.png)
+  ![](attachments/Tools/5e50ba2feabe27161ad2f52d030ffaaf_MD5.png)
 
 * [Smallpdf](https://smallpdf.com/)
   支持格式互转、压缩、合并、拆分 PDF
-  ![](docs/about/attachments/Tools/603cac81c130d33da9bd95c6d1e0502a_MD5.png)
+  ![](attachments/Tools/603cac81c130d33da9bd95c6d1e0502a_MD5.png)
 
 ## 4 在线短信接收
 
 * [在线短信接收](https://www.pdflibr.com/) 云短信
-  ![在线短信接收](docs/about/attachments/Tools/71ae7dea4d2ebffb9f6f7d91ec3b7833_MD5.png)
+  ![在线短信接收](attachments/Tools/71ae7dea4d2ebffb9f6f7d91ec3b7833_MD5.png)
 
 
 ## 5 在线作图
@@ -100,19 +100,19 @@
 
 * [Firefox Send](https://send.firefox.com/)
   端到端加密分享文件
-  ![](docs/about/attachments/Tools/002e8c1d023c15033a5f456086a0028e_MD5.png)
+  ![](attachments/Tools/002e8c1d023c15033a5f456086a0028e_MD5.png)
 * [CendMe](http://cend.me/)
   局域网文件传送：直接文件传输，无需服务器参与，自动生成密码保护，接受任何尺寸立即传输同一网络上的设备
 
 
 
-![](docs/about/attachments/Tools/98ea62ad4f10c59ab6678dcbc9ca6eab_MD5.png)
+![](attachments/Tools/98ea62ad4f10c59ab6678dcbc9ca6eab_MD5.png)
 
 ## 8 视频特效
 
 * [视频特效 PhotoMosh ](https://photomosh.com/)
   提供抖音风格的特效，可以对图片、视频进行简单的处理
-  ![](docs/about/attachments/Tools/7b361b963e5db75c32057ac6b99ee059_MD5.png)
+  ![](attachments/Tools/7b361b963e5db75c32057ac6b99ee059_MD5.png)
 
 
 ## 9 自媒体
