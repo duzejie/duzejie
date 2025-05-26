@@ -1,7 +1,7 @@
 <!-- <img  src='img/logo.jpeg' width="100" alt="logo"><br/> -->
-<img  src='img/xf.png' width="360" alt="logo">
+<img  src='config/img/xf.png' width="360" alt="logo">
 <br/>
-<img  src='img/wjndqrx.png' width="600" alt="logo">
+<img  src='config/img/wjndqrx.png' width="600" alt="logo">
 
 <!-- -   基本知识总结
 -   开发工具总结
