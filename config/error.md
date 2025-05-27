@@ -1,9 +1,12 @@
+<img src='img/404.jpg' width="800" alt="logo">
+
+你是否想去：
 -   [工业软件-EDA](/docs/EDA/)
 -   [人工智能-AI](/docs/AI/)
-	- [机器学习](/docs/AI/机器学习/)
-	- [深度学习](/docs/AI/深度学习/)
-	- [LLM](docs/AI/LLM/)
-	
+    - [机器学习](/docs/AI/机器学习/)
+    - [深度学习](/docs/AI/深度学习/)
+    - [LLM](docs/AI/LLM/)
+
 -   [芯片设计-IC](/docs/IC/)
 -   [高性能计算-HPC](/docs/HPC/)
 -   [人文社科](/docs/Social-Science/)
@@ -21,6 +24,8 @@
     - [09-工具](docs/software-engineering/09-tool/)
     - [09-工具链](docs/software-engineering/09-toolchain/)
     - [10-面试](docs/software-engineering/10-interview/)
+
+
 
 -   [关于我们](/docs/about/)
 -   [CDNS](https://blog.csdn.net/duzejie)
