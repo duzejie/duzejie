@@ -168,8 +168,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ed7f0623adcac6ca",
+  "active": "dc0043f014d619e0",
   "lastOpenFiles": [
+    "docs/AI/LLM/attachments",
     "docs/IC/22-RTL设计/行为级和RTL级的区别.md",
     "docs/IC/22-RTL设计/RTL 设计.md",
     "docs/IC/22-RTL设计/可测性设计.md",
@@ -199,7 +200,6 @@
     "docs/IC/03-基础概念与术语/术语-IC设计.md",
     "docs/IC/02-微电子手册/电感.md",
     "docs/gen_sidbar.py",
-    "docs/IC/02-微电子手册/电容 1.md",
     "13-TCL",
     "03-学习资源",
     "docs/IC/gen_sidbar.py",

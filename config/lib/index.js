@@ -59,8 +59,8 @@ window.$docsify = {
     crossChapter: true
   },
   copyCode: {
-    buttonText : '点击复制',
-    errorText  : '错误',
+    buttonText: '点击复制',
+    errorText: '错误',
     successText: '复制成功'
   },
   footer: {
@@ -74,20 +74,20 @@ window.$docsify = {
 
   markdown: {             //drawio支持
     renderer: {
-        code: function (code, lang) {
+      code: function (code, lang) {
         if (lang === 'drawio') {
-            if (window.drawioConverter) {
+          if (window.drawioConverter) {
             console.log('drawio 转化中')
             return window.drawioConverter(code)
-            } else {
+          } else {
             return `<div class='drawio-code'>${code}</div>`
-            }
+          }
         } else {
-            return this.origin.code.apply(this, arguments);
+          return this.origin.code.apply(this, arguments);
         }
-        }
+      }
     }
-},
+  },
 
 
   plugins: [
