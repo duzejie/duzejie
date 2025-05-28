@@ -2,7 +2,6 @@
          你好！ 首页-写简介
   </h3>
 
-  <p> <a href="https://duzejie.github.io/#/">演示demo</a>一个前端知识总结分享平台，与大家一起共同成长的平台💪💪💪</p>
 
 
 - 👋 Hi, I’m @duzejie
@@ -11,22 +10,34 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-<!---
-duzejie/duzejie is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
 
+-   [工业软件-EDA](/docs/EDA/)
+-   [人工智能-AI](/docs/AI/)
+  - [机器学习](/docs/AI/机器学习/)
+  - [深度学习](/docs/AI/深度学习/)
+  - [LLM](docs/AI/LLM/)
+  
+-   [芯片设计-IC](/docs/IC/)
+-   [高性能计算-HPC](/docs/HPC/)
+-   [人文社科](/docs/Social-Science/)
 
+-   [软件工程](/docs/software-engineering/)
+    - [00-开发规范](docs/software-engineering/00-standard/)
+    - [01-前端-web](docs/software-engineering/01-FrontEnd-web/)
+    - [02-操作系统](/docs/software-engineering/02-systerm/)
+    - [03-算法与数据结构](docs/software-engineering/03.算法、数据结构/)
+    - [04-C++](docs/software-engineering/04-cpp/)
+    - [04-python](docs/software-engineering/04-python/)
+    - [05-中间件](docs/software-engineering/05.常用组件-中间件/)
+    - [06-架构设计](docs/software-engineering/06-architecture/)
+    - [08-敏捷-ci](docs/software-engineering/08-敏捷-ci/)
+    - [09-工具](docs/software-engineering/09-tool/)
+    - [09-工具链](docs/software-engineering/09-toolchain/)
+    - [10-面试](docs/software-engineering/10-interview/)
 
-
-
-1.  AI
-1.  EDA
-1.  工业软件
-1.  性能优化
-1.  软件工程
-1.  芯片
-1.  汇总大佬博客&开发常用网站
+-   [关于我们](/docs/about/)
+-   [CDNS](https://blog.csdn.net/duzejie)
+-   [GitHub](https://github.com/zejiedu)
 
 
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/EDA/EDA概览.md",
+                "file": "dzj.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EDA概览"
+              "title": "dzj"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/EDA/EDA概览.md",
+                "file": "dzj.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "EDA概览 的反向链接列表"
+              "title": "dzj 的反向链接列表"
             }
           },
           {
@@ -168,53 +168,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dc0043f014d619e0",
+  "active": "ed7f0623adcac6ca",
   "lastOpenFiles": [
-    "docs/AI/LLM/attachments",
-    "docs/IC/22-RTL设计/行为级和RTL级的区别.md",
-    "docs/IC/22-RTL设计/RTL 设计.md",
-    "docs/IC/22-RTL设计/可测性设计.md",
-    "docs/EDA/EDA概览.md",
-    "docs/EDA/EDA江湖/attachments/鸿芯微纳发展史",
-    "docs/HPC/深入理解cache对写好代码至关重要.md",
-    "docs/software-engineering/02-system/_sidebar.md",
-    "docs/EDA/EDA江湖/attachments/鸿芯微纳发展史",
-    "docs/tmp",
+    "config/_navbar.bk.md",
+    "config/_navbar copy.md",
+    "index.html",
+    "index.1.html",
+    "index.bk.html",
+    "index.2.html",
+    "docs/software-engineering/README.md",
     "docs/software-engineering/_sidebar.md",
+    "docs/Social-Science/README.md",
     "docs/Social-Science/_sidebar.md",
-    "docs/IC/23-IC验证/数字IC验证.md",
-    "docs/IC/23-IC验证/功能仿真.md",
-    "docs/IC/30-寄生参数/寄生参数提取.md",
-    "docs/IC/29-时钟树/时钟树综合.md",
-    "docs/IC/27-形式验证/形式验证.md",
-    "docs/IC/23-IC验证/IC验证.md",
-    "docs/IC/22-系统设计/electronic system-level design.md",
-    "docs/IC/21-市场需求/规格制定.md",
-    "docs/IC/20-IC设计流程/前端设计.md",
-    "docs/IC/22-系统设计/系统级建模.md",
+    "docs/IC/README.md",
     "docs/IC/_sidebar.md",
-    "docs/IC/11-IC设计工具链/Xmake v2.7.6 发布，新增 Verilog 和 C++ Modules 分发支持.md",
-    "docs/IC/22-系统设计/架构设计.md",
-    "docs/IC/22-系统设计/electronic.md",
-    "docs/IC/11-IC设计工具链/Xmake.md",
-    "docs/IC/03-基础概念与术语/术语-IC设计.md",
-    "docs/IC/02-微电子手册/电感.md",
-    "docs/gen_sidbar.py",
-    "13-TCL",
-    "03-学习资源",
-    "docs/IC/gen_sidbar.py",
-    "docs/HPC/AI推理/attachments/pytorch部署/1e3f9bf195b43defa8e6223ad6fe7327_MD5.png",
-    "docs/HPC/AI推理/attachments/pytorch部署/7f42d09cfddd38071d8dcd4f0a9257af_MD5.png",
-    "docs/HPC/AI推理/attachments/pytorch部署/8ed05eafa7003285f321207273332285_MD5.png",
-    "docs/HPC/AI推理/attachments/pytorch部署/1933387c2ced35fc6c0b073bf2d2994d_MD5.png",
-    "docs/HPC/AI推理/attachments/pytorch部署/43b24902501a0c403fd434c941126df8_MD5.png",
-    "docs/HPC/AI推理/attachments/pytorch部署/839165b535557843ebf8f334c318b2f4_MD5.png",
-    "docs/HPC/AI推理/attachments/pytorch部署/2b362952e49197f0529c1e8e48d59ab3_MD5.png",
-    "docs/HPC/AI推理/attachments/常见推理框架/11661603e9b17cfde910873c0b6b1d8e_MD5.png",
-    "docs/HPC/AI推理/attachments/pytorch部署/c481fe38a3ce0a59d845495d21f3dbf1_MD5.png",
-    "docs/HPC/AI推理/attachments/pytorch部署/daa0d11a7c954e34367077e94e54997b_MD5.png",
-    "docs/HPC/attachments/深入理解cache对写好代码至关重要",
-    "docs/HPC/AI推理/attachments/常见推理框架",
-    "docs/HPC/AI推理/attachments/pytorch部署"
+    "docs/HPC/README.md",
+    "docs/HPC/_sidebar.md",
+    "docs/EDA/README.md",
+    "docs/EDA/_sidebar.md",
+    "docs/AI/README.md",
+    "docs/AI/_sidebar.md",
+    "docs/AI/深度学习/README.md",
+    "docs/AI/深度学习/_sidebar.md",
+    "docs/AI/机器学习/README.md",
+    "docs/AI/机器学习/_sidebar.md",
+    "docs/AI/深度学习/02_introduction/dnn-bp.md",
+    "docs/AI/深度学习/00_深度学习目录.md",
+    "docs/AI/深度学习/人工智能_神经网络.md",
+    "docs/AI/深度学习/重要参考资料.md",
+    "docs/AI/深度学习/07_循环神经网络/rnn-bptt.md",
+    "docs/AI/深度学习/07_循环神经网络/deep-bidirectional-rnns.md",
+    "docs/AI/深度学习/05_对抗生成网络/infogan.md",
+    "docs/AI/机器学习/吴恩达机器学习理论/CH02-模型评估与选择.md",
+    "docs/AI/深度学习/05_对抗生成网络/attachments/infogan/1d96570a71be1bdb8969a5c58d262df8_MD5.webp",
+    "docs/AI/深度学习/14_并行学习/attachments/美团并行学习实践/9ebc6125e422b5563b6be27de151d676_MD5.png",
+    "docs/AI/深度学习/13_AI应用/attachments/美团推荐排序/9ebc6125e422b5563b6be27de151d676_MD5.png",
+    "docs/AI/深度学习/13_AI应用/attachments/美团外卖AI技术/9ebc6125e422b5563b6be27de151d676_MD5.jpg",
+    "docs/AI/深度学习/05_对抗生成网络/attachments/infogan/bb466115855631fa7f89263fd0a53998_MD5.webp",
+    "docs/AI/深度学习/13_AI应用/attachments/AutoML在推荐系统应用/52f239ad2efdead77a27d4a6a8f4c04f_MD5.webp",
+    "docs/AI/深度学习/05_对抗生成网络/attachments/infogan/b0a9f0894c4021319bbbd6ba9f2ed14c_MD5.webp",
+    "docs/AI/深度学习/05_对抗生成网络/attachments/infogan/97d9376bcca6050bf6f71a9effe7c2b5_MD5.webp",
+    "docs/AI/深度学习/05_对抗生成网络/attachments/infogan/5ecbff047a3400e2a286f755dea90fe4_MD5.webp",
+    "docs/AI/深度学习/05_对抗生成网络/attachments/infogan/80f6a101d8153a8a135042ec25626f1e_MD5.webp",
+    "docs/AI/深度学习/14_并行学习/attachments/美团并行学习实践",
+    "docs/AI/深度学习/13_AI应用/attachments/美团推荐排序",
+    "docs/AI/深度学习/13_AI应用/attachments/美团外卖AI技术",
+    "docs/AI/深度学习/13_AI应用/attachments/AutoML在推荐系统应用",
+    "docs/AI/深度学习/08_自动编码器/attachments/sparse-autoencoder",
+    "docs/AI/深度学习/08_自动编码器/attachments/keras-autoencoder"
   ]
 }
